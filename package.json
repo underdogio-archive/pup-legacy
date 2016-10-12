@@ -6,6 +6,7 @@
     "develop": "npm run build && npm run styles:watch & npm run scripts:watch",
     "scripts": "mkdir -p dist/js && globify 'scripts/*.js' --outfile dist/js --debug",
     "scripts:watch": "npm run scripts && npm run scripts -- --watch --verbose",
+    "serve": "http-server . -p 8080",
     "styles": "mkdir -p dist/css && node-sass styles --output dist/css --include-path node_modules --source-map-contents --source-map-embed",
     "styles:watch": "npm run styles && npm run styles -- --watch styles --recursive & npm run poststyles -- --watch",
     "poststyles": "postcss dist/css/**/*.css --replace --use autoprefixer"
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "closest": "0.0.1",
+    "http-server": "^0.9.0",
     "normalize.css": "5.0.0"
   }
 }
