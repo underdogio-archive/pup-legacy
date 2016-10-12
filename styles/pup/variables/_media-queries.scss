@@ -8,7 +8,7 @@ $breakpoints: (
 }
 
 $media-queries: (
-  small-and-down: '(max-width: breakpoints(small))',
+  small: '(max-width: breakpoints(small))',
   small-and-up: '(min-width: breakpoints(small))',
   medium-and-down: '(max-width: breakpoints(medium))',
   medium: '(min-width: breakpoints(small) + 1) and (max-width: breakpoints(medium))',

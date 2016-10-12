@@ -6,7 +6,7 @@
 
 .row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: flex-start;
   margin-left: $grid-gutter / -2;
   margin-right: $grid-gutter / -2;
@@ -19,5 +19,13 @@
 @for $column from 1 through $grid-num-columns {
   .col-#{$column} {
     @include column($column);
+  }
+
+  @each $query, $value in $media-queries {
+    @include media-query($query) {
+      .col-#{$column}-#{$query} {
+        @include column($column);
+      }
+    }
   }
 }
