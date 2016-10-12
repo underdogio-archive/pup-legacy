@@ -14,7 +14,7 @@
 }
 
 .hero__section {
-  margin-bottom: spacing(2);
+  margin-bottom: spacing(1);
 
   &:last-child {
     margin-bottom: 0;
@@ -31,5 +31,9 @@
 
   &:last-child {
     margin-bottom: 0;
+  }
+
+  @include media-query(small) {
+    font-size: font-size(0);
   }
 }
