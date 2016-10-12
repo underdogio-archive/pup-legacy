@@ -1,0 +1,21 @@
+// Neutral colors
+$color-white: #fff;
+$color-black: #000;
+
+$color-gray-xdc: #dcdcdc;
+$color-gray-777: #777777;
+$color-gray-444: #444444;
+$color-gray-222: #222222;
+
+// Accents
+$color-green: #72CEAA;
+$color-dark-green: darken($color-green, 15%);
+$color-purple: #59518b;
+
+// UI colors
+$color-bg: $color-white;
+$color-text: $color-gray-444;
+$color-text-light: $color-gray-777;
+$color-headings: $color-gray-222;
+
+$color-border-light: $color-gray-xdc;

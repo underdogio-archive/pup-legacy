@@ -1,0 +1,10 @@
+a {
+  @include transition(color);
+  color: $color-dark-green;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: inherit;
+  }
+}

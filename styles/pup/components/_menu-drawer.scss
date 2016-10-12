@@ -1,0 +1,49 @@
+.menu-drawer {
+  @include transition(opacity, visibility);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
+  z-index: layer(menu-drawer);
+}
+
+.menu-drawer__overlay {
+  @include transition(background);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.menu-drawer__container {
+  @include transition(transform);
+  background: $color-bg;
+  height: 100%;
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+  width: 20rem;
+  z-index: 1;
+}
+
+.menu-drawer--active {
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
+
+  .menu-drawer__overlay {
+    background: rgba($color-black, 0.25);
+  }
+
+  .menu-drawer__container {
+    transform: translateX(0);
+  }
+}

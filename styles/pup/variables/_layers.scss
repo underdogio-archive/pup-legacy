@@ -1,0 +1,9 @@
+$layer: (
+  base: 0,
+  navigation: 1,
+  menu-drawer: 2,
+  modals: 3
+);
+@function layer($key) {
+  @return map-get($layer, $key);
+}

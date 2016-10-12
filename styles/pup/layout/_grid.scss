@@ -1,0 +1,19 @@
+@mixin column($column) {
+  flex: 0 0 percentage($column / $grid-num-columns);
+  padding-left: $grid-gutter / 2;
+  padding-right: $grid-gutter / 2;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-left: $grid-gutter / -2;
+  margin-right: $grid-gutter / -2;
+}
+
+@for $column from 1 through $grid-num-columns {
+  .col-#{$column} {
+    @include column($column);
+  }
+}

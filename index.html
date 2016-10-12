@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pup</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/dist/css/pup.css" />
+  </head>
+  <body>
+    <nav class="navigation navigation--fixed">
+      <a class="navigation__logo img-link" href="/">
+        <img alt="Underdog.io logo" src="/images/underdogio-logo-with-text.svg" />
+      </a>
+      <div>
+        <a class="navigation__link" href="#">Link One</a>
+        <a class="navigation__link" href="#">Link Two</a>
+        <a class="btn btn--secondary btn--small" href="#">Log in</a>
+        <span class="js-class-toggle" role="button" tabindex="0" data-target="#menuDrawer" data-class="menu-drawer--active">Menu</span>
+      </div>
+    </nav>
+    <nav id="menuDrawer" class="menu-drawer">
+      <div class="menu-drawer__overlay js-class-toggle" role="button" data-target="#menuDrawer" data-class="menu-drawer--active"></div>
+      <div class="menu-drawer__container padding-2">
+        <div class="clearfix">
+          <h3 class="float--left">Menu</h3>
+          <span class="js-class-toggle float--right" role="button" tabindex="0" data-target="#menuDrawer" data-class="menu-drawer--active">
+            X
+            <span class="screen-reader">
+              Close
+            </span>
+          </span>
+        </div>
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a class="navigation__link" href="#">Link One</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="navigation__link" href="#">Link Two</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <header class="hero border--bottom container container--full">
+        <div class="hero__container">
+          <h1 class="hero__section hero__title">Apply to top technology jobs in 60 seconds</h1>
+          <p class="hero__section hero__subtitle">
+            We connect job seekers with awesome companies in New York, San Francisco, Los Angeles, and beyond.
+          </p>
+          <div class="hero__section">
+            <p>
+              <a class="btn btn--large btn--primary" href="#">Find a job</a><br />
+            </p>
+            <p>
+              <a href="#">Is your team hiring?</a>
+            </p>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <section class="section section--pad border--bottom">
+          <h1>Heading One</h1>
+          <h2>Heading Two</h2>
+          <h3>Heading Three</h3>
+          <h4>Heading Four</h4>
+          <p>
+            Id provident! Magni delectus accumsan quibusdam commodi tempore potenti necessitatibus. Quam quae, necessitatibus, assumenda consequatur mollis deleniti iusto! Animi, quae.
+          </p>
+          <p>
+            Possimus aenean pariatur ullamcorper <a href="#">imperdiet</a> molestiae nam incididunt. Laudantium. Dapibus? Per! Imperdiet, deleniti, odit, necessitatibus sociis aspernatur varius netus dicta.
+          </p>
+        </section>
+        <section class="section section--pad border--bottom">
+          <h2>Section with padding</h2>
+          <p>Meep meep</p>
+          <div class="section__sub">
+            <h3>This is a subsection</h3>
+            <p>Possimus aenean pariatur ullamcorper <a href="#">imperdiet</a> molestiae nam incididunt. Laudantium. Dapibus? Per! Imperdiet, deleniti, odit, necessitatibus sociis aspernatur varius netus dicta.</p>
+          </div>
+          <div class="section__sub">
+            <h3>This is another subsection</h3>
+            <p>Possimus aenean pariatur ullamcorper <a href="#">imperdiet</a> molestiae nam incididunt. Laudantium. Dapibus? Per! Imperdiet, deleniti, odit, necessitatibus sociis aspernatur varius netus dicta.</p>
+          </div>
+          <p>Another section!</p>
+        </section>
+        <section class="section section--pad border--bottom">
+          <h2>Buttons</h2>
+          <p>
+            <a class="btn btn--primary" href="#">Primary Button</a>
+            <button class="btn btn--primary">Primary Button</button>
+            <span class="btn btn--primary" role="button">Primary Button</span>
+          </p>
+          <p>
+            <a class="btn btn--secondary" href="#">Secondary Button</a>
+            <button class="btn btn--secondary">Secondary Button</button>
+            <span class="btn btn--secondary" role="button">Secondary Button</span>
+          </p>
+        </section>
+        <section class="section section--pad">
+          <h2>Grid</h2>
+          <div class="row">
+            <div class="col-3">
+              Col 3 / 12
+            </div>
+            <div class="col-9">
+              Col 9 / 12
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

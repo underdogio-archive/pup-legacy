@@ -1,0 +1,12 @@
+.img-link {
+  @include transition(opacity);
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  img,
+  svg {
+    display: block;
+  }
+}

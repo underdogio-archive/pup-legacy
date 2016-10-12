@@ -1,0 +1,5 @@
+@each $side in $sides {
+  .border--#{$side} {
+    border-#{$side}: 1px solid $color-border-light;
+  }
+}
