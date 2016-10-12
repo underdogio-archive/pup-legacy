@@ -48,7 +48,8 @@
 
 .navigation__link--active {
   &:after {
-    background: $color-gray-xdc;
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
