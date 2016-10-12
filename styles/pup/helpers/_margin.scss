@@ -1,0 +1,11 @@
+@each $unit, $value in $spacing {
+  .margin-#{$unit} {
+    margin: spacing($unit);
+  }
+
+  @each $side in $sides {
+    .margin-#{$unit}--#{$side} {
+      margin-#{$side}: spacing($unit);
+    }
+  }
+}
