@@ -1,0 +1,41 @@
+// Helper mixin for defining icon classes
+@mixin icon($name, $unicode) {
+  .icon--#{$name} {
+    &:before {
+      content: $unicode;
+      // Allow other styles to be set
+      @content;
+    }
+  }
+}
+
+.icon {
+  &,
+  &:before {
+    color: inherit;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+  }
+
+  &:before {
+    font-family: 'underdogio-icons';
+  }
+}
+
+.icon__label {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.icon__label--left {
+  margin-right: 0.5rem;
+}
+
+.icon__label--right {
+  margin-left: 0.5rem;
+}
+
+// Define icons
+@include icon('arrow-right', '\EA01')
