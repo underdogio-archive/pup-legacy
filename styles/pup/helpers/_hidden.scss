@@ -1,0 +1,11 @@
+.hidden {
+  display: none;
+}
+
+@each $query, $value in $media-queries {
+  .hidden--#{$query} {
+    @include media-query($query) {
+      display: none;
+    }
+  }
+}
