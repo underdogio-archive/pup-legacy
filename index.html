@@ -119,7 +119,7 @@
             </div>
           </div>
         </section>
-        <section class="section section--pad">
+        <section class="section section--pad border--bottom">
           <h2>Icons</h2>
           <ul>
             <li>
@@ -192,6 +192,31 @@
               <span class="icon icon--visa"><span class="icon__label--right">visa</span></span>
             </li>
           </ul>
+        </section>
+        <section class="section section--pad border--bottom">
+          <h2>Forms</h2>
+          <form onsubmit="function (e) { e.preventDefault(); }">
+            <label class="form-field">
+              <span class="form-field__label">Select an option</span>
+              <input class="input--text" type="text" />
+            </label>
+            <label class="form-field">
+              <span class="form-field__label">Select an option</span>
+              <select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+              </select>
+              <span class="form-field__info">
+                Select an option fam.
+              </span>
+            </label>
+            <label class="form-field">
+              <span class="form-field__label">Enter a message</span>
+              <textarea class="input--text"></textarea>
+            </label>
+            <button class="btn btn--primary">Submit</button>
+          </form>
         </section>
       </div>
     </main>
