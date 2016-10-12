@@ -32,4 +32,18 @@
   }
 }
 
+.icon__label {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.icon__label--left {
+  margin-right: 0.5rem;
+}
+
+.icon__label--right {
+  margin-left: 0.5rem;
+}
+
 @include icon('arrow-right', '\EA01')
