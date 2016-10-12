@@ -1,0 +1,35 @@
+$desk-coffee-steam-stroke-length: 55;
+$desk-coffee-steam-animation-delay: 1s;
+$desk-coffee-steam-animation-duration: 2.5s;
+
+@keyframes coffee-steam {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: $desk-coffee-steam-stroke-length;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+}
+
+.desk-illo {
+  width: 100%;
+}
+
+.desk-illo__coffee-steam {
+  stroke-dasharray: $desk-coffee-steam-stroke-length;
+  stroke-dashoffset: $desk-coffee-steam-stroke-length;
+  animation: coffee-steam $desk-coffee-steam-animation-duration linear infinite;
+  animation-delay: $desk-coffee-steam-animation-delay;
+  animation-fill-mode: both;
+}
+
+.desk-illo__coffee-steam + .desk-illo__coffee-steam {
+  animation-delay: $desk-coffee-steam-animation-delay + ($desk-coffee-steam-animation-duration / 4);
+}
