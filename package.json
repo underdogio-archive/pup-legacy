@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "clean": "rm -rf dist",
     "scripts": "mkdir -p dist/js && globify 'scripts/*.js' --outfile dist/js --debug",
     "scripts:watch": "npm run scripts && npm run scripts -- --watch --verbose",
     "styles": "mkdir -p dist/css && node-sass styles --output dist/css --include-path node_modules --source-map-contents --source-map-embed",
