@@ -34,5 +34,5 @@ $desk-coffee-steam-animation-duration: 2.5s;
 }
 
 .desk-illo__coffee-steam + .desk-illo__coffee-steam {
-  animation-delay: $desk-coffee-steam-animation-delay + ($desk-coffee-steam-animation-duration / 4);
+  animation-delay: $desk-coffee-steam-animation-delay + ($desk-coffee-steam-animation-duration / 2);
 }
