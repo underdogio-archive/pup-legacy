@@ -14,6 +14,10 @@ $section-sub-spacing: spacing(2);
   margin-top: 0;
   padding-bottom: $section-spacing;
   padding-top: $section-spacing;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 
 .section__sub {
