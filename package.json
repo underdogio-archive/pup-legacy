@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "styles": "mkdir -p dist/css && node-sass styles --output dist/css --include-path node_modules"
+    "styles": "mkdir -p dist/css && node-sass styles --output dist/css --include-path node_modules",
+    "poststyles": "postcss dist/css/**/*.css --dir dist/css --use autoprefixer"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.0",
