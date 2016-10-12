@@ -47,6 +47,15 @@
   }
 }
 
+.navigation__menu-toggle {
+  @include all-caps;
+  @include transition(color);
+
+  &:hover {
+    color: $color-dark-green;
+  }
+}
+
 .navigation--fixed {
   left: 0;
   position: fixed;
