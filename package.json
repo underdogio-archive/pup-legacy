@@ -4,6 +4,7 @@
     "styles": "mkdir -p dist/css && node-sass styles --output dist/css --include-path node_modules"
   },
   "devDependencies": {
+    "autoprefixer": "^6.5.0",
     "browser-sync": "2.17.2",
     "node-sass": "3.10.1",
     "postcss-cli": "^2.6.0"
