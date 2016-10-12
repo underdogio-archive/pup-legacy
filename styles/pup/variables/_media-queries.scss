@@ -1,0 +1,28 @@
+$breakpoints: (
+  small: 480px,
+  medium: 800px,
+  large: 1200px
+);
+@function breakpoints($key) {
+  @return map-get($breakpoints, $key);
+}
+
+$media-queries: (
+  small-and-down: '(max-width: breakpoints(small))',
+  small-and-up: '(min-width: breakpoints(small))',
+  medium-and-down: '(max-width: breakpoints(medium))',
+  medium: '(min-width: breakpoints(small) + 1) and (max-width: breakpoints(medium))',
+  medium-and-up: '(min-width: breakpoints(medium))',
+  large-and-down: '(max-width: breakpoints(large))',
+  large: '(min-width: breakpoints(medium) + 1) and (max-width: breakpoints(large))',
+  large-and-up: '(min-width: breakpoints(large))',
+);
+@function media-queries($key) {
+  @return map-get($media-queries, $key);
+}
+
+@mixin media-query($query) {
+  @media #{unquote(media-queries($query))} {
+    @content;
+  }
+}
