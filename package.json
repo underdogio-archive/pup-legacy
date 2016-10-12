@@ -1,9 +1,18 @@
 {
   "private": true,
+  "config": {
+    "iconFontName": "underdogio-icons"
+  },
   "scripts": {
     "build": "npm run clean && npm run styles && npm run scripts",
     "clean": "rm -rf dist",
     "develop": "npm run build && npm run styles:watch & npm run scripts:watch & npm run serve",
+    "icons": "mkdir -p dist/fonts && npm run icons-svg && npm run icons-ttf && npm run icons-eot && npm run icons-woff",
+    "icons-eot": "ttf2eot dist/fonts/$npm_package_config_iconFontName.ttf dist/fonts/$npm_package_config_iconFontName.eot",
+    "icons-svg": "svgicons2svgfont icons/*.svg --fontFamily $npm_package_config_iconFontName --output dist/fonts/$npm_package_config_iconFontName.svg",
+    "icons-ttf": "svg2ttf dist/fonts/$npm_package_config_iconFontName.svg dist/fonts/$npm_package_config_iconFontName.ttf",
+    "icons-woff": "ttf2woff dist/fonts/$npm_package_config_iconFontName.ttf dist/fonts/$npm_package_config_iconFontName.woff",
+    "icons-watch": "nodemon --exec 'icons' --watch icons --ext svg",
     "scripts": "mkdir -p dist/js && globify 'scripts/*.js' --outfile dist/js --debug",
     "scripts:watch": "npm run scripts && npm run scripts -- --watch --verbose",
     "serve": "http-server . -p 8080",
@@ -16,7 +25,11 @@
     "browser-sync": "^2.17.2",
     "globify": "^1.2.2",
     "node-sass": "3.10.1",
-    "postcss-cli": "^2.6.0"
+    "postcss-cli": "^2.6.0",
+    "svg2ttf": "^4.0.2",
+    "svgicons2svgfont": "^5.0.0",
+    "ttf2eot": "^2.0.0",
+    "ttf2woff": "^2.0.1"
   },
   "dependencies": {
     "closest": "^0.0.1",
