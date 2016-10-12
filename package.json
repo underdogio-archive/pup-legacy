@@ -5,10 +5,10 @@
     "poststyles": "postcss dist/css/**/*.css --dir dist/css --use autoprefixer"
   },
   "devDependencies": {
-    "autoprefixer": "^6.5.0",
+    "autoprefixer": "6.5.0",
     "browser-sync": "2.17.2",
     "node-sass": "3.10.1",
-    "postcss-cli": "^2.6.0"
+    "postcss-cli": "2.6.0"
   },
   "dependencies": {
     "closest": "0.0.1",
