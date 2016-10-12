@@ -6,3 +6,25 @@
     url('#{$icon-font-path}/underdogio-icons.ttf') format('truetype'),
     url('#{$icon-font-path}/underdogio-icons.svg#underdogio-icons') format('svg');
 }
+
+// Helper mixin for defining icon classes
+@mixin icon($name, $unicode) {
+  .icon--#{$name} {
+    content: $unicode;
+    font-family: 'underdogio-icons';
+    // Allow other styles to be set
+    @content;
+  }
+}
+
+.icon {
+  &,
+  &:before {
+    color: inherit;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+  }
+}
+
+@include icon('arrow-right', '\EA01')
