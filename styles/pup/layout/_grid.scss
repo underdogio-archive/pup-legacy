@@ -12,6 +12,10 @@
   margin-right: $grid-gutter / -2;
 }
 
+.row--center {
+  align-items: center;
+}
+
 @for $column from 1 through $grid-num-columns {
   .col-#{$column} {
     @include column($column);
