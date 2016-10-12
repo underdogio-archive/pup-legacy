@@ -12,15 +12,15 @@
     "poststyles": "postcss dist/css/**/*.css --replace --use autoprefixer"
   },
   "devDependencies": {
-    "autoprefixer": "6.5.0",
-    "browser-sync": "2.17.2",
+    "autoprefixer": "^6.5.0",
+    "browser-sync": "^2.17.2",
     "globify": "^1.2.2",
     "node-sass": "3.10.1",
-    "postcss-cli": "2.6.0"
+    "postcss-cli": "^2.6.0"
   },
   "dependencies": {
-    "closest": "0.0.1",
+    "closest": "^0.0.1",
     "http-server": "^0.9.0",
-    "normalize.css": "5.0.0"
+    "normalize.css": "^5.0.0"
   }
 }
