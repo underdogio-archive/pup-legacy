@@ -4,9 +4,9 @@
     "iconFontName": "underdogio-icons"
   },
   "scripts": {
-    "build": "npm run clean && npm run fonts && npm run images && npm run styles && npm run scripts",
+    "build": "npm run clean && npm run public && npm run fonts && npm run images && npm run styles && npm run scripts",
     "clean": "rm -rf dist",
-    "develop": "npm run build && npm run fonts:watch & npm run images:watch & npm run styles:watch & npm run scripts:watch & nodemon bin/pup",
+    "develop": "npm run build && npm run public:watch & npm run fonts:watch & npm run images:watch & npm run styles:watch & npm run scripts:watch & npm run start:watch",
     "fonts": "cp -r fonts dist",
     "fonts:watch": "nodemon --exec 'npm run fonts' --watch fonts --ext svg,woff,ttf,eot",
     "icons": "mkdir -p fonts && npm run icons-svg && npm run icons-ttf && npm run icons-eot && npm run icons-woff",
@@ -17,9 +17,12 @@
     "icons:watch": "nodemon --exec 'npm run icons' --watch icons --ext svg",
     "images": "cp -r images dist",
     "images:watch": "nodemon --exec 'npm run images' --watch images --ext gif,jpg,svg,png",
+    "public": "cp -r public/* dist",
+    "public:watch": "nodemon --exec 'npm run public' --watch public --ext gif,jpg,svg,png,ico,json",
     "scripts": "mkdir -p dist/js && globify 'scripts/*.js' --outfile dist/js --debug",
     "scripts:watch": "npm run scripts && npm run scripts -- --watch --verbose",
     "start": "node bin/pup",
+    "start:watch": "nodemon bin/pup --watch server --ext html,js",
     "styles": "mkdir -p dist/css && node-sass styles --output dist/css --include-path node_modules --source-map-contents --source-map-embed",
     "styles:watch": "npm run styles && npm run styles -- --watch styles --recursive & npm run poststyles -- --watch",
     "poststyles": "postcss dist/css/**/*.css --replace --use autoprefixer"
