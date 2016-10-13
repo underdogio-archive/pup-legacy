@@ -2,6 +2,7 @@
   flex: 0 0 percentage($column / $grid-num-columns);
   padding-left: $grid-gutter / 2;
   padding-right: $grid-gutter / 2;
+  width: percentage($column / $grid-num-columns);
 }
 
 .row {
