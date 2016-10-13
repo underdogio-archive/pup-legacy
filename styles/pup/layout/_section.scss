@@ -4,12 +4,8 @@ $section-sub-spacing: spacing(2);
 .section {
   margin-bottom: $section-spacing;
 
-  &:first-of-type {
-    margin-top: $section-spacing;
-  }
-
   &:first-child {
-    margin-top: $section-spacing / 2;
+    margin-top: $section-spacing;
   }
 }
 
