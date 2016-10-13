@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pup</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/pup.css" />
+  </head>
+  <body class="fixed-navigation">
+    <main>
+      <nav class="navigation navigation--fixed">
+        <a class="navigation__logo img-link" href="/">
+          <img alt="Underdog.io logo" src="/images/underdogio-logo-with-text.svg" />
+        </a>
+        <div>
+          <div class="hidden--medium-and-down">
+            <a class="navigation__link" href="#">Link One</a>
+            <a class="navigation__link" href="#">Link Two</a>
+            <a class="btn btn--secondary btn--small" href="#">Log in</a>
+          </div>
+          <span class="navigation__menu-toggle icon icon--menu js-class-toggle hidden--medium-and-up"
+            role="button" tabindex="0" data-target="#menuDrawer"
+            data-class="menu-drawer--active"><span class="icon__label icon__label--right">Menu</span></span>
+        </div>
+      </nav>
+      <nav id="menuDrawer" class="menu-drawer">
+        <div class="menu-drawer__overlay js-class-toggle" role="button" data-target="#menuDrawer" data-class="menu-drawer--active"></div>
+        <div class="menu-drawer__container padding-2">
+          <div class="clearfix margin-2--bottom">
+            <h3 class="float--left margin-none--bottom">Menu</h3>
+            <span class="js-class-toggle float--right icon icon--close" role="button" tabindex="0" data-target="#menuDrawer" data-class="menu-drawer--active">
+              <span class="screen-reader">
+                Close
+              </span>
+            </span>
+          </div>
+          <ul class="menu-list">
+            <li class="menu-list__item">
+              <a class="navigation__link" href="#">Link One</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="navigation__link" href="#">Link Two</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="btn btn--secondary btn--block" href="#">Log in</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      {% block content %}
+      {% endblock %}
+    </main>
+    <script src="/js/pup.js"></script>
+  </body>
+</html>

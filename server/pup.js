@@ -1,3 +1,4 @@
+const docs = require('./routes/docs');
 const express = require('express');
 const path = require('path');
 const {renderFile} = require('swig');
@@ -22,5 +23,8 @@ app.use(
 app.get('/', (req, res) => {
   res.render('index');
 });
+
+// Serve docs
+app.get('/:filename', docs);
 
 module.exports = app;
