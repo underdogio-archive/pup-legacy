@@ -1,0 +1,19 @@
+.footer {
+  align-items: center;
+  border-top: 1px solid $color-border-light;
+  color: $color-text-light;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: spacing(1);
+  margin-top: spacing(1);
+}
+
+.footer__link {
+  display: inline-block;
+  margin: spacing(1) spacing(0) spacing(1) 0;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
