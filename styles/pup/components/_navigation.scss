@@ -63,8 +63,9 @@
 }
 
 .navigation--fixed {
-  left: 0;
+  left: 50%;
   position: fixed;
   top: 0;
+  transform: translateX(-50%);
   width: 100%;
 }
