@@ -4,9 +4,9 @@
     "iconFontName": "underdogio-icons"
   },
   "scripts": {
-    "build": "npm run clean && npm run icons && npm run styles && npm run scripts",
+    "build": "npm run clean && npm run styles && npm run scripts",
     "clean": "rm -rf dist",
-    "develop": "npm run build && npm run icons:watch & npm run styles:watch & npm run scripts:watch & npm run serve",
+    "develop": "npm run build && npm run styles:watch & npm run scripts:watch & npm run serve",
     "icons": "mkdir -p fonts && npm run icons-svg && npm run icons-ttf && npm run icons-eot && npm run icons-woff",
     "icons-eot": "ttf2eot fonts/$npm_package_config_iconFontName.ttf fonts/$npm_package_config_iconFontName.eot",
     "icons-svg": "svgicons2svgfont icons/*.svg --fontFamily $npm_package_config_iconFontName --output fonts/$npm_package_config_iconFontName.svg",
