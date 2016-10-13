@@ -1,0 +1,20 @@
+.header {
+  margin-bottom: spacing(2);
+}
+
+.header__title {
+  margin-bottom: spacing(0);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.header__subtitle {
+  margin-bottom: 0;
+}
+
+.header--border {
+  border-bottom: 1px solid $color-border-light;
+  padding-bottom: spacing(1);
+}
