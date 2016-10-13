@@ -3,28 +3,35 @@ const express = require('express');
 const path = require('path');
 const {renderFile} = require('swig');
 
-const app = express();
+module.exports = function configureApp (cb) {
+  const app = express();
 
-// Use swig for view engine
-app.engine('html', renderFile);
-app.set('view engine', 'html');
-app.set('views', path.join(__dirname, 'views'));
+  // Use swig for view engine
+  app.engine('html', renderFile);
+  app.set('view engine', 'html');
+  app.set('views', path.join(__dirname, 'views'));
 
-// Enable view cache
-app.enable('view cache');
+  // Enable view cache
+  app.enable('view cache');
 
-// Serve static assets
-app.use(
-  express.static(
-    path.join(__dirname, '..', 'dist')
-  )
-);
+  // Serve static assets
+  app.use(
+    express.static(
+      path.join(__dirname, '..', 'dist')
+    )
+  );
 
-app.get('/', (req, res) => {
-  res.render('index');
-});
+  app.get('/', (req, res) => {
+    res.render('index');
+  });
 
-// Serve docs
-app.get('/:filename', docs);
+  // Serve docs
+  docs((error, docsRoute) => {
+    if (error) {
+      return cb(error);
+    }
 
-module.exports = app;
+    app.get('/:filename', docsRoute);
+    cb(null, app);
+  });
+}

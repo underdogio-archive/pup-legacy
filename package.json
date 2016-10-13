@@ -28,6 +28,7 @@
     "poststyles": "postcss dist/css/**/*.css --replace --use autoprefixer"
   },
   "devDependencies": {
+    "async": "^2.1.1",
     "autoprefixer": "^6.5.0",
     "browser-sync": "^2.17.2",
     "express": "^4.14.0",
@@ -42,6 +43,7 @@
   },
   "dependencies": {
     "closest": "^0.0.1",
+    "glob": "^7.1.1",
     "normalize.css": "^5.0.0",
     "swig": "^1.4.2",
     "swipe-js": "^2.2.0"

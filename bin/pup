@@ -1,6 +1,13 @@
 #!/usr/bin/env node
-const server = require('../server/pup');
+const configApp = require('../server/pup');
 const PORT = process.env.PORT || 9008;
-server.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
+
+configApp((error, app) => {
+  if (error) {
+    throw error;
+  }
+
+  app.listen(PORT, () => {
+    console.log(`Listening on port ${PORT}`);
+  });
 });

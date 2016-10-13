@@ -1,19 +1,44 @@
+const glob = require('glob');
+const {map} = require('async');
 const path = require('path');
 const {readFile} = require('fs');
 
-module.exports = function docsRoute (req, res, next) {
-  console.log('got request!');
-  const {filename} = req.params;
-  const filePath = path.join(__dirname, '..', '..', 'docs', `${filename}.md`);
+function docsRoute (req, res, next) {
+  res.send('hai');
+}
 
-  // Open file.
-  readFile(filePath, (error, data) => {
-    if (error) {
-      return res.sendStatus(404);
-    }
+module.exports = function configureDocsRoute (cb) {
+  glob(path.join(__dirname, '..', '..', 'docs', '**/*.md'), (globError, filePaths) => {
+    const files = {};
+    filePaths.forEach(filePath => {
+      files[path.basename(filePath, '.md')] = null;
+    });
 
-    res.render('doc', {
-      content: data.toString()
+    map(filePaths, (filePath, mapCb) => {
+      readFile(filePath, (readFileError, fileContents) => {
+        if (readFileError) {
+          return mapCb(readFileError);
+        }
+        files[path.basename(filePath, '.md')] = fileContents.toString();
+        mapCb(null, files[path]);
+      });
+    }, (readFilesError) => {
+      if (readFilesError) {
+        return cb(readFilesError);
+      }
+
+      cb(null, (req, res, next) => {
+        const {filename} = req.params;
+        const content = files[filename];
+
+        if (!content) {
+          return res.sendStatus(404);
+        }
+
+        res.render('doc', {
+          content
+        })
+      });
     });
   });
-};
+}
