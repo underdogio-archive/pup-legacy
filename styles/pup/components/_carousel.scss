@@ -1,0 +1,52 @@
+$carousel-indicator-active-color: $color-blue;
+$carousel-indicator-bg: $color-gray-xdc;
+$carousel-indicator-border-width: 1px;
+$carousel-indicator-size: 1.5rem;
+$carousel-indicator-spacing: spacing(0);
+
+// Required styles from https://github.com/nickleefly/swipe/blob/916d58d109aff461b060dfa969d5d017843668e5/README.md#usage
+.carousel {
+  overflow: hidden;
+  position: relative;
+  visibility: hidden;
+}
+
+.carousel__wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel__slide {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.carousel__indicator {
+  @include transition(background, border);
+  background-color: $carousel-indicator-bg;
+  border: $carousel-indicator-border-width solid transparent;
+  border-radius: 100%;
+  display: inline-block;
+  height: $carousel-indicator-size;
+  margin-left: $carousel-indicator-spacing;
+  margin-right: $carousel-indicator-spacing;
+  width: $carousel-indicator-size;
+
+  &:focus,
+  &:hover {
+    border-color: $carousel-indicator-active-color;
+    outline: 0;
+  }
+}
+
+.carousel__indicator--active {
+  background-color: $carousel-indicator-active-color;
+
+  &:focus {
+    border-color: $carousel-indicator-bg;
+  }
+}
