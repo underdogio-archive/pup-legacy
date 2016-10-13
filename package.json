@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run clean && npm run styles && npm run scripts",
     "clean": "rm -rf dist",
-    "develop": "npm run build && npm run styles:watch & npm run scripts:watch & npm run serve",
+    "develop": "npm run build && npm run styles:watch & npm run scripts:watch",
     "icons": "mkdir -p fonts && npm run icons-svg && npm run icons-ttf && npm run icons-eot && npm run icons-woff",
     "icons-eot": "ttf2eot fonts/$npm_package_config_iconFontName.ttf fonts/$npm_package_config_iconFontName.eot",
     "icons-svg": "svgicons2svgfont icons/*.svg --fontFamily $npm_package_config_iconFontName --output fonts/$npm_package_config_iconFontName.svg",
@@ -15,7 +15,6 @@
     "icons:watch": "nodemon --exec 'npm run icons' --watch icons --ext svg",
     "scripts": "mkdir -p dist/js && globify 'scripts/*.js' --outfile dist/js --debug",
     "scripts:watch": "npm run scripts && npm run scripts -- --watch --verbose",
-    "serve": "http-server . -p 8080",
     "styles": "mkdir -p dist/css && node-sass styles --output dist/css --include-path node_modules --source-map-contents --source-map-embed",
     "styles:watch": "npm run styles && npm run styles -- --watch styles --recursive & npm run poststyles -- --watch",
     "poststyles": "postcss dist/css/**/*.css --replace --use autoprefixer"
@@ -35,7 +34,6 @@
   },
   "dependencies": {
     "closest": "^0.0.1",
-    "http-server": "^0.9.0",
     "normalize.css": "^5.0.0",
     "swipe-js": "^2.2.0"
   }
