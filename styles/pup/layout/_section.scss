@@ -1,5 +1,5 @@
 $section-spacing: spacing(3);
-$section-sub-spacing: spacing(2);
+$section-subsection-spacing: spacing(2);
 
 .section {
   margin-bottom: $section-spacing;
@@ -20,18 +20,18 @@ $section-sub-spacing: spacing(2);
   }
 }
 
-.section__sub {
-  margin-bottom: $section-sub-spacing;
+.section__subsection {
+  margin-bottom: $section-subsection-spacing;
 
   &:first-of-type {
-    margin-top: $section-sub-spacing;
+    margin-top: $section-subsection-spacing;
   }
 }
 
-.section__sub--pad {
+.section__subsection--pad {
   margin-bottom: 0;
-  padding-bottom: $section-sub-spacing;
-  padding-top: $section-sub-spacing;
+  padding-bottom: $section-subsection-spacing;
+  padding-top: $section-subsection-spacing;
 
   &:first-of-type {
     margin-top: 0;
