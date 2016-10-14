@@ -8,4 +8,14 @@
       margin-#{$side}: spacing($unit) !important;
     }
   }
+
+  .margin--ends {
+    margin-bottom: spacing($unit) !important;
+    margin-top: spacing($unit) !important;
+  }
+
+  .margin--sides {
+    margin-left: spacing($unit) !important;
+    margin-right: spacing($unit) !important;
+  }
 }
