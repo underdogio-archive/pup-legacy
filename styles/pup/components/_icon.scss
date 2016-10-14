@@ -38,6 +38,11 @@
   }
 }
 
+.icon__label,
+.icon__label--right {
+  margin-left: 0.5rem;
+}
+
 .icon__label {
   display: inline-block;
   line-height: 1;
@@ -45,11 +50,8 @@
 }
 
 .icon__label--left {
+  margin-left: auto;
   margin-right: 0.5rem;
-}
-
-.icon__label--right {
-  margin-left: 0.5rem;
 }
 
 .icon--small {
