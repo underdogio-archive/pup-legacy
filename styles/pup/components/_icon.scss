@@ -6,11 +6,24 @@
       // Allow other styles to be set
       @content;
     }
+
+    &.icon--right {
+      &:before {
+        display: none;
+      }
+
+      &:after {
+        content: $unicode;
+        // Allow other styles to be set
+        @content;
+      }
+    }
   }
 }
 
 .icon {
   &,
+  &:after,
   &:before {
     color: inherit;
     display: inline-block;
@@ -18,6 +31,7 @@
     vertical-align: middle;
   }
 
+  &:after,
   &:before {
     font-family: 'underdogio-icons';
     font-size: $icon-font-size;
