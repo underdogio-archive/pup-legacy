@@ -9,7 +9,7 @@ category: Base
 
 <div class="row">
   <div class="col-12">
-    <label>
+    <label class="form-field">
       <span class="block-label">Full width input</span>
       <input class="block-input" type="text" />
     </label>
@@ -17,13 +17,13 @@ category: Base
 </div>
 <div class="row">
   <div class="col-6">
-    <label>
+    <label class="form-field">
       <span class="block-label">First half</span>
       <input class="block-input" type="email" />
     </label>
   </div>
   <div class="col-6">
-    <label>
+    <label class="form-field">
       <span class="block-label">Second half</span>
       <input class="block-input" type="password" />
     </label>
@@ -33,7 +33,7 @@ category: Base
 ```html
 <div class="row">
   <div class="col-12">
-    <label>
+    <label class="form-field">
       <span class="block-label">Full width input</span>
       <input class="block-input" type="text" />
     </label>
@@ -41,13 +41,13 @@ category: Base
 </div>
 <div class="row">
   <div class="col-6">
-    <label>
+    <label class="form-field">
       <span class="block-label">First half</span>
       <input class="block-input" type="email" />
     </label>
   </div>
   <div class="col-6">
-    <label>
+    <label class="form-field">
       <span class="block-label">Second half</span>
       <input class="block-input" type="password" />
     </label>
@@ -59,13 +59,13 @@ category: Base
 
 To disabled a text input you can set the property `disabled="true"`.
 
-<label>
+<label class="form-field">
   <span class="block-label">Disabled</span>
   <input class="block-input" type="text" disabled="true" />
 </label>
 
 ```html
-<label>
+<label class="form-field">
   <span class="block-label">Disabled</span>
   <input class="block-input" type="text" disabled="true" />
 </label>
@@ -73,13 +73,13 @@ To disabled a text input you can set the property `disabled="true"`.
 
 ## Text input with error
 
-<label>
+<label class="form-field">
   <span class="block-label block-label--error">Error</span>
   <input class="block-input input--error" type="text" />
 </label>
 
 ```html
-<label>
+<label class="form-field">
   <span class="block-label block-label--error">Error</span>
   <input class="block-input input--error" type="text" />
 </label>
@@ -149,7 +149,7 @@ To use a normal inline radio use the class name of `.radio`.
 
 Select dropdowns will take up the full width of their container.
 
-<label>
+<label class="form-field">
   <span class="block-label">Dropdown label</span>
   <select>
     <option value="1">Option 1</option>
@@ -159,7 +159,7 @@ Select dropdowns will take up the full width of their container.
 </label>
 
 ```html
-<label>
+<label class="form-field">
   <span class="block-label">A dropdown</span>
   <select>
     <option value="1">Option 1</option>
