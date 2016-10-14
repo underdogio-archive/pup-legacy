@@ -11,6 +11,7 @@
 @import 'variables/typography';
 
 @import 'mixins/all-caps';
+@import 'mixins/center-content';
 @import 'mixins/clearfix';
 @import 'mixins/transition';
 
@@ -49,6 +50,7 @@
 @import 'animations/desk-illo';
 
 @import 'helpers/border';
+@import 'helpers/center-content';
 @import 'helpers/clearfix';
 @import 'helpers/color';
 @import 'helpers/fixed-navigation';
