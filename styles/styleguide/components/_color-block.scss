@@ -1,0 +1,25 @@
+$color-block-color-height: 150px;
+$color-block-label-font: monospace;
+$color-block-width: 200px;
+
+.color-block {
+  display: inline-block;
+  margin-bottom: spacing(0);
+  margin-right: spacing(0);
+  width: $color-block-width;
+}
+
+.color-block__color {
+  display: block;
+  height: $color-block-color-height;
+  width: 100%;
+}
+
+.color-block__label {
+  background: $color-black;
+  color: $color-white;
+  display: block;
+  font-family: $color-block-label-font;
+  line-height: 2;
+  padding: spacing(0);
+}
