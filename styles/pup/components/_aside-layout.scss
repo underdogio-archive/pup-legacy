@@ -1,0 +1,17 @@
+$aside-layout-padding: spacing(2);
+
+.aside-layout {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.aside-layout__content {
+  flex: 1 1 auto;
+  padding: $aside-layout-padding;
+}
+
+.aside-layout__sidebar {
+  flex: 0 0 300px;
+  padding: $aside-layout-padding;
+}
