@@ -1,10 +1,10 @@
 .header {
-  margin-bottom: spacing(2);
-  margin-top: spacing(2);
+  margin-bottom: spacing(5);
+  margin-top: spacing(5);
 }
 
 .header__title {
-  margin-bottom: spacing(0);
+  margin-bottom: spacing(5);
 
   &:last-child {
     margin-bottom: 0;
@@ -17,5 +17,5 @@
 
 .header--border {
   border-bottom: 1px solid $color-border-light;
-  padding-bottom: spacing(1);
+  padding-bottom: spacing(5);
 }
