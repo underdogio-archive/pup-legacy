@@ -1,17 +1,28 @@
+// Creates a sidebar + content layout where the sidebar is always fixed in view,
+// but the content is allowed to scroll independently. Works best when the parent container has a set height.
+
 $aside-layout-padding: spacing(2);
+$aside-layout-sidebar-width: 300px;
 
 .aside-layout {
-  align-items: stretch;
   display: flex;
-  flex-wrap: nowrap;
+  // Prevent the entire element from being scrolled.
+  overflow-y: hidden;
 }
 
+.aside-layout__sidebar,
 .aside-layout__content {
-  flex: 1 1 auto;
   padding: $aside-layout-padding;
 }
 
 .aside-layout__sidebar {
-  flex: 0 0 300px;
-  padding: $aside-layout-padding;
+  flex: 0 0 $aside-layout-sidebar-width;
+  overflow-y: auto;
+}
+
+.aside-layout__content {
+  // Allow the content to the right of the sidebar to stretch to fill the remaining space.
+  flex: 1 1 100%;
+  // Allow the content to be scrollable.
+  overflow-y: auto;
 }
