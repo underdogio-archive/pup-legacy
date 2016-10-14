@@ -5,6 +5,11 @@ textarea {
   line-height: inherit;
 }
 
+button {
+  background: none;
+  border: 0;
+}
+
 select,
 .block-input {
   @include transition(border);
