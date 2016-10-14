@@ -11,6 +11,7 @@
     "favicons:watch": "nodemon --exec 'npm run favicons' --watch favicons --ext gif,jpg,svg,png,ico,json",
     "fonts": "cp -r fonts dist",
     "fonts:watch": "nodemon --exec 'npm run fonts' --watch fonts --ext svg,woff,ttf,eot",
+    "heroku-postbuild": "npm run build",
     "icons": "mkdir -p fonts && npm run icons-svg && npm run icons-ttf && npm run icons-eot && npm run icons-woff",
     "icons-eot": "ttf2eot fonts/$npm_package_config_iconFontName.ttf fonts/$npm_package_config_iconFontName.eot",
     "icons-svg": "svgicons2svgfont icons/*.svg --fontFamily $npm_package_config_iconFontName --output fonts/$npm_package_config_iconFontName.svg",
