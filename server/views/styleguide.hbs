@@ -1,0 +1,25 @@
+<div class="aside-layout">
+  <div class="aside-layout__sidebar border--right wrapper">
+    {{> toc sections=sections}}
+  </div>
+  <div class="aside-layout__content wrapper{{#unless currentSection}} center-content{{/unless}}">
+    <div>
+      {{#if currentSection}}
+        <h1>{{ currentSection.title }}</h1>
+        {{{ currentSection.content }}}
+      {{else}}
+        <div class="text--center">
+          <img src="/dist/img/underdogio-logo.svg" alt="Underdog.io logo" height="100" />
+          <h1 class="push18--bottom push10--top">Underdog.io Styleguide</h1>
+          <p class="gamma push25--bottom">
+            The design system for Underdog.io
+          </p>
+          <a class="btn btn--secondary" href="https://github.com/underdogio/underdog-styles" target="_blank">
+            <span class="icon__label icon__label--reverse">View on GitHub</span>
+            <span class="icon icon-github" aria-hidden="true" />
+          </a>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</div>

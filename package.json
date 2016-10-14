@@ -24,7 +24,7 @@
     "start": "node bin/pup",
     "start:watch": "nodemon bin/pup --watch server --ext html,js",
     "styles": "mkdir -p dist/css && node-sass styles --output dist/css --include-path node_modules --source-map-contents --source-map-embed",
-    "styles:watch": "npm run styles && npm run styles -- --watch styles --recursive & npm run poststyles -- --watch",
+    "styles:watch": "npm run styles && npm run styles -- --watch styles --recursive & npm run poststyles -- --watch dist",
     "poststyles": "postcss dist/css/**/*.css --replace --use autoprefixer"
   },
   "devDependencies": {
@@ -32,10 +32,13 @@
     "autoprefixer": "^6.5.0",
     "browser-sync": "^2.17.2",
     "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
     "globify": "^1.2.2",
+    "meta-marked": "^0.4.2",
     "node-sass": "3.10.1",
     "nodemon": "^1.11.0",
     "postcss-cli": "^2.6.0",
+    "slug": "^0.9.1",
     "svg2ttf": "^4.0.2",
     "svgicons2svgfont": "^5.0.0",
     "ttf2eot": "^2.0.0",
@@ -45,7 +48,7 @@
     "closest": "^0.0.1",
     "glob": "^7.1.1",
     "normalize.css": "^5.0.0",
-    "swig": "^1.4.2",
-    "swipe-js": "^2.2.0"
+    "swipe-js": "^2.2.0",
+    "underscore": "^1.8.3"
   }
 }
