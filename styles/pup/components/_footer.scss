@@ -5,13 +5,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: spacing(5);
-  margin-top: spacing(5);
+  margin-bottom: spacing(1);
+  margin-top: spacing(1);
 }
 
 .footer__link {
   display: inline-block;
-  margin: spacing(5) spacing(5) spacing(5) 0;
+  margin: spacing(1) spacing(1) spacing(1) 0;
 
   &:last-child {
     margin-right: 0;

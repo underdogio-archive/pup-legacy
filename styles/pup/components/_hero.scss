@@ -11,12 +11,12 @@
   margin-left: auto;
   margin-right: auto;
   max-width: $measure;
-  padding-bottom: spacing(5);
-  padding-top: spacing(5);
+  padding-bottom: spacing(1);
+  padding-top: spacing(1);
 }
 
 .hero__section {
-  margin-bottom: spacing(5);
+  margin-bottom: spacing(1);
 
   &:last-child {
     margin-bottom: 0;
