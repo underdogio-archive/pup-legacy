@@ -45,10 +45,10 @@ Typography, the foundation of every design system.
 <h3>Subheader</h3>
 ```
 
-<span class="small-heading">Small Heading</span>
+<h4>Small Heading</h4>
 
 ```html
-<span class="small-heading">Small Heading</span>
+<h4>Small Heading</h4>
 ```
 
 ## Heading classes
