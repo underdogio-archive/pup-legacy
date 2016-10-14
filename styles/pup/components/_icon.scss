@@ -1,6 +1,6 @@
 // Helper mixin for defining icon classes
 @mixin icon($name, $unicode) {
-  .icon--#{$name} {
+  .icon-#{$name} {
     &:before {
       content: $unicode;
       // Allow other styles to be set
