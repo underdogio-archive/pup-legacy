@@ -8,7 +8,7 @@
     "npm": "3.10.3"
   },
   "scripts": {
-    "build": "mkdir -p dist && npm run clean && npm run favicons && npm run fonts && npm run images && npm run styles && npm run scripts",
+    "build": "npm run clean && mkdir -p dist && npm run favicons && npm run fonts && npm run images && npm run styles && npm run scripts",
     "clean": "rm -rf dist",
     "develop": "npm run build && npm run favicons:watch & npm run fonts:watch & npm run images:watch & npm run styles:watch & npm run scripts:watch & npm run start:watch",
     "favicons": "cp -r favicons/* dist",
