@@ -5,7 +5,7 @@ category: Layout
 
 Styles for promotional pages, like a landing page.
 
-<div class="promo container text-center">
+<div class="promo container text-align--center">
   <div class="row">
     <div class="col-12 col-6-medium-and-up">
       <h2 class="promo__header">Some of our happy customers</h2>
@@ -23,7 +23,7 @@ Styles for promotional pages, like a landing page.
 </div>
 
 ```html
-<div class="promo container text-center">
+<div class="promo container text-align--center">
   <div class="row">
     <div class="col-12 col-6-medium-and-up">
       <h2 class="promo__header">Some of our happy customers</h2>
