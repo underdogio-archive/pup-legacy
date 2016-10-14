@@ -23,7 +23,7 @@ category: Base
 
 Centers an element that has a display mode set to `block`.
 
-<div class="block--center border--left border--right text--center" style="width: 200px;">
+<div class="block--center border--left border--right text-align--center" style="width: 200px;">
   Centered block
 </div>
 

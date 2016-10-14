@@ -105,7 +105,7 @@ We use a nestable fluid 12 column grid system which supports our custom breakpoi
 
 Columns can be centered vertically by applying the `.row--flex` modifier to a `.row`.
 
-<div class="text--center">
+<div class="text-align--center">
   <div class="row row--flex">
     <div class="col-3">
       <p class="greybox flush--bottom">One third</p>
@@ -117,7 +117,7 @@ Columns can be centered vertically by applying the `.row--flex` modifier to a `.
       <p class="greybox flush--bottom">One third</p>
     </div>
   </div>
-  <div class="row row--flex text--center">
+  <div class="row row--flex text-align--center">
     <div class="col-4">
       <p class="greybox flush--bottom">One fourth</p>
     </div>

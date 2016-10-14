@@ -23,7 +23,7 @@ Modals will always take up the full width and height of the page and be displaye
           <span class="block-label">Input label</span>
           <input class="block-input" type="text" />
         </label>
-        <div class="text--center">
+        <div class="text-align--center">
           <button class="btn btn--primary btn--block push18--bottom">Save</button>
           <a href="#">Cancel</a>
         </div>
@@ -46,7 +46,7 @@ Modals will always take up the full width and height of the page and be displaye
         <span class="block-label">Input label</span>
         <input class="block-input" type="text" />
       </label>
-      <div class="text--center">
+      <div class="text-align--center">
         <button class="btn btn--primary btn--block push10--bottom">Save</button>
         <a href="#">Cancel</a>
       </div>
