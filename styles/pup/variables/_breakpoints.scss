@@ -1,8 +1,6 @@
-$breakpoints: (
-  small: 480px,
-  medium: 800px,
-  large: 1200px
-);
-@function breakpoints($key) {
-  @return map-get($breakpoints, $key);
-}
+$breakpoint-small-end: 530px;
+$breakpoint-medium-start: $breakpoint-small-end + 1px;
+$breakpoint-medium-end: 768px;
+$breakpoint-large-start: $breakpoint-medium-end + 1px;
+$breakpoint-large-end: 1024px;
+$breakpoint-extra-large-start: $breakpoint-large-end + 1px;
