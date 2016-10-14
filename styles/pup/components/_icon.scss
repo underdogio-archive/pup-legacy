@@ -38,6 +38,12 @@
   margin-left: 0.5rem;
 }
 
+.icon--small {
+  &:before {
+    font-size: font-size(-1);
+  }
+}
+
 // Define icons
 @include icon('arrow-right', '\EA01')
 @include icon('arrow', '\EA02')
