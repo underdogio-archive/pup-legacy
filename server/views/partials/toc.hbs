@@ -1,8 +1,8 @@
 {{#each categories}}
 <p class="small-heading">{{ title }}</p>
-<ul class="push30--bottom">
+<ul>
   {{#each sections }}
-    <li class="push10--bottom">
+    <li>
       <a class="nav-link{{#if isActive}} nav-link--active{{/if}}" href="/{{ slug }}">{{ title }}</a>
     </li>
   {{/each}}
