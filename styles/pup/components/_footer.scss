@@ -10,8 +10,16 @@
 }
 
 .footer__link {
+  @include transition(color);
+  color: inherit;
   display: inline-block;
-  margin: spacing(1) spacing(1) spacing(1) 0;
+  margin: spacing(1);
+  margin-left: 0;
+
+  &:focus,
+  &:hover {
+    color: $color-text;
+  }
 
   &:last-child {
     margin-right: 0;
