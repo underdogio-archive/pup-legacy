@@ -5,7 +5,9 @@
   <div class="aside-layout__content wrapper{{#unless currentSection}} center-content{{/unless}}">
     <div>
       {{#if currentSection}}
-        <h1>{{ currentSection.title }}</h1>
+        <header class="header header--border">
+          <h1 class="header__title">{{ currentSection.title }}</h1>
+        </header>
         {{{ currentSection.content }}}
       {{else}}
         <section class="hero">
