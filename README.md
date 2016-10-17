@@ -9,7 +9,7 @@ Pup defines a common set of components, patterns, and static assets that are use
 The styleguide contains things like:
 
 - UI Components
-- Definitions for typography and spacing
+- Definitions for [typography](https://pup-underdogio.herokuapp.com/typography) and [spacing](https://pup-underdogio.herokuapp.com/spacing)
 - Illustrations
 - Favicons
 
