@@ -5,7 +5,9 @@ category: Base
 
 Having consistent spacing helps to create a more harmonious relationship between our components.
 
-Our spacing units our based on our base font size of `14px`.
+Our spacing units our based on our base font size of `14px`. Our spacing units
+are defined in [variables/_spacing.scss](https://github.com/underdogio/pup/blob/master/styles/pup/variables/_spacing.scss).
+
 We use the following values for spacing:
 
 ```scss
