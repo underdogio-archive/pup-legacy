@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "underdogio-pup",
+  "version": "1.0.0",
   "config": {
     "iconFontName": "underdogio-icons"
   },
