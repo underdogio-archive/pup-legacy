@@ -8,7 +8,10 @@ Underdog.io's front end styleguide.
 
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Importing components](#importing-components)
+  - [Components](#importing-components)
+  - [Favicons](#favicons)
+  - [Icon font](#icon-font)
+  - [Images](#images)
 - [Developing](#developing)
 - [Contributing](#contributing)
 
@@ -72,7 +75,13 @@ require('underdogio-pup/scripts/vendor/polyfills');
 require('underdogio-pup/scripts/components/carousel')();
 ```
 
-## Developing
+### Favicons
+
+### Icon font
+
+### Images
+
+### Developing
 
 ## Contributing
 
