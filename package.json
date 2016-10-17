@@ -7,6 +7,14 @@
     "node": "6.4.0",
     "npm": "3.10.3"
   },
+  "files": [
+    "favicons",
+    "fonts",
+    "icons",
+    "images",
+    "scripts",
+    "styles"
+  ],
   "scripts": {
     "build": "npm run clean && mkdir -p dist && npm run favicons && npm run fonts && npm run images && npm run styles && npm run scripts",
     "clean": "rm -rf dist",
