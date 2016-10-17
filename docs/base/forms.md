@@ -101,15 +101,15 @@ To disabled a text input you can set the property `disabled="true"`.
 
 To use a normal inline checkbox use the class name of `.checkbox`.
 
-<label class="checkbox">
-  <input type="checkbox" />
-  A checkbox
+<label class="form-field checkbox">
+  <input class="checkbox__input" type="checkbox" />
+  <span class="checkbox__label">A checkbox</span>
 </label>
 
 ```html
-<label class="checkbox">
-  <input type="checkbox" />
-  A checkbox
+<label class="form-field checkbox">
+  <input class="checkbox__input" type="checkbox" />
+  <span class="checkbox__label">A checkbox</span>
 </label>
 ```
 
@@ -117,15 +117,15 @@ To use a normal inline checkbox use the class name of `.checkbox`.
 
 To add a checkbox nested under a parent input use the additional class name of `.checkbox--nested`.
 
-<label class="checkbox checkbox--nested">
-  <input type="checkbox" />
-  A nested checkbox
+<label class="form-field checkbox checkbox--nested">
+  <input class="checkbox__input" type="checkbox" />
+  <span class="checkbox__label">A nested checkbox</span>
 </label>
 
 ```html
-<label class="checkbox checkbox--nested">
-  <input type="checkbox" />
-  A nested checkbox
+<label class="form-field checkbox checkbox--nested">
+  <input class="checkbox__input" type="checkbox" />
+  <span class="checkbox__label">A nested checkbox</span>
 </label>
 ```
 
