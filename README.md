@@ -149,7 +149,7 @@ $icon-font-path: '/fonts/';
 
 Images that are shared by all of our projects, such as our logo and illustrations, are kept under the `/images` directory.
 
-### Developing
+## Developing
 
 ## Contributing
 
