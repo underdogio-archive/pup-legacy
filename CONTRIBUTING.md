@@ -2,19 +2,16 @@
 
 ## Table of Contents
 
-- [Components](#components)
-  - [Styles](#styles)
-  - [JavaScript](#javascript)
+- [Styles](#styles)
+- [JavaScript](#javascript)
 - [Icon font](#icon-font)
 - [FAQs](#frequently-asked-questions)
 
-## Components
+## Styles
 
-### Styles
+## JavaScript
 
-### JavaScript
-
-If your component requires JavaScript, create a new module in the `scripts/components` directory.
+If you are creating a component that requires JavaScript, create a new module in the `scripts/components` directory.
 
 Your module should export a single function that performs any required initialization work, such as
 binding to DOM elements.
