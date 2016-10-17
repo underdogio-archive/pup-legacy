@@ -10,6 +10,7 @@ We use the following values for spacing:
 
 ```scss
 $spacing: (
+  // 0px
   0: 0,
 
   // 7px
