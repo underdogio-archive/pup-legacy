@@ -6,7 +6,7 @@ $header-spacing: spacing(3);
 }
 
 .header__title {
-  margin-bottom: $header-spacing;
+  margin-bottom: spacing(2);
 
   &:last-child {
     margin-bottom: 0;
