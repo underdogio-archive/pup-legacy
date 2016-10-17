@@ -3,12 +3,12 @@
     {{> toc sections=sections}}
   </div>
   <div class="aside-layout__content wrapper{{#unless currentSection}} center-content{{/unless}}">
-    <section class="hero">
+    <div>
       {{#if currentSection}}
         <h1>{{ currentSection.title }}</h1>
         {{{ currentSection.content }}}
       {{else}}
-        <div class="text-align--center">
+        <section class="hero">
           <div class="hero__section">
             <img src="/images/underdogio-logo.svg" alt="Underdog.io logo" height="100" />
           </div>
@@ -27,8 +27,8 @@
               </a>
             </p>
           </div>
-        </div>
+        </section>
       {{/if}}
-    </section>
+    </div>
   </div>
 </div>
