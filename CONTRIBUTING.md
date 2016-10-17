@@ -31,3 +31,7 @@ After adding a new icon, run `npm run icons` in order to re-compile the icon fon
 to the `/fonts` directory.
 
 ## Frequently Asked Questions
+
+### Where does Underdog.io stand on the whole Sass mixins versus `@extends` debate?
+
+Mixins.
