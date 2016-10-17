@@ -77,4 +77,4 @@ to the `/fonts` directory.
 
 ## Documentation
 
-Whenever a change is made to source code, it is important that the documentation is updated as well. This will help to ensure that both designers and developers are on the same page.
+Whenever a change is made to source code, it is important that the documentation is updated as well. This will help to ensure that designers and developers are on the same page.
