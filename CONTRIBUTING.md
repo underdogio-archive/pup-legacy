@@ -1,5 +1,7 @@
 # Contributing to Pup
 
+Here are some quick guidelines for contributing to Pup.
+
 ## Table of Contents
 
 - [Styles](#styles)
