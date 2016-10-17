@@ -1,5 +1,14 @@
-body {
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+html {
   background: $color-bg;
+  box-sizing: border-box;
   color: $color-text;
   font-family: $font-family;
   font-size: $font-size-base;
