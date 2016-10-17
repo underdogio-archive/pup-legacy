@@ -42,6 +42,7 @@ h3,
 h4,
 .h4 {
   @include all-caps;
+  color: $color-text-light;
   font-size: font-size(-1);
 }
 
