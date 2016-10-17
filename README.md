@@ -77,6 +77,62 @@ require('underdogio-pup/scripts/components/carousel')();
 
 ### Favicons
 
+Favicons are kept under `favicons/*`. In order to use these favicons you must copy them into your project.
+You must also update the paths to the favicons in `favicons/browserconfig.xml`, `favicons/manifest.json`, and
+in the `<head />` tag of your HTML document.
+
+#### Updating browserconfig.xml and manifest.json
+
+By default `browserconfig.xml` and `manifest.json` are assuming that icons are being served from `/`. The path to each icon defined in these files must be manually updated to match the path where the favicons are being served from.
+
+##### browserconfig.xml
+
+```xml
+<square70x70logo src="/path/to/favicons/mstile-70x70.png"/>
+```
+
+##### manifest.json
+
+```json
+{
+  "src": "\/path\/to\/favicons\/android-chrome-36x36.png",
+  "sizes": "36x36",
+  "type": "image\/png",
+  "density": 0.75
+}
+```
+
+#### Markup for importing icons in an HTML document
+
+You must include the following markup in the `<head />` tag of the HTML document you want the favicons to be displayed for.
+
+**Note**: The following markup is assuming that icons are being served from the root (`/`) directory..
+You must manually update the paths for each icon to the actual path where the favicons are being served from.
+
+```html
+<meta name="apple-mobile-web-app-title" content="Underdog.io" />
+<meta name="application-name" content="Underdog.io" />
+<meta name="msapplication-TileColor" content="#72ceaa" />
+<meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+<meta name="theme-color" content="#72ceaa" />
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#524b7a" />
+```
+
 ### Icon font
 
 ### Images
