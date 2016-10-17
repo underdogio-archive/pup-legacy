@@ -9,9 +9,11 @@ Our main font face is Google's excellent [Open Sans](https://fonts.google.com/sp
 
 Open Sans is automatically imported with a CSS `@import`, so you don't have to do anything extra in order to use it.
 
+Values for things like our base font size, font scale, and line height are defined in [variables/typography.scss](https://github.com/underdogio/pup/blob/master/styles/pup/variables/_typography.scss).
+
 ## Specs
 
-Here are some specs for Pup's typography system:
+Here are some quick specs for Pup's typography system:
 
 <ul class="list--bullet margin2--bottom">
   <li>
@@ -25,7 +27,27 @@ Here are some specs for Pup's typography system:
   </li>
 </ul>
 
-These values are defined in [variables/typography.scss](https://github.com/underdogio/pup/blob/master/styles/pup/variables/_typography.scss).
+## Font sizes
+
+Our font sizes follow a (mostly) modular scale of `1.25`, based off a font size of `14px`.
+
+<ul class="list--bullet margin2--bottom">
+  <li>
+    <strong>0.875rem</strong>: 10px
+  </li>
+  <li>
+    <strong>1rem</strong>: 14px
+  </li>
+  <li>
+    <strong>1.25rem</strong>: 17.5rem
+  </li>
+  <li>
+    <strong>1.5625rem</strong>: 17.5rem
+  </li>
+  <li>
+    <strong>1.953rem</strong>: 22px
+  </li>
+</ul>
 
 ## Spacing
 
