@@ -50,6 +50,10 @@ textarea {
   width: 100%;
 }
 
+.block-input--error {
+  border-color: $color-red;
+}
+
 .form-field {
   display: block;
   margin-bottom: spacing(2);

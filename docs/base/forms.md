@@ -75,13 +75,13 @@ To disabled a text input you can set the property `disabled="true"`.
 
 <label class="form-field">
   <span class="block-label block-label--error">Error</span>
-  <input class="block-input input--error" type="text" />
+  <input class="block-input block-input--error" type="text" />
 </label>
 
 ```html
 <label class="form-field">
   <span class="block-label block-label--error">Error</span>
-  <input class="block-input input--error" type="text" />
+  <input class="block-input block-input--error" type="text" />
 </label>
 ```
 

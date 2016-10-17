@@ -3,3 +3,7 @@
   display: block;
   margin-bottom: spacing(1);
 }
+
+.block-label--error {
+  color: $color-red;
+}
