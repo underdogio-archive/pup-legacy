@@ -165,4 +165,4 @@ To see what other scripts are available, run `npm run`.
 
 ## Contributing
 
-For guidelines on modifying the styleguide, please see [CONTRIBUTING.md](https://github.com/underdogio/pup/blob/master/package.json).
+For guidelines on modifying the styleguide, please see [CONTRIBUTING.md](https://github.com/underdogio/pup/blob/master/CONTRIBUTING.md).
