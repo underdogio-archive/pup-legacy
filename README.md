@@ -9,6 +9,8 @@ Underdog.io's front end styleguide.
 - [Installation](#installation)
 - [Usage](#usage)
   - [Components](#importing-components)
+    - [Styles](#styles)
+    - [JavaScript](#javascript)
   - [Favicons](#favicons)
   - [Icon font](#icon-font)
   - [Images](#images)
