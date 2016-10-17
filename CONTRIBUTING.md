@@ -1,14 +1,10 @@
 # Contributing to Pup
 
----
-
 ## Table of Contents
 
 - [Styles](#styles)
 - [JavaScript](#javascript)
 - [Icon font](#icon-font)
-
----
 
 ## Styles
 
@@ -58,16 +54,12 @@ Examples:
   - Floating elements
   - Setting background color
 
----
-
 ## JavaScript
 
 If you are creating a component that requires JavaScript, create a new module in the `scripts/components` directory.
 
 Your module should export a single function that performs any required initialization work, such as
 binding to DOM elements.
-
----
 
 ## Icon font
 
