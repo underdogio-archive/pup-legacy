@@ -1,6 +1,6 @@
 # Pup
 
-Underdog.io's front-end styleguide.
+Underdog.io's front end styleguide.
 
 ---
 
