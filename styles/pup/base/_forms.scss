@@ -55,13 +55,16 @@ textarea {
 }
 
 .checkbox__input,
-.checkbox__label {
+.checkbox__label,
+.radio__input,
+.radio__label {
   display: inline-block;
   line-height: 1;
   vertical-align: middle;
 }
 
-.checkbox__label {
+.checkbox__label,
+.radio__label {
   margin-left: spacing(1);
 }
 

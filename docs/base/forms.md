@@ -133,15 +133,15 @@ To add a checkbox nested under a parent input use the additional class name of `
 
 To use a normal inline radio use the class name of `.radio`.
 
-<label class="radio">
-  <input type="radio" />
-  A radio
+<label class="form-field radio radio--nested">
+  <input class="radio__input" type="radio" />
+  <span class="radio__label">A radio</span>
 </label>
 
 ```html
-<label class="radio">
-  <input type="radio" />
-  A radio
+<label class="form-field radio radio--nested">
+  <input class="radio__input" type="radio" />
+  <span class="radio__label">A radio</span>
 </label>
 ```
 
