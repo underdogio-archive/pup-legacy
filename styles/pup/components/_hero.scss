@@ -16,8 +16,15 @@
 }
 
 .hero__section {
-  margin-bottom: spacing(1);
+  margin-bottom: spacing(2);
 
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.hero__title,
+.hero__subtitle {
   &:last-child {
     margin-bottom: 0;
   }
@@ -30,10 +37,6 @@
 .hero__subtitle {
   color: $color-text-light;
   font-size: font-size(1);
-
-  &:last-child {
-    margin-bottom: 0;
-  }
 
   @include media-query(small) {
     font-size: font-size(0);
