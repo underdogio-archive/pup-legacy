@@ -137,6 +137,8 @@ You must manually update the paths for each icon to the actual path where the fa
 
 ### Images
 
+Images that are shared by all of our projects, such as our logo and illustrations, are kept under the `/images` directory.
+
 ### Developing
 
 ## Contributing
