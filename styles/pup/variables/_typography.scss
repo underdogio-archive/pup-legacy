@@ -23,7 +23,7 @@ $font-size: (
 $font-weight: (
   light: 300,
   normal: 400,
-  bold: 700
+  bold: 600
 );
 @function font-weight($key) {
   @return map-get($font-weight, $key);
