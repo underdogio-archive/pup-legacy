@@ -14,6 +14,46 @@
 - Remember that docs are for both designers and developers.
 - Prefer mixins over extends.
 
+### Organization
+
+The organization of our styles is loosely based on [SmaCSS](https://smacss.com/), but with a focus on the cascading nature of CSS.
+
+#### Base
+
+Styles for element tags.
+
+Examples:
+  - HTML element
+  - Images
+  - Links
+
+#### Layout
+
+Styles that affect layout and have no other visual styling.
+
+Examples:
+  - Container
+  - Grid
+  - Sections
+
+#### Components
+
+Reusable bits and pieces of a user interface.
+
+Examples:
+  - Buttons
+  - Dropdowns
+  - Wells
+
+#### Helpers
+
+Small atomic classes (usually with just one or two rules) that override some default styling.
+
+Examples:
+  - Centering text
+  - Floating elements
+  - Setting background color
+
 ## JavaScript
 
 If you are creating a component that requires JavaScript, create a new module in the `scripts/components` directory.
