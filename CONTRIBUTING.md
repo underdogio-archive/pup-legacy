@@ -11,12 +11,6 @@ Here are some quick guidelines for contributing to Pup.
 
 ## Styles
 
-### Tl;DR
-
-- Add documentation to `/docs` for everything.
-- Remember that docs are for both designers and developers.
-- Prefer mixins over extends.
-
 ### Organization
 
 The organization of our styles is loosely based on [SmaCSS](https://smacss.com/), but with a focus on the cascading nature of CSS.
