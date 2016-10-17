@@ -1,10 +1,12 @@
+$header-spacing: spacing(3);
+
 .header {
-  margin-bottom: spacing(1);
-  margin-top: spacing(1);
+  margin-bottom: $header-spacing;
+  margin-top: $header-spacing;
 }
 
 .header__title {
-  margin-bottom: spacing(1);
+  margin-bottom: $header-spacing;
 
   &:last-child {
     margin-bottom: 0;
@@ -17,5 +19,5 @@
 
 .header--border {
   border-bottom: 1px solid $color-border-light;
-  padding-bottom: spacing(1);
+  padding-bottom: spacing(2);
 }
