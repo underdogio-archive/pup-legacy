@@ -135,6 +135,16 @@ You must manually update the paths for each icon to the actual path where the fa
 
 ### Icon font
 
+We use a custom icon font which is generated from individual SVGs stored in `icons/*.svg`.
+
+In order to utilize the icon font that is generated in this project you will need to copy the fonts into your project.
+
+If you are using the icon font in your project you will also have to override the `$icon-font-path` variable to ensure the fonts get loaded properly.
+
+```sass
+$icon-font-path: '/fonts/';
+```
+
 ### Images
 
 Images that are shared by all of our projects, such as our logo and illustrations, are kept under the `/images` directory.
