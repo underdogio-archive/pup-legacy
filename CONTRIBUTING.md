@@ -1,5 +1,13 @@
 # Contributing to Pup
 
+## Table of Contents
+
+- [Components](#components)
+  - [Styles](#styles)
+  - [JavaScript](#javascript)
+- [Icon font](#icon-font)
+- [FAQs](#frequently-asked-questions)
+
 ## Components
 
 ### Styles
@@ -12,7 +20,5 @@ Your module should export a single function that performs any initialization wor
 binding to DOM elements.
 
 ## Icon font
-
-### Adding an icon
 
 ## Frequently Asked Questions
