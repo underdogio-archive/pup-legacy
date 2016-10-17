@@ -23,7 +23,10 @@ Here are some quick specs for Pup's typography system:
     <strong>Font scale</strong>: 1.5
   </li>
   <li>
-    <strong>Line height</strong>: 1.5
+    <strong>Base line height</strong>: 1.5
+  </li>
+  <li>
+    <strong>Line height for headings / large text</strong>: 1.1
   </li>
 </ul>
 
