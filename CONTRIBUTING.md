@@ -5,9 +5,14 @@
 - [Styles](#styles)
 - [JavaScript](#javascript)
 - [Icon font](#icon-font)
-- [FAQs](#frequently-asked-questions)
 
 ## Styles
+
+### Tl;DR
+
+- Add documentation to `/docs` for everything.
+- Remember that docs are for both designers and developers.
+- Prefer mixins over extends.
 
 ## JavaScript
 
@@ -26,9 +31,3 @@ occupying the full width and/or full height of the viewbox.
 
 After adding a new icon, run `npm run icons` in order to re-compile the icon font
 to the `/fonts` directory.
-
-## Frequently Asked Questions
-
-### Where does Underdog.io stand on the whole Sass mixins versus `@extends` debate?
-
-Mixins.
