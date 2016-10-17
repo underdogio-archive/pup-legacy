@@ -1,20 +1,4 @@
-@import 'functions/pow';
-
-@import 'variables/border-radius';
-@import 'variables/breakpoints';
-@import 'variables/colors';
-@import 'variables/grid';
-@import 'variables/icons';
-@import 'variables/layers';
-@import 'variables/sides';
-@import 'variables/spacing';
-@import 'variables/typography';
-
-@import 'mixins/all-caps';
-@import 'mixins/center-content';
-@import 'mixins/clearfix';
-@import 'mixins/media-query';
-@import 'mixins/transition';
+@import 'base';
 
 @import 'normalize.css/normalize';
 
