@@ -1,10 +1,10 @@
 $font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 
-$font-scale: 1.25;
+$font-scale: 1.333;
 
 $font-size-base: 0.875em;
 $font-size: (
-  -1: 0.75rem,
+  -1: 0.875rem,
   0: 1rem,
   1: pow($font-scale, 1) + rem,
   2: pow($font-scale, 2) + rem,

@@ -20,7 +20,7 @@ Here are some quick specs for Pup's typography system:
     <strong>Base font size</strong>: 14px
   </li>
   <li>
-    <strong>Font scale</strong>: 1.25
+    <strong>Font scale</strong>: 1.333
   </li>
   <li>
     <strong>Line height</strong>: 1.5
@@ -29,7 +29,7 @@ Here are some quick specs for Pup's typography system:
 
 ## Font sizes
 
-Our font sizes follow a (mostly) modular scale of `1.25`, based off a font size of `14px`.
+Our font sizes follow a (mostly) modular scale of `1.333`, based off a font size of `14px`.
 
 <ul class="list--bullet margin2--bottom">
   <li>
