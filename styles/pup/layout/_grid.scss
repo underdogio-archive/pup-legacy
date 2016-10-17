@@ -22,10 +22,18 @@
     @include column($column);
   }
 
+  .offset-#{$column} {
+    margin-left: percentage($column / $grid-num-columns);
+  }
+
   @each $query, $value in $media-queries {
     @include media-query($query) {
       .col-#{$column}-#{$query} {
         @include column($column);
+      }
+
+      .offset-#{$column}-#{$query} {
+        margin-left: percentage($column / $grid-num-columns);
       }
     }
   }
