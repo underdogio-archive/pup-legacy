@@ -1,0 +1,13 @@
+.nav-link {
+  color: $color-text-dark;
+
+  &:focus,
+  &:hover {
+    color: $color-text-light;
+  }
+}
+
+.nav-link--active {
+  color: $color-text-dark;
+  font-weight: font-weight(bold);
+}

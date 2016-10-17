@@ -23,8 +23,9 @@ $color-light-red: #DD6B4E;
 
 // UI colors
 $color-bg: $color-white;
-$color-text: $color-gray-444;
 $color-text-light: $color-gray-777;
-$color-headings: $color-gray-222;
+$color-text: $color-gray-444;
+$color-text-dark: $color-gray-222;
+$color-headings: $color-text-dark;
 
 $color-border-light: $color-gray-xdc;
