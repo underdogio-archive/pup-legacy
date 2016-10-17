@@ -54,6 +54,15 @@ textarea {
   border-color: $color-red;
 }
 
+.block-input--disabled {
+  &,
+  &:focus,
+  &:hover {
+    background: $color-gray-xf3;
+    border-color: $color-border-light;
+  }
+}
+
 .checkbox__input,
 .checkbox__label,
 .radio__input,

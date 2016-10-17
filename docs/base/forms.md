@@ -61,13 +61,13 @@ To disabled a text input you can set the property `disabled="true"`.
 
 <label class="form-field">
   <span class="block-label">Disabled</span>
-  <input class="block-input" type="text" disabled="true" />
+  <input class="block-input block-input--disabled" type="text" disabled="true" />
 </label>
 
 ```html
 <label class="form-field">
   <span class="block-label">Disabled</span>
-  <input class="block-input" type="text" disabled="true" />
+  <input class="block-input block-input--disabled" type="text" disabled="true" />
 </label>
 ```
 
