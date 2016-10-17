@@ -33,27 +33,27 @@
     "poststyles": "postcss dist/css/**/*.css --replace --use autoprefixer"
   },
   "devDependencies": {
-    "async": "^2.1.1",
-    "autoprefixer": "^6.5.0",
-    "browser-sync": "^2.17.2",
-    "express": "^4.14.0",
-    "express-handlebars": "^3.0.0",
-    "glob": "^7.1.1",
-    "globify": "^1.2.2",
-    "meta-marked": "^0.4.2",
+    "async": "2.1.1",
+    "autoprefixer": "6.5.0",
+    "browser-sync": "2.17.2",
+    "express": "4.14.0",
+    "express-handlebars": "3.0.0",
+    "glob": "7.1.1",
+    "globify": "1.2.2",
+    "meta-marked": "0.4.2",
     "node-sass": "3.10.1",
-    "nodemon": "^1.11.0",
-    "postcss-cli": "^2.6.0",
-    "slug": "^0.9.1",
-    "svg2ttf": "^4.0.2",
-    "svgicons2svgfont": "^5.0.0",
-    "ttf2eot": "^2.0.0",
-    "ttf2woff": "^2.0.1",
-    "underscore": "^1.8.3"
+    "nodemon": "1.11.0",
+    "postcss-cli": "2.6.0",
+    "slug": "0.9.1",
+    "svg2ttf": "4.0.2",
+    "svgicons2svgfont": "5.0.0",
+    "ttf2eot": "2.0.0",
+    "ttf2woff": "2.0.1",
+    "underscore": "1.8.3"
   },
   "dependencies": {
-    "closest": "^0.0.1",
-    "normalize.css": "^5.0.0",
-    "swipe-js": "^2.2.0",
+    "closest": "0.0.1",
+    "normalize.css": "5.0.0",
+    "swipe-js": "2.2.0"
   }
 }
