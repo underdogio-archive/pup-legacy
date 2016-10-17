@@ -7,6 +7,7 @@ Here are some quick guidelines for contributing to Pup.
 - [Styles](#styles)
 - [JavaScript](#javascript)
 - [Icon font](#icon-font)
+- [Documentation](#documentation)
 
 ## Styles
 
@@ -73,3 +74,7 @@ occupying the full width and/or full height of the viewbox.
 
 After adding a new icon, run `npm run icons` in order to re-compile the icon font
 to the `/fonts` directory.
+
+## Documentation
+
+Whenever a change is made to source code, it is important that the documentation is updated as well. This will help to ensure that both designers and developers are on the same page.
