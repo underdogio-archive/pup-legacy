@@ -20,7 +20,7 @@ Here are some quick specs for Pup's typography system:
     <strong>Base font size</strong>: 14px
   </li>
   <li>
-    <strong>Font scale</strong>: 1.333
+    <strong>Font scale</strong>: 1.5
   </li>
   <li>
     <strong>Line height</strong>: 1.5
@@ -29,25 +29,32 @@ Here are some quick specs for Pup's typography system:
 
 ## Font sizes
 
-Our font sizes follow a (mostly) modular scale of `1.333`, based off a font size of `14px`.
+Our font sizes follow a (mostly) modular scale of `1.5`, based off a font size of `14px`.
 
-<ul class="list--bullet margin2--bottom">
-  <li>
-    <strong>0.875rem</strong>: 10px
-  </li>
-  <li>
-    <strong>1rem</strong>: 14px
-  </li>
-  <li>
-    <strong>1.25rem</strong>: 17.5rem
-  </li>
-  <li>
-    <strong>1.5625rem</strong>: 17.5rem
-  </li>
-  <li>
-    <strong>1.953rem</strong>: 22px
-  </li>
-</ul>
+```scss
+$font-size: (
+  // 12.25px
+  -1: 0.875rem,
+
+  // 14px
+  0: 1rem,
+
+  // 21px
+  1: 1.5rem
+
+  // 31.5px
+  2: 2.25rem
+);
+```
+
+There is also a Sass function you can use to get a font size:
+
+```scss
+.example-class {
+  // Set font size to 21px
+  font-size: font-size(1);
+}
+```
 
 ## Spacing
 
