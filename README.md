@@ -66,4 +66,4 @@ require('underdogio-pup/scripts/components/carousel')();
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](#).
+For guidelines on modifying the styleguide, please see [CONTRIBUTING.md](https://github.com/underdogio/pup/blob/master/package.json).
