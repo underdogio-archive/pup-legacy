@@ -89,24 +89,36 @@ All headings and paragraphs have a bottom margin of `1rem`, or `14px`.
 
 ```html
 <h1>Headline</h1>
+
+// Font size: 31.5px
+// Line height: 34.65px
 ```
 
 <h2>Title</h2>
 
 ```html
 <h2>Title</h2>
+
+// Font size: 21px
+// Line height: 23.1px
 ```
 
 <h3>Subheader</h3>
 
 ```html
 <h3>Subheader</h3>
+
+// Font size: 14px
+// Line height: 15.4px
 ```
 
 <h4>Small Heading</h4>
 
 ```html
 <h4>Small Heading</h4>
+
+// Font size: 12.25px
+// Line height: 13.475px
 ```
 
 ## Heading classes
