@@ -16,7 +16,7 @@
 
 If your component requires JavaScript, create a new module in the `scripts/components` directory.
 
-Your module should export a single function that performs any initialization work, such as
+Your module should export a single function that performs any required initialization work, such as
 binding to DOM elements.
 
 ## Icon font
