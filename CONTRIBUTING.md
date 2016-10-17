@@ -13,3 +13,5 @@ binding to DOM elements.
 ## Icon font
 
 ### Adding an icon
+
+## Frequently Asked Questions
