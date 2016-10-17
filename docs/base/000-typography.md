@@ -4,6 +4,29 @@ subtitle: Typography, the foundation of every design system.
 category: Base
 ---
 
+Our main font face is Google's excellent [Open Sans](https://fonts.google.com/specimen/Open+Sans).
+
+
+Open Sans is automatically imported with a CSS `@import`, so you don't have to do anything extra in order to use it.
+
+## Specs
+
+Here are some specs for Pup's typography system:
+
+<ul class="list--bullet margin2--bottom">
+  <li>
+    <strong>Base font size</strong>: 14px
+  </li>
+  <li>
+    <strong>Font scale</strong>: 1.25
+  </li>
+  <li>
+    <strong>Line height</strong>: 1.5
+  </li>
+</ul>
+
+These values are defined in [variables/typography.scss](https://github.com/underdogio/pup/blob/master/styles/pup/variables/_typography.scss).
+
 ## Paragraphs
 
 <p>
