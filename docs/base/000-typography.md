@@ -81,6 +81,9 @@ All headings and paragraphs have a bottom margin of `1rem`, or `14px`.
   ab, quas, class aspernatur lacus nihil quidem laboriosam hac velit fugit nibh.
   Mus, exercitationem, venenatis aperiam. Suspendisse vero, sequi.
 </p>
+
+// Font size: 14px
+// Line height: 21px
 ```
 
 ## Headings
