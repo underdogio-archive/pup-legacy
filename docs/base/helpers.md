@@ -19,16 +19,16 @@ category: Base
   </div>
 </div>
 
-## Block center
+## Center block
 
 Centers an element that has a display mode set to `block`.
 
-<div class="block--center border--left border--right text-align--center" style="width: 200px;">
+<div class="center-block border--left border--right text-align--center" style="width: 200px;">
   Centered block
 </div>
 
 ```html
-<div class="block--center">
+<div class="center-block">
   Centered block
 </div>
 ```
