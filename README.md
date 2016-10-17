@@ -4,6 +4,15 @@ Underdog.io's front end styleguide.
 
 ---
 
+Pup defines a common set of components, patterns, and static assets that are used to create a coherent visual style and user experience across all of Underdog.io's products.
+
+The styleguide contains things like:
+
+- UI Components
+- Definitions for typography and spacing
+- Illustrations
+- Favicons
+
 ## Table of contents
 
 - [Installation](#installation)
