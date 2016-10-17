@@ -7,6 +7,11 @@
       {{#if currentSection}}
         <header class="header header--border margin0--top">
           <h1 class="header__title">{{ currentSection.title }}</h1>
+          {{#if currentSection.subtitle }}
+            <p class="header__subtitle">
+              {{ currentSection.subtitle }}
+            </p>
+          {{/if}}
         </header>
         {{{ currentSection.content }}}
       {{else}}

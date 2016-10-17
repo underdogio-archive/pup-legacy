@@ -29,6 +29,7 @@ module.exports = function(path, cb) {
           return {
             // Slug is used in TOC
             slug: slug(doc.meta.title).toLowerCase(),
+            subtitle: doc.meta.subtitle || null,
             title: doc.meta.title,
             category: doc.meta.category,
             content: doc.html

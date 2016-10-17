@@ -1,9 +1,8 @@
 ---
 title: Typography
+subtitle: Typography, the foundation of every design system.
 category: Base
 ---
-
-Typography, the foundation of every design system.
 
 ## Paragraphs
 
