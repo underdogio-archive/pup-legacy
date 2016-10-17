@@ -27,6 +27,10 @@ Here are some specs for Pup's typography system:
 
 These values are defined in [variables/typography.scss](https://github.com/underdogio/pup/blob/master/styles/pup/variables/_typography.scss).
 
+## Spacing
+
+All headings and paragraphs have a bottom margin of `1rem`, or `14px`.
+
 ## Paragraphs
 
 <p>
