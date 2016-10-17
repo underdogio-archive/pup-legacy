@@ -38,6 +38,7 @@
     "browser-sync": "^2.17.2",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
+    "glob": "^7.1.1",
     "globify": "^1.2.2",
     "meta-marked": "^0.4.2",
     "node-sass": "3.10.1",
@@ -47,13 +48,12 @@
     "svg2ttf": "^4.0.2",
     "svgicons2svgfont": "^5.0.0",
     "ttf2eot": "^2.0.0",
-    "ttf2woff": "^2.0.1"
+    "ttf2woff": "^2.0.1",
+    "underscore": "^1.8.3"
   },
   "dependencies": {
     "closest": "^0.0.1",
-    "glob": "^7.1.1",
     "normalize.css": "^5.0.0",
     "swipe-js": "^2.2.0",
-    "underscore": "^1.8.3"
   }
 }
