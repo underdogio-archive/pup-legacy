@@ -4,7 +4,15 @@ Underdog.io's front-end styleguide.
 
 ---
 
-## How to use in your project
+## Table of contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Importing components](#importing-components)
+- [Developing](#developing)
+- [Contributing](#contributing)
+
+## Installation
 
 You can use Pup in your project by installing it with npm:
 
@@ -17,7 +25,9 @@ npm install underdogio/pup#1.0.0
 
 After installing Pup, you can then include individual components in your project.
 
-## Requirements
+## Usage
+
+### Requirements
 
 In order to make use of Pup, your project must have support for the following:
 
