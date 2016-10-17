@@ -37,3 +37,5 @@ There is also a helper Sass function you can use in order to set margin or paddi
   padding: spacing(2);
 }
 ```
+
+You can also use `.section` and `.section__subsection` classes in your markup for maintaining consistent vertical rhythm in page layouts. See the [sections](https://pup-underdogio.herokuapp.com/sections) section (pun intended) for more info.
