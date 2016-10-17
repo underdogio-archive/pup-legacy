@@ -151,6 +151,18 @@ Images that are shared by all of our projects, such as our logo and illustration
 
 ## Developing
 
+### Requirements
+
+Your local machine must be running [Node v6.4.0](https://nodejs.org/download/release/v6.4.0/).
+
+### Running a local development server
+
+First, install dependencies with `npm install`.
+
+Then run `npm run develop` to start a development server and watch script that will rebuild assets whenever you make a change to a file.
+
+To see what other scripts are available, run `npm run`.
+
 ## Contributing
 
 For guidelines on modifying the styleguide, please see [CONTRIBUTING.md](https://github.com/underdogio/pup/blob/master/package.json).
