@@ -12,7 +12,7 @@ To make a header sticky, apply the `.header--fixed` modifier class to it.
     <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
   </div>
   <div class="header__nav">
-    <div class="hidden--small"><span class="gamma push10--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
+    <div class="hidden--small"><span class="gamma margin2--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
     <div class="hidden--medium-and-up"><span class="icon icon-menu" aria-hidden="true"></span><span class="gamma"> Menu</span></div>
   </div>
 </div>
@@ -24,7 +24,7 @@ To make a header sticky, apply the `.header--fixed` modifier class to it.
     <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
   </div>
   <div class="header__nav">
-    <div class="hidden--small"><span class="gamma push10--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
+    <div class="hidden--small"><span class="gamma margin2--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
     <div class="hidden--medium-and-up"><span class="icon icon-menu" aria-hidden="true"></span><span class="gamma"> Menu</span></div>
   </div>
 </div>
@@ -41,7 +41,7 @@ element and overriding the value for the `$header-max-width` Sass variable:
     </div>
     <div class="header__nav">
       <div class="header__nav">
-        <div class="hidden--small"><span class="gamma push10--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
+        <div class="hidden--small"><span class="gamma margin2--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
         <div class="hidden--medium-and-up"><span class="icon icon-menu" aria-hidden="true"></span><span class="gamma"> Menu</span></div>
       </div>
     </div>
@@ -57,7 +57,7 @@ element and overriding the value for the `$header-max-width` Sass variable:
     </div>
     <div class="header__nav">
       <div class="header__nav">
-        <div class="hidden--small"><span class="gamma push10--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
+        <div class="hidden--small"><span class="gamma margin2--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
         <div class="hidden--medium-and-up"><span class="icon icon-menu" aria-hidden="true"></span><span class="gamma"> Menu</span></div>
       </div>
     </div>

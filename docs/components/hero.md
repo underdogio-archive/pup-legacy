@@ -17,7 +17,7 @@ be the first element in a page, and there should never be more than one hero on 
     <p class="hero__subtitle">We connect job seekers to awesome companies in New York, San Francisco, and beyond.</p>
     <div class="row">
       <div class="col-12 col-6-large-and-up offset-3-large-and-up">
-        <a class="btn btn--primary btn--large btn--block push18--bottom" href="#hero">Candidates</a>
+        <a class="btn btn--primary btn--large btn--block margin2--bottom" href="#hero">Candidates</a>
         <a href="#hero">Is your team hiring?</a>
       </div>
     </div>
@@ -32,7 +32,7 @@ be the first element in a page, and there should never be more than one hero on 
     <p class="hero__subtitle">We connect job seekers to awesome companies in New York, San Francisco, and beyond.</p>
     <div class="row">
       <div class="col-12 col-6-large-and-up offset-3-large-and-up">
-        <a class="btn btn--primary btn--large btn--block push18--bottom" href="#hero">Candidates</a>
+        <a class="btn btn--primary btn--large btn--block margin2--bottom" href="#hero">Candidates</a>
         <a href="#hero">Is your team hiring?</a>
       </div>
     </div>
