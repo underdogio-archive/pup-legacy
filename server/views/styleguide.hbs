@@ -1,8 +1,8 @@
 <div class="aside-layout container container--wide">
-  <div class="aside-layout__sidebar border--right wrapper">
+  <div class="aside-layout__sidebar border--right">
     {{> toc sections=sections}}
   </div>
-  <div class="aside-layout__content wrapper{{#unless currentSection}} center-content{{/unless}}">
+  <div class="aside-layout__content{{#unless currentSection}} center-content{{/unless}}">
     <div>
       {{#if currentSection}}
         <header class="header header--border margin0--top">

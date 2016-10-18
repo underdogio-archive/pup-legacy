@@ -24,7 +24,7 @@ height, like `.app-container`.
   </div>
   <div class="app-container__content">
     <div class="aside-layout">
-      <div class="aside-layout__sidebar wrapper">
+      <div class="aside-layout__sidebar">
         <div class="sidebar">
           <div class="sidebar__title">
             Sidebar links
@@ -39,7 +39,7 @@ height, like `.app-container`.
           </ul>
         </div>
       </div>
-      <div class="aside-layout__content wrapper border--left">
+      <div class="aside-layout__content border--left">
         <p>
           Quibusdam ante volutpat curae, iure ad maxime cumque morbi! Dicta aptent alias dapibus morbi gravida sit, donec aliquam optio consectetuer delectus sodales ornare sodales, vitae! Sagittis consectetur sociosqu, feugiat impedit dignissim recusandae, ipsa nemo numquam, duis? Molestie eu aute ridiculus! Facere velit maecenas! Voluptate? Sollicitudin imperdiet, impedit vero. Animi, ut morbi, nisi voluptates aperiam! Minim quas potenti placerat varius sint, curae reiciendis reiciendis cillum morbi pharetra, mollitia fames, aperiam perspiciatis tincidunt mauris pretium similique torquent, tincidunt habitasse! Aut, ex, habitant? Accumsan. Saepe taciti dictumst, cras placerat. Sapien porttitor! Suspendisse aliqua aliquid interdum fugit culpa dictum commodi, aperiam temporibus iste hac.
         </p>
@@ -72,10 +72,10 @@ height, like `.app-container`.
   </div>
   <div class="app-container__content">
     <div class="aside-layout">
-      <div class="aside-layout__sidebar wrapper">
+      <div class="aside-layout__sidebar">
         Sidebar goes in here
       </div>
-      <div class="aside-layout__content wrapper">
+      <div class="aside-layout__content">
         Content goes in here
       </div>
     </div>
