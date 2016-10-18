@@ -37,7 +37,7 @@ $font-weight: (
 
 $line-height: (
   base: 1.5,
-  headings: 1.1
+  headings: 1.25
 );
 @function line-height($key) {
   @return map-get($line-height, $key);

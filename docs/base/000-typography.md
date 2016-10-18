@@ -26,7 +26,7 @@ Here are some quick specs for Pup's typography system:
     <strong>Base line height</strong>: 1.5 (21px)
   </li>
   <li>
-    <strong>Line height for headings / large text</strong>: 1.1 (1.1 `x` heading font size in pixels)
+    <strong>Line height for headings / large text</strong>: 1.25 (1.25 `x` heading font size in pixels)
   </li>
 </ul>
 
@@ -118,7 +118,7 @@ All headings and paragraphs have a bottom margin of `1rem`, or `14px`.
 <h3>Subheader</h3>
 
 // Font size: 18px
-// Line height: 21.875px
+// Line height: 22.5px
 ```
 
 <h4>Small Heading</h4>
@@ -127,7 +127,7 @@ All headings and paragraphs have a bottom margin of `1rem`, or `14px`.
 <h4>Small Heading</h4>
 
 // Font size: 12.25px
-// Line height: 13.475px
+// Line height: 15.312px
 ```
 
 ## Heading classes
