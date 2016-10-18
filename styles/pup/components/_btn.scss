@@ -40,6 +40,7 @@
 
 .btn--secondary {
   @include btn($color-white, $color-border-light, $color-text);
+  font-weight: font-weight(normal);
 }
 
 .btn--danger {
