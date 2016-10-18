@@ -8,4 +8,8 @@ a,
   &:focus {
     color: inherit;
   }
+
+  &[disabled] {
+    color: $color-text-light;
+  }
 }
