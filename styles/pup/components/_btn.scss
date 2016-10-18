@@ -13,6 +13,13 @@
   &:focus {
     outline: 0;
   }
+
+  &.btn--disabled {
+    background: desaturate($background-color, 100%);
+    border-color: desaturate($border-color, 100%);
+    color: desaturate($color, 100%);
+    opacity: 0.5;
+  }
 }
 
 .btn {
@@ -31,7 +38,7 @@
 }
 
 .btn--secondary {
-  @include btn($color-white, $color-border-light, inherit);
+  @include btn($color-white, $color-border-light, $color-text);
 }
 
 .btn--danger {
