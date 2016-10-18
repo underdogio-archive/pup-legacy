@@ -1,4 +1,5 @@
-a {
+a,
+.text-link {
   @include transition(color);
   color: $color-dark-green;
   text-decoration: none;
