@@ -9,12 +9,12 @@
     }
   }
 
-  .margin--ends {
+  .margin#{$unit}--ends {
     margin-bottom: spacing($unit) !important;
     margin-top: spacing($unit) !important;
   }
 
-  .margin--sides {
+  .margin#{$unit}--sides {
     margin-left: spacing($unit) !important;
     margin-right: spacing($unit) !important;
   }

@@ -9,12 +9,12 @@
     }
   }
 
-  .padding--ends {
+  .padding#{$unit}--ends {
     padding-bottom: spacing($unit) !important;
     padding-top: spacing($unit) !important;
   }
 
-  .padding--sides {
+  .padding#{$unit}--sides {
     padding-left: spacing($unit) !important;
     padding-right: spacing($unit) !important;
   }
