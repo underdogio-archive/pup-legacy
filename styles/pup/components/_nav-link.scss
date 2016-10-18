@@ -5,6 +5,10 @@
   &:hover {
     color: $color-text-light;
   }
+
+  &[disabled] {
+    color: $color-text-light;
+  }
 }
 
 .nav-link--active {
