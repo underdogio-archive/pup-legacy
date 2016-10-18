@@ -109,10 +109,10 @@ These colors are defined in [variables/_colors.scss](https://github.com/underdog
   </div>
 
   <div class="color-block">
-    <div class="color-block__color" style="background: #3FB587"></div>
+    <div class="color-block__color" style="background: #4CC193"></div>
     <div class="color-block__label">
       $color-dark-green<br />
-      #3FB587
+      #4CC193
     </div>
   </div>
 
