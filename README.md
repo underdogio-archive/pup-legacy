@@ -123,9 +123,9 @@ You must manually update the paths for each icon to the actual path where the fa
 ```html
 <meta name="apple-mobile-web-app-title" content="Underdog.io" />
 <meta name="application-name" content="Underdog.io" />
-<meta name="msapplication-TileColor" content="#72ceaa" />
+<meta name="msapplication-TileColor" content="#4CC193" />
 <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
-<meta name="theme-color" content="#72ceaa" />
+<meta name="theme-color" content="#4CC193" />
 
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
@@ -141,7 +141,7 @@ You must manually update the paths for each icon to the actual path where the fa
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
 <link rel="manifest" href="/manifest.json" />
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#72ceaa" />
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4CC193" />
 ```
 
 ### Icon font
