@@ -152,24 +152,24 @@ These colors are defined in [variables/_colors.scss](https://github.com/underdog
   <div class="color-block">
     <div class="color-block__color" style="background: #EB4C89"></div>
     <div class="color-block__label">
-      $dribble-pink<br />
+      $color-dribble-pink<br />
       #EB4C89
-    </div>
-  </div>
-
-  <div class="color-block">
-    <div class="color-block__color" style="background: #2476B9"></div>
-    <div class="color-block__label">
-      $linkedin-blue<br />
-      #2476B9
     </div>
   </div>
 
   <div class="color-block">
     <div class="color-block__color" style="background: #DC4E41"></div>
     <div class="color-block__label">
-      $google-red<br />
+      $colorgoogle-red<br />
       #DC4E41
+    </div>
+  </div>
+
+  <div class="color-block">
+    <div class="color-block__color" style="background: #2476B9"></div>
+    <div class="color-block__label">
+      $color-linkedin-blue<br />
+      #2476B9
     </div>
   </div>
 </section>
