@@ -17,8 +17,8 @@ NOTE: The `.app-container` in this example has a restricted width and height, bu
   <div class="app-container__header">
     <div class="header">
       <div class="header__logo">
-        <img class="hidden--small" src="/dist/img/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
-        <img class="hidden--medium-and-up" src="/dist/img/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
+        <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
+        <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
       </div>
       <div class="header__nav">
         <span>Lionel Itchy</span>
@@ -46,8 +46,8 @@ NOTE: The `.app-container` in this example has a restricted width and height, bu
   <div class="app-container__header">
     <div class="header">
       <div class="header__logo">
-        <img class="hidden--small" src="/dist/img/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
-        <img class="hidden--medium-and-up" src="/dist/img/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
+        <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
+        <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
       </div>
       <div class="header__nav">
         <span>Lionel Itchy</span>

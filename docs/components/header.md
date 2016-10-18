@@ -8,8 +8,8 @@ To make a header sticky, apply the `.header--fixed` modifier class to it.
 
 <div class="header">
   <div class="header__logo">
-    <img class="hidden--small" src="/dist/img/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
-    <img class="hidden--medium-and-up" src="/dist/img/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
+    <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
+    <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
   </div>
   <div class="header__nav">
     <div class="hidden--small"><span class="gamma push10--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
@@ -20,8 +20,8 @@ To make a header sticky, apply the `.header--fixed` modifier class to it.
 ```html
 <div class="header">
   <div class="header__logo">
-    <img class="hidden--small" src="/dist/img/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
-    <img class="hidden--medium-and-up" src="/dist/img/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
+    <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
+    <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
   </div>
   <div class="header__nav">
     <div class="hidden--small"><span class="gamma push10--right">Lionel Itchy</span><span class="icon icon-arrow"></span></div>
@@ -36,8 +36,8 @@ element and overriding the value for the `$header-max-width` Sass variable:
 <div class="header">
   <div class="header__content" style="flex-basis: 800px;">
     <div class="header__logo">
-      <img class="hidden--small" src="/dist/img/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
-      <img class="hidden--medium-and-up" src="/dist/img/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
+      <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
+      <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
     </div>
     <div class="header__nav">
       <div class="header__nav">
@@ -52,8 +52,8 @@ element and overriding the value for the `$header-max-width` Sass variable:
 <div class="header">
   <div class="header__content">
     <div class="header__logo">
-      <img class="hidden--small" src="/dist/img/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
-      <img class="hidden--medium-and-up" src="/dist/img/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
+      <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
+      <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
     </div>
     <div class="header__nav">
       <div class="header__nav">

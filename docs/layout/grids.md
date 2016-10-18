@@ -111,7 +111,7 @@ Columns can be centered vertically by applying the `.row--flex` modifier to a `.
       <p class="greybox flush--bottom">One third</p>
     </div>
     <div class="col-6">
-      <img alt="Underdog.io logo" src="/dist/img/underdogio-logo.svg" />
+      <img alt="Underdog.io logo" src="/images/underdogio-logo.svg" />
     </div>
     <div class="col-3">
       <p class="greybox flush--bottom">One third</p>
@@ -125,7 +125,7 @@ Columns can be centered vertically by applying the `.row--flex` modifier to a `.
       <p class="greybox flush--bottom">One half</p>
     </div>
     <div class="col-2">
-      <img alt="Underdog.io logo" src="/dist/img/underdogio-logo.svg" />
+      <img alt="Underdog.io logo" src="/images/underdogio-logo.svg" />
     </div>
   </div>
 </div>

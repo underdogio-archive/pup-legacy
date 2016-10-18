@@ -12,7 +12,7 @@ be the first element in a page, and there should never be more than one hero on 
 
 <div class="hero border--top border--bottom">
   <div class="hero__content">
-    <img class="hero__image" alt=" " src="/dist/img/assembly_line.svg" />
+    <img class="hero__image" alt=" " src="/images/assembly_line.svg" />
     <h1 class="hero__title">Apply to top technology jobs in 60 seconds</h1>
     <p class="hero__subtitle">We connect job seekers to awesome companies in New York, San Francisco, and beyond.</p>
     <div class="row">
@@ -27,7 +27,7 @@ be the first element in a page, and there should never be more than one hero on 
 ```html
 <div class="hero">
   <div class="hero__content">
-    <img class="hero__image" alt=" " src="/dist/img/assembly_line.svg" />
+    <img class="hero__image" alt=" " src="/images/assembly_line.svg" />
     <h1 class="hero__title">Apply to top technology jobs in 60 seconds</h1>
     <p class="hero__subtitle">We connect job seekers to awesome companies in New York, San Francisco, and beyond.</p>
     <div class="row">

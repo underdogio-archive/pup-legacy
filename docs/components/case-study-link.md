@@ -11,7 +11,7 @@ category: Components
       <span class="case-study-link__arrow icon icon-arrow-right"></span>
     </h2>
   </div>
-  <div class="case-study-link__image" style="background-image: url('/dist/img/case-study-link-example.png');"></div>
+  <div class="case-study-link__image" style="background-image: url('/images/case-study-link-example.png');"></div>
 </div>
 
 ```html
@@ -23,6 +23,6 @@ category: Components
       <span class="case-study-link__arrow icon icon-arrow-right"></span>
     </h2>
   </div>
-  <div class="case-study-link__image" style="background-image: url('/dist/img/case-study-link-example.png');"></div>
+  <div class="case-study-link__image" style="background-image: url('/images/case-study-link-example.png');"></div>
 </div>
 ```

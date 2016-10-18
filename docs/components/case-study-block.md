@@ -4,7 +4,7 @@ category: Components
 ---
 
 <div class="case-study-block" style="background-color: #38BCAC">
-  <img class="case-study-block__logo" alt="Company logo" width="150px" src="/dist/img/case-study-block-logo.svg" />
+  <img class="case-study-block__logo" alt="Company logo" width="150px" src="/images/case-study-block-logo.svg" />
   <div class="case-study-block__stats">
     <ul>
       <li class="case-study-block__stat">
@@ -33,7 +33,7 @@ category: Components
 
 ```html
 <div class="case-study-block" style="background-color: #38BCAC">
-  <img class="case-study-block__logo" alt="Company logo" width="150px" src="/dist/img/case-study-block-logo.svg" />
+  <img class="case-study-block__logo" alt="Company logo" width="150px" src="/images/case-study-block-logo.svg" />
   <div class="case-study-block__stats">
     <ul>
       <li class="case-study-block__stat">

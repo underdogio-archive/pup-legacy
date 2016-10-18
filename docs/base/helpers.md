@@ -76,7 +76,7 @@ Helpers for setting an element's text color.
 Fade out an element by applying a class of `.faded` to it.
 
 <div class="faded">
-  <img alt="Underdog.io logo" src="/dist/img/underdogio-logo.svg" />
+  <img alt="Underdog.io logo" src="/images/underdogio-logo.svg" />
 </div>
 
 ```html
