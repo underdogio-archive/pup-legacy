@@ -3,6 +3,8 @@ title: Colors
 category: Base
 ---
 
+These colors are defined in [variables/_colors.scss](https://github.com/underdogio/pup/blob/master/styles/pup/variables/_colors.scss).
+
 <section class="section">
   <h2>Accents</h2>
 
