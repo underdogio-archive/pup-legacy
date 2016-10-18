@@ -1,4 +1,4 @@
-.navigation {
+.header {
   background: $color-bg;
   align-items: center;
   display: flex;
@@ -7,12 +7,12 @@
   width: 100%;
 }
 
-.navigation__logo {
+.header__logo {
   display: block;
   height: 3rem;
 }
 
-.navigation__link {
+.header__link {
   @include all-caps;
   color: inherit;
   font-size: font-size(-1);
@@ -46,14 +46,14 @@
   }
 }
 
-.navigation__link--active {
+.header__link--active {
   &:after {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-.navigation__menu-toggle {
+.header__menu-toggle {
   @include all-caps;
   @include transition(color);
 
@@ -62,7 +62,7 @@
   }
 }
 
-.navigation--fixed {
+.header--fixed {
   left: 50%;
   position: fixed;
   top: 0;

@@ -24,7 +24,7 @@ You can also apply a class of `.text-link` to other tags so they can have the sa
 
 ## Navigation link
 
-A navigation link with the class `.nav-link` and `.nav-link--active` for active links.
+A header link with the class `.nav-link` and `.nav-link--active` for active links.
 
 <a href="#" class="nav-link">I am a nav-link</a>
 

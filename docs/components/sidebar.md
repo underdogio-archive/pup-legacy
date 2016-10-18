@@ -3,7 +3,7 @@ title: Sidebar
 category: Components
 ---
 
-A sidebar is used for adding additional navigation to the left side of a page.
+A sidebar is used for adding additional header to the left side of a page.
 
 <div class="sidebar">
   <div class="sidebar__title">
