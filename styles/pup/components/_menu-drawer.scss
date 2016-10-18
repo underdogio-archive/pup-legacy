@@ -35,6 +35,18 @@
   z-index: 1;
 }
 
+.menu-drawer__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: spacing(3);
+}
+
+.menu-drawer__title {
+  font-size: font-size(2);
+  margin: 0;
+}
+
 .menu-drawer--active {
   opacity: 1;
   pointer-events: all;
