@@ -1,8 +1,9 @@
-// Neutral colors
+// Grayscale
 $color-white: #fff;
 $color-black: #000;
+$color-whitish-black: #0B1D2B;
 
-$color-gray-xdc: #dcdcdc;
+$color-gray-xdc: #DCDCDC;
 $color-gray-xf3: #F3F3F3;
 $color-gray-xf2: #F2F2F2;
 $color-gray-777: #777777;
@@ -25,6 +26,10 @@ $color-light-red: #DD6B4E;
 $color-dribbble-pink: #EB4C89;
 $color-google-red: #DC4E41;
 $color-linkedin-blue: #2476B9;
+
+// Transparent colors
+$color-semi-transparent-black: rgba($color-black, 0.25);
+$color-semi-transparent-blue: rgba($color-blue, 0.05);
 
 // UI colors
 $color-bg: $color-white;
