@@ -171,7 +171,7 @@ These colors are defined in [variables/_colors.scss](https://github.com/underdog
   <div class="color-block">
     <div class="color-block__color" style="background: #EB4C89"></div>
     <div class="color-block__label">
-      $color-dribble-pink<br />
+      $color-dribbble-pink<br />
       #EB4C89
     </div>
   </div>
