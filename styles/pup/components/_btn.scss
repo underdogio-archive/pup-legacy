@@ -45,6 +45,30 @@
   @include btn($color-red, $color-red, $color-white);
 }
 
+.btn--google {
+  @include btn($color-google-blue, $color-google-blue, $color-white);
+  padding-left: 5.25em;
+  position: relative;
+
+  &:before {
+    background-color: $color-white;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAB/lBMVEUAAAD///////////////////////////80qFM1p1k2qVQ2qVU5qlc6mZY6q1g9kbs9pHY9qVA+rFw/qGw/rVxAi9hBrV5ChfRChvBDhfREhvRFr2FHiPRIsWRLi/VMsmdRj/VSq0dUkPVXk/VXt3FZuHJclvZel/Zhu3limvZpnvZswIJxwoZ0pfd0rjp4xY15xo58x5CAyJOCrviCsuqDypaJzZuQ0KGU0aSU0aWW0qaY06iZvfma06Sb1Kugsyigwvmm2bOn2bSox/qz3r61tSG91PvB5MrD5czE5s3F5s7H2/zH3PvJ6NHK6NLO6tbY5v3ZuRLh8uXi8ubqQzXqRDbqRTfqRznqRzrq8v7q9u3rSDPrTDzrTD/rTUDrT0LrUEPsVUjsVUnsWU3tVi7tYFTuZFnwaiXwuwnw+fLxfnTxgnfxgnjxg3rxhXzyiH/yjYTyjYXzhRvzkYnzkor0mZH0mnz0m5P0npb1kRb1o5z2rKb2r6n3s633ubT4qA34wLz5x8P5yMT5ycX5+//5/Pr5/fr6tgf608/7vAX7vQr7wh372db72df7/fz8xy784uD84+H85OL8/vz912r92nX934f97Or98fD9/v7+56X+8Mf+89H+8/L+9Nb+9Nf++Pj++vn+//7+////+/v//Pz//f3//vv//vz///8OXBpUAAAACHRSTlMADoKDu8jb3PqA2iUAAAHcSURBVHgB7dhXcxJRFMBxgQWvir2svfdeFLsi9o66Yu9FsXdRUkjPpveQhJSElJxvmexl78wu8MK594HJ3P/befnNMOzOnjnT8jaZw6W4uVJcDps3HbjzWEUXCMhpARURoGIB3SJAtwQlKEEJ5hk43FQS/fktUlA9KgTs/PtMM3v+pY4bbPl6T7P2oZkPLHuqpfUkxgNGQ1pGd+vx4G8ti1cIaLBUY91/+/nTmxDzsGD8hcm9Khox5oHYS+qhwY+mFxkEs97v1EOCiX+PqPdf1JvSrhe/nvR+gSBwvFbXq95pj+OiwB7d6McfEAV267R+Nm+xdSB3sIN6NWNsVm1tzh1so2AjZAdXiwaXJQX/5LXoP6UvO7gN+9icPsnmoNl2Cu7CPdjvd5MFYbD1YDkF/ahX79Y6QogPbPlVWhABJs7PJ0anwNLVldRbn0SAsIekOlYJrGspTz0LGDC8yhTXnGsFo5s7Fy6m3oZyFAiXCcu7ce++rSsIITPmGuAF7EfqMMls9lL1BP4zGpiVKc47mMSDcGVRujfzeBfXKnJnv9fmbbrBvSw9PLKEaXN2XBwSsc413L4U8B06euZ6xdTeYCUoQQlKUPy5T/xB0uEReTKlopP3qOukXl4mmwCTzwLBp5ZKJwAAAABJRU5ErkJggg==');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: $border-radius;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    content: '';
+    display: block;
+    height: calc(100% - 2px);
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 3em;
+  }
+}
+
 .btn--block {
   display: block;
   text-align: center;

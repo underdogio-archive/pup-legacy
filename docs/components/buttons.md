@@ -64,13 +64,13 @@ Secondary buttons.
     <button class="btn btn--google">Sign in with Google</button>
   </div>
   <div class="col-3-medium-and-up col-6-small">
-    <button class="btn btn--google btn--disabled">Sign in with Google</button>
+    <button class="btn btn--google btn--disabled" disabled>Sign in with Google</button>
   </div>
 </div>
 
 ```html
 <button class="btn btn--google">Sign in with Google</button>
-<button class="btn btn--google btn--disabled">Sign in with Google</button>
+<button class="btn btn--google btn--disabled" disabled>Sign in with Google</button>
 ```
 
 ## Link as a button
