@@ -141,7 +141,7 @@ You must manually update the paths for each icon to the actual path where the fa
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
 <link rel="manifest" href="/manifest.json" />
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#524b7a" />
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#72ceaa" />
 ```
 
 ### Icon font
