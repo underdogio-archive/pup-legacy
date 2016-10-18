@@ -149,6 +149,14 @@ These colors are defined in [variables/_colors.scss](https://github.com/underdog
   </div>
 
   <div class="color-block">
+    <div class="color-block__color" style="background: #4285F4"></div>
+    <div class="color-block__label">
+      $color-google-blue<br />
+      #4285F4
+    </div>
+  </div>
+
+  <div class="color-block">
     <div class="color-block__color" style="background: #E3152E"></div>
     <div class="color-block__label">
       $color-red<br />
