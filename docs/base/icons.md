@@ -3,44 +3,89 @@ title: Icons
 category: Base
 ---
 
-<ul>
-  <li><span class="icon icon-arrow"><span class="icon__label">Arrow</span></span></li>
-  <li><span class="icon icon-arrow-right"><span class="icon__label">Arrow Right</span></span></li>
-  <li><span class="icon icon-back"><span class="icon__label">Back</span></span></li>
-  <li><span class="icon icon-check"><span class="icon__label">Check</span></span></li>
-  <li><span class="icon icon-close"><span class="icon__label">Close</span></span></li>
-  <li><span class="icon icon-copy-link"><span class="icon__label">Copy link</span></span></li>
-  <li><span class="icon icon-download"><span class="icon__label">Download</span></span></li>
-  <li><span class="icon icon-dribbble"><span class="icon__label">dribbble</span></span></li>
-  <li><span class="icon icon-dropdown"><span class="icon__label">Dropdown</span></span></li>
-  <li><span class="icon icon-filter"><span class="icon__label">Filter</span></span></li>
-  <li><span class="icon icon-github"><span class="icon__label">GitHub</span></span></li>
-  <li><span class="icon icon-linkedin"><span class="icon__label">LinkedIn</span></span></li>
-  <li><span class="icon icon-location"><span class="icon__label">Location</span></span></li>
-  <li><span class="icon icon-locked"><span class="icon__label">Locked</span></span></li>
-  <li><span class="icon icon-menu"><span class="icon__label">Menu</span></span></li>
-  <li><span class="icon icon-next"><span class="icon__label">Next</span></span></li>
-  <li><span class="icon icon-not-allowed"><span class="icon__label">Not Allowed</span></span></li>
-  <li><span class="icon icon-other-link"><span class="icon__label">Other link</span></span></li>
-  <li><span class="icon icon-referral"><span class="icon__label">Referral</span></span></li>
-  <li><span class="icon icon-resume"><span class="icon__label">Resume</span></span></li>
-  <li><span class="icon icon-settings"><span class="icon__label">Settings</span></span></li>
-  <li><span class="icon icon-arrow icon--small"><span class="icon__label">Small arrow</span></span></li>
-  <li><span class="icon icon--small icon-back"><span class="icon__label">Small back</span></span></li>
-  <li><span class="icon icon--small icon-next"><span class="icon__label">Small next</span></span></li>
-  <li><span class="icon icon-support"><span class="icon__label">Support</span></span></li>
-  <li><span class="icon icon-user"><span class="icon__label">User</span></span></li>
-  <li><span class="icon icon-visa"><span class="icon__label">Visa</span></span></li>
-</ul>
+<section class="section">
+  <ul>
+    <li>
+      <span class="icon icon-arrow"><code class="icon__label">.icon-arrow</code></span>
+    </li>
+    <li>
+      <span class="icon icon-arrow-right"><code class="icon__label">.icon-arrow-right</code></span>
+    </li>
+    <li>
+      <span class="icon icon-back"><code class="icon__label">.icon-back</code></span>
+    </li>
+    <li>
+      <span class="icon icon-check"><code class="icon__label">.icon-check</code></span>
+    </li>
+    <li>
+      <span class="icon icon-close"><code class="icon__label">.icon-close</code><span>
+    </li>
+    <li>
+      <span class="icon icon-copy-link"><code class="icon__label">.icon-copy-link</code><span>
+    </li>
+    <li>
+      <span class="icon icon-download"><code class="icon__label">.icon-download</code><span>
+    </li>
+    <li>
+      <span class="icon icon-dribbble"><code class="icon__label">.icon-dribbble</code><span>
+      </li>
+    <li>
+      <span class="icon icon-dropdown"><code class="icon__label">.icon-dropdown</code><span>
+    </li>
+    <li>
+      <span class="icon icon-filter"><code class="icon__label">.icon-filter</code><span>
+    </li>
+    <li>
+      <span class="icon icon-github"><code class="icon__label">.icon-github</code><span>
+    </li>
+    <li>
+      <span class="icon icon-linkedin"><code class="icon__label">.icon-linkedin</code><span>
+    </li>
+    <li>
+      <span class="icon icon-location"><code class="icon__label">.icon-location</code><span>
+    </li>
+    <li>
+      <span class="icon icon-locked"><code class="icon__label">.icon-locked</code><span>
+    </li>
+    <li>
+      <span class="icon icon-menu"><code class="icon__label">.icon-menu</code><span>
+    </li>
+    <li>
+      <span class="icon icon-next"><code class="icon__label">.icon-next</code><span>
+    </li>
+    <li>
+      <span class="icon icon-not-allowed"><code class="icon__label">.icon-not-allowed</code><span>
+    </li>
+    <li>
+      <span class="icon icon-other-link"><code class="icon__label">.icon-other-link</code><span>
+    </li>
+    <li>
+      <span class="icon icon-referral"><code class="icon__label">.icon-referral</code><span>
+    </li>
+    <li>
+      <span class="icon icon-resume"><code class="icon__label">.icon-resume</code><span>
+    </li>
+    <li>
+      <span class="icon icon-settings"><code class="icon__label">.icon-settings</code><span>
+    </li>
+    <li>
+      <span class="icon icon-support"><code class="icon__label">.icon-support</code><span>
+    </li>
+    <li>
+      <span class="icon icon-visa"><code class="icon__label">.icon-visa</code><span>
+    </li>
+  </ul>
+</section>
 
-# Accessibility
+## Accessibility
+
 To support screen readers all icons should have an appropriate label or text associated with them.
 
 Icons can contain text directly, which will be shown and be the text read by the screen reader.
 
 ```html
 <span class="icon icon-github">
-  <span class="icon__label">GitHub</span>
+  <code class="icon__label">GitHub</span>
 </span>
 ```
 
@@ -48,7 +93,7 @@ If the icon is associated with nearby text, then <a href="https://www.w3.org/TR/
 
 ```html
 <span class="icon icon-github" aria-hidden="true">
-  <span class="icon__label">GitHub</span>
+  <code class="icon__label">GitHub</span>
 </span>
 ```
 
