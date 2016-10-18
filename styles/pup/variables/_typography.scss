@@ -1,6 +1,6 @@
 $font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 
-$font-scale: 1.5;
+$font-scale: 1.25;
 
 $font-size-base: 0.875em;
 $font-size: (
@@ -10,11 +10,14 @@ $font-size: (
   // 14px
   0: 1rem,
 
-  // 21px
+  // 17.5px
   1: pow($font-scale, 1) + rem,
 
-  // 31.5px
-  2: pow($font-scale, 2) + rem
+  // 22px
+  2: pow($font-scale, 2) + rem,
+
+  // 27px
+  3: pow($font-scale, 3) + rem
 );
 @function font-size($key) {
   @return map-get($font-size, $key);

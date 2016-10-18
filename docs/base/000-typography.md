@@ -4,7 +4,7 @@ subtitle: Typography, the foundation of every design system.
 category: Base
 ---
 
-Our main font face is Google's excellent [Open Sans](https://fonts.google.com/specimen/Open+Sans).
+Our main typeface is Google's excellent [Open Sans](https://fonts.google.com/specimen/Open+Sans).
 
 
 Open Sans is automatically imported with a CSS `@import`, so you don't have to do anything extra in order to use it.
@@ -20,19 +20,19 @@ Here are some quick specs for Pup's typography system:
     <strong>Base font size</strong>: 14px
   </li>
   <li>
-    <strong>Font scale</strong>: 1.5
+    <strong>Font scale</strong>: 1.25
   </li>
   <li>
     <strong>Base line height</strong>: 1.5 (21px)
   </li>
   <li>
-    <strong>Line height for headings / large text</strong>: 1.1 `x` heading font size
+    <strong>Line height for headings / large text</strong>: 1.1 (1.1 `x` heading font size in pixels)
   </li>
 </ul>
 
 ## Font sizes
 
-Our font sizes follow a (mostly) modular scale of `1.5`, based off a font size of `14px`.
+Our font sizes follow a (mostly) modular scale of `1.25`, based off a font size of `14px`.
 
 ```scss
 $font-size: (
@@ -42,11 +42,14 @@ $font-size: (
   // 14px
   0: 1rem,
 
-  // 21px
-  1: 1.5rem
+  // 18px
+  1: 1.25rem,
 
-  // 31.5px
-  2: 2.25rem
+  // 22px
+  2: 1.562rem,
+
+  // 27px
+  3: 1.953rem
 );
 ```
 
@@ -54,7 +57,7 @@ There is also a Sass function you can use to get a font size:
 
 ```scss
 .example-class {
-  // Set font size to 21px
+  // Set font size to 18px
   font-size: font-size(1);
 }
 ```
@@ -93,8 +96,8 @@ All headings and paragraphs have a bottom margin of `1rem`, or `14px`.
 ```html
 <h1>Headline</h1>
 
-// Font size: 31.5px
-// Line height: 34.65px
+// Font size: 27px
+// Line height: 33.75px
 ```
 
 <h2>Title</h2>
@@ -102,8 +105,8 @@ All headings and paragraphs have a bottom margin of `1rem`, or `14px`.
 ```html
 <h2>Title</h2>
 
-// Font size: 21px
-// Line height: 23.1px
+// Font size: 22px
+// Line height: 27.5px
 ```
 
 <h3>Subheader</h3>
@@ -111,8 +114,8 @@ All headings and paragraphs have a bottom margin of `1rem`, or `14px`.
 ```html
 <h3>Subheader</h3>
 
-// Font size: 14px
-// Line height: 15.4px
+// Font size: 18px
+// Line height: 21.875px
 ```
 
 <h4>Small Heading</h4>
