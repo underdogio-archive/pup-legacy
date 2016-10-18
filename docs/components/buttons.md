@@ -129,7 +129,7 @@ Buttons can contain dropdown menus.
       <span class="icon icon-arrow icon--small" aria-hidden="true" />
     </button>
     <div class="dropdown__menu">
-      <div class="dropdown__menu-wrapper">
+      <div class="dropdown__menu-container">
         <span class="list-heading">chris@underdog.io</span>
         <div class="dropdown__menu-content">
           <ul class="menu-list">
@@ -157,7 +157,7 @@ Buttons can contain dropdown menus.
   </button>
 
   <div class="dropdown__menu">
-    <div class="dropdown__menu-wrapper">
+    <div class="dropdown__menu-container">
       <span class="list-heading">chris@underdog.io</span>
       <div class="dropdown__menu-content">
         <ul class="menu-list">

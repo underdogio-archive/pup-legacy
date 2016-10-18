@@ -8,7 +8,7 @@ Use to display menu items in a hidden menu.
 <h1>
 <div class="dropdown" style="margin-bottom: 300px; width: 300px;">
   <div class="dropdown__menu">
-    <div class="dropdown__menu-wrapper">
+    <div class="dropdown__menu-container">
       <span class="list-heading">chrishasasuperlongname@underdog.io</span>
       <div class="dropdown__menu-content">
         <ul class="menu-list">
@@ -31,7 +31,7 @@ Use to display menu items in a hidden menu.
 ```html
 <div class="dropdown">
   <div class="dropdown__menu">
-    <div class="dropdown__menu-wrapper">
+    <div class="dropdown__menu-container">
       <span class="list-heading">chrishasasuperlongname@underdog.io</span>
       <div class="dropdown__menu-content">
         <ul class="menu-list">
@@ -62,7 +62,7 @@ dropdown take up the full width of its container with the
       <span class="icon icon-arrow icon--small"></span>
     </button>
     <div class="dropdown__menu">
-      <div class="dropdown__menu-wrapper">
+      <div class="dropdown__menu-container">
         <span class="list-heading">chrishasasuperlongname@underdog.io</span>
         <div class="dropdown__menu-content">
           <ul class="menu-list">
@@ -89,7 +89,7 @@ dropdown take up the full width of its container with the
     <span class="icon icon-arrow icon--small"></span>
   </button>
 <div class="dropdown__menu">
-  <div class="dropdown__menu-wrapper">
+  <div class="dropdown__menu-container">
     <span class="list-heading">chrishasasuperlongname@underdog.io</span>
     <div class="dropdown__menu-content">
       <ul class="menu-list">
@@ -118,7 +118,7 @@ the `.dropdown__menu--auto-width` class:
       <span class="icon icon-arrow icon--small"></span>
     </button>
     <div class="dropdown__menu dropdown__menu--auto-width">
-      <div class="dropdown__menu-wrapper">
+      <div class="dropdown__menu-container">
         <span class="list-heading">chrishasasuperlongname@underdog.io</span>
         <div class="dropdown__menu-content">
           <ul class="menu-list">
@@ -145,7 +145,7 @@ the `.dropdown__menu--auto-width` class:
     <span class="icon icon-arrow icon--small"></span>
   </button>
   <div class="dropdown__menu dropdown__menu--auto-width">
-    <div class="dropdown__menu-wrapper">
+    <div class="dropdown__menu-container">
       <span class="list-heading">chrishasasuperlongname@underdog.io</span>
       <div class="dropdown__menu-content">
         <ul class="menu-list">

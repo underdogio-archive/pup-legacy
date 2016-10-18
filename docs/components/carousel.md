@@ -9,7 +9,7 @@ In order for a carousel to work, the `carousel.js` module located under `/js/com
 must be loaded as well.
 
 <div class="carousel">
-  <div class="carousel__wrapper">
+  <div class="carousel__container">
     <div class="carousel__slide">
       "Minus fermentum orci vitae erat, interdum cupidatat odio excepteur, quasi blandit praesentium dolores aliquid! Aliquam, dicta wisi elit imperdiet diam iste dictumst molestie laborum, perferendis."
     </div>
@@ -29,7 +29,7 @@ must be loaded as well.
 
 ```html
 <div class="carousel">
-  <div class="carousel__wrapper">
+  <div class="carousel__container">
     <div class="carousel__slide">
       "Minus fermentum orci vitae erat, interdum cupidatat odio excepteur, quasi blandit praesentium dolores aliquid! Aliquam, dicta wisi elit imperdiet diam iste dictumst molestie laborum, perferendis."
     </div>

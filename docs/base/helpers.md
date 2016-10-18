@@ -115,7 +115,7 @@ Capture elements that have a `position` set to `absolute` by applying the class
 <div style="height: 210px;">
   <div class="pos-rel">
     <div class="dropdown-menu" style="left: 0">
-      <div class="dropdown-menu__wrapper">
+      <div class="dropdown-menu__container">
         <span class="list-heading">chris@underdog.io</span>
         <div class="dropdown-menu__content">
           <ul class="menu-list">
