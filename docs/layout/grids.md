@@ -101,6 +101,64 @@ We use a nestable fluid 12 column grid system which supports our custom breakpoi
   </div>
 </div>
 
+## Vertically entering columns
+
+By default column height will stretch to match the height of the tallest column:
+
+<div class="row text-align--center">
+  <div class="col-3 border">
+    .col-3
+  </div>
+  <div class="col-6">
+    <img alt="Underdog.io logo" src="/images/underdogio-logo-with-text.svg" />
+  </div>
+  <div class="col-3 border">
+    .col-3
+  </div>
+</div>
+
+```html
+<div class="row text-align--center">
+  <div class="col-3 border">
+    .col-3
+  </div>
+  <div class="col-6">
+    <img alt="Underdog.io logo" src="/images/underdogio-logo-with-text.svg" />
+  </div>
+  <div class="col-3 border">
+    .col-3
+  </div>
+</div>
+```
+
+You can instead center columns by applying the `.row--center` modifier to the row element:
+
+<div class="row row--center text-align--center">
+  <div class="col-3 border">
+    .col-3
+  </div>
+  <div class="col-6">
+    <img alt="Underdog.io logo" src="/images/underdogio-logo-with-text.svg" />
+  </div>
+  <div class="col-3 border">
+    .col-3
+  </div>
+</div>
+
+```html
+<div class="row row--center text-align--center">
+  <div class="col-3 border">
+    .col-3
+  </div>
+  <div class="col-6">
+    <img alt="Underdog.io logo" src="/images/underdogio-logo-with-text.svg" />
+  </div>
+  <div class="col-3 border">
+    .col-3
+  </div>
+</div>
+```
+
 ## Column offsets
 
 Just like our normal columns we can offset using the <code>.offset-{column}</code> or <code>.offset-{column}-{media-query}</code> class names.
