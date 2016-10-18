@@ -5,10 +5,10 @@
   <div class="aside-layout__content{{#unless currentSection}} center-content{{/unless}}">
     <div>
       {{#if currentSection}}
-        <header class="header header--border margin0--top">
-          <h1 class="header__title">{{ currentSection.title }}</h1>
+        <header class="page-header page-header--border margin0--top">
+          <h1 class="page-header__title">{{ currentSection.title }}</h1>
           {{#if currentSection.subtitle }}
-            <p class="header__subtitle">
+            <p class="page-header__subtitle">
               {{ currentSection.subtitle }}
             </p>
           {{/if}}
