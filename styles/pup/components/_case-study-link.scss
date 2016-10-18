@@ -1,0 +1,84 @@
+.case-study-link {
+  @include media-query('large-and-up') {
+    align-items: stretch;
+    display: flex;
+    height: 25rem;
+  }
+
+  background: $color-whitish-black;
+  color: $color-white;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-white;
+
+    .case-study-link__title {
+      opacity: 0.5;
+    }
+
+    .case-study-link__arrow {
+      left: 0.25em;
+    }
+  }
+}
+
+.case-study-link__desc,
+.case-study-link__image {
+  display: block;
+}
+
+.case-study-link__desc {
+  @include media-query('medium-and-down') {
+    padding: spacing(3);
+  }
+
+  @include media-query('large-and-up') {
+    padding: spacing(4);
+  }
+
+  flex: 0 0 300px;
+  position: relative;
+}
+
+.case-study-link__title {
+  @include transition(opacity);
+  @include media-query('medium-and-down') {
+    // Add spacing between title and image
+    margin-bottom: spacing(2);
+  }
+  color: inherit;
+  font-size: font-size(3);
+  font-weight: font-weight(bold);
+  line-height: inherit;
+
+  // Remove default heading margin
+  margin-bottom: 0;
+  margin-top: spacing(2);
+}
+
+.case-study-link__arrow {
+  @include transition(left);
+  left: 0;
+  line-height: 0;
+  margin-left: 0.25em;
+  position: relative;
+}
+
+.case-study-link__image {
+  @include media-query('medium-and-down') {
+    height: 300px;
+  }
+
+  @include media-query('large-and-up') {
+    flex: 1 1 300px;
+  }
+
+  // Background image is set inline
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
