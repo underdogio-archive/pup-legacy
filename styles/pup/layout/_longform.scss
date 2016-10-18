@@ -1,0 +1,19 @@
+$longform-col-padding: spacing(4);
+
+.longform {
+  @include clearfix;
+  max-width: $measure;
+}
+
+.longform__col {
+  @include media-query('large-and-up') {
+    float: left;
+    padding-right: $longform-col-padding / 2;
+    width: 50%;
+
+    & + & {
+      padding-left: $longform-col-padding / 2;
+      padding-right: 0;
+    }
+  }
+}
