@@ -1,10 +1,13 @@
 .header {
   background: $color-bg;
+  padding: $grid-gutter / 2;
+  width: 100%;
+}
+
+.header__container {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: $grid-gutter / 2;
-  width: 100%;
 }
 
 .header__logo {
