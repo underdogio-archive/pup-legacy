@@ -1,8 +1,9 @@
 a,
 .text-link {
   @include transition(color);
-  color: $color-dark-green;
-  text-decoration: none;
+  color: $color-purple;
+  font-weight: font-weight(bold);
+  text-decoration: underline;
 
   &:hover,
   &:focus {

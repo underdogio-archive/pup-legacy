@@ -19,8 +19,10 @@
   @include all-caps;
   color: inherit;
   font-size: font-size(-1);
+  font-weight: font-weight(normal);
   margin-right: spacing(2);
   position: relative;
+  text-decoration: none;
 
   &:last-child {
     margin-right: 0;
