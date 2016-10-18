@@ -56,11 +56,11 @@ A nav list is a list of links to other pages within a site or application.
 Example within a header:
 
 <div class="header">
-  <a class="header__logo" href="#">
+  <a class="header__left" href="#">
     <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
     <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
   </a>
-  <nav class="header__nav">
+  <nav class="header__right">
     <ul class="nav-list">
       <li class="nav-list__item">
         <a class="nav-list__link nav-list__link--active" href="#">
@@ -88,11 +88,11 @@ Example within a header:
 
 ```html
 <div class="header">
-  <a class="header__logo" href="#">
+  <a class="header__left" href="#">
     <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
     <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
   </a>
-  <nav class="header__nav">
+  <nav class="header__right">
     <ul class="nav-list">
       <li class="nav-list__item">
         <a class="nav-list__link nav-list__link--active" href="#">

@@ -12,11 +12,11 @@ height, like `.app-container`.
 <div class="app-container" style="height: 20em; width: 100%;">
   <div class="app-container__header border--bottom">
     <div class="header">
-      <div class="header__logo">
+      <div class="header__left">
         <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
         <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
       </div>
-      <div class="header__nav">
+      <div class="header__right">
         <span>Lionel Itchy</span>
         <span class="icon icon-arrow icon--small" />
       </div>
@@ -60,11 +60,11 @@ height, like `.app-container`.
 <div class="app-container">
   <div class="app-container__header border--bottom">
     <div class="header">
-      <div class="header__logo">
+      <div class="header__left">
         <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
         <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
       </div>
-      <div class="header__nav">
+      <div class="header__right">
         <span>Lionel Itchy</span>
         <span class="icon icon-arrow icon--small" />
       </div>
