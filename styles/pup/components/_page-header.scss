@@ -1,0 +1,23 @@
+$page-header-spacing: spacing(3);
+
+.page-header {
+  margin-bottom: $page-header-spacing;
+  margin-top: $page-header-spacing;
+}
+
+.page-header__title {
+  margin-bottom: spacing(2);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.page-header__subtitle {
+  margin-bottom: 0;
+}
+
+.page-header--border {
+  border-bottom: 1px solid $color-border-light;
+  padding-bottom: spacing(2);
+}
