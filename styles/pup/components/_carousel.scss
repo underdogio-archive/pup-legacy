@@ -9,6 +9,7 @@ $carousel-indicator-spacing: spacing(1);
   overflow: hidden;
   position: relative;
   visibility: hidden;
+  z-index: layer(content);
 }
 
 .carousel__container {
