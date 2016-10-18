@@ -12,10 +12,10 @@ These logos are located under the `/images` directory of the repo for this style
 
 <img alt="Underdog.io" src="/images/underdogio-logo.svg" />
 
-<a href="https://github.com/underdogio/underdog-styles/blob/master/images/underdogio-logo.svg" target="_blank">/images/underdogio-logo.svg</a>
+<a href="https://github.com/underdogio/pup/blob/master/images/underdogio-logo.svg" target="_blank">/images/underdogio-logo.svg</a>
 
 ### Logo with text
 
 <img alt="Underdog.io" src="/images/underdogio-logo-with-text.svg" />
 
-<a href="https://github.com/underdogio/underdog-styles/blob/master/images/underdogio-logo-with-text.svg" target="_blank">/images/underdogio-logo-with-text.svg</a>
+<a href="https://github.com/underdogio/pup/blob/master/images/underdogio-logo-with-text.svg" target="_blank">/images/underdogio-logo-with-text.svg</a>
