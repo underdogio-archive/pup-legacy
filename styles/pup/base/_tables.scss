@@ -1,0 +1,36 @@
+$table-cell-spacing: spacing(1);
+
+table {
+  margin: 0 -$table-cell-spacing;
+  text-align: left;
+  width: 100%;
+}
+
+th,
+td {
+  @include media-query('medium-and-down') {
+    float: left;
+    width: 50%;
+
+    &:nth-child(2n+1) {
+      clear: left;
+    }
+  }
+
+  padding: $table-cell-spacing;
+}
+
+th {
+  @include media-query('medium-and-down') {
+    padding-top: 0;
+  }
+
+  font-weight: font-weight(bold);
+}
+
+tr {
+  @include media-query('medium-and-down') {
+    border-bottom: 1px solid $color-border-light;
+    overflow-x: hidden;
+  }
+}
