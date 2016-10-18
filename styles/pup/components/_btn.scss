@@ -34,6 +34,10 @@
   @include btn($color-white, $color-border-light, inherit);
 }
 
+.btn--danger {
+  @include btn($color-red, $color-red, $color-white);
+}
+
 .btn--block {
   display: block;
   text-align: center;
