@@ -135,18 +135,6 @@ These colors are defined in [variables/_colors.scss](https://github.com/underdog
 </section>
 
 <section class="section">
-  <h2>Custom icon colors</h2>
-
-  <div class="color-block">
-    <div class="color-block__color" style="background: #E9A631"></div>
-    <div class="color-block__label">
-      $visa-yellow<br />
-      #E9A631
-    </div>
-  </div>
-</section>
-
-<section class="section">
   <h2>Third party branding colors</h2>
 
   <div class="color-block">
