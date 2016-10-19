@@ -16,6 +16,7 @@ $slab-padding: spacing(1);
 
 .slab__title {
   @extend .h2;
+  color: $color-text;
 }
 
 .slab__heading {
