@@ -1,0 +1,50 @@
+$slab-padding: spacing(1);
+
+// SEE: slab.md
+.slab {
+  border-bottom: 1px solid $color-border-light;
+  padding: $slab-padding;
+}
+
+.slab__title,
+.slab__heading {
+  display: block;
+  // Match line-height of headings so they can line up nicely.
+  line-height: line-height(base);
+  margin-bottom: spacing(0.25);
+}
+
+.slab__title {
+  @extend .h2;
+}
+
+.slab__heading {
+  @extend .h4;
+}
+
+.slab__section {
+  padding: $slab-padding;
+}
+
+.slab--featured {
+  background: $color-semi-transparent-blue;
+}
+
+.slab--disabled {
+  color: $color-text-light;
+  opacity: 0.5;
+
+  .slab__heading,
+  .slab__title {
+    color: inherit;
+  }
+
+  a {
+    color: inherit;
+
+    &:hover {
+      // Don't override hover styles
+      color: initial;
+    }
+  }
+}
