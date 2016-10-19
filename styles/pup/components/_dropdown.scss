@@ -67,6 +67,7 @@ $dropdown-triangle-size: 1rem;
 }
 
 .dropdown__menu-header {
+  @include clip-text;
   border-bottom: 1px solid $color-border-light;
   display: inline-block;
   font-weight: font-weight(bold);
