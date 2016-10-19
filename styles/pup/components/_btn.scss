@@ -15,10 +15,12 @@
   }
 
   &.btn--disabled {
-    background: desaturate($background-color, 100%);
-    border-color: desaturate($border-color, 100%);
-    color: desaturate($color, 100%);
-    opacity: 0.5;
+    &,
+    &:hover {
+      background: desaturate($background-color, 100%);
+      border-color: desaturate($border-color, 100%);
+      color: desaturate($color, 100%);
+    }
   }
 }
 
@@ -90,4 +92,8 @@
 
 .btn--small {
   font-size: font-size(-1);
+}
+
+.btn--disabled {
+  opacity: 0.5;
 }
