@@ -9,7 +9,7 @@ Use to display menu items in a hidden menu.
 <div class="dropdown" style="margin-bottom: 300px; width: 300px;">
   <div class="dropdown__menu">
     <div class="dropdown__menu-container">
-      <span class="list-heading">chrishasasuperlongname@underdog.io</span>
+      <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
       <div class="dropdown__menu-content">
         <ul class="menu-list">
           <li class="menu-list__item">
@@ -32,7 +32,7 @@ Use to display menu items in a hidden menu.
 <div class="dropdown">
   <div class="dropdown__menu">
     <div class="dropdown__menu-container">
-      <span class="list-heading">chrishasasuperlongname@underdog.io</span>
+      <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
       <div class="dropdown__menu-content">
         <ul class="menu-list">
           <li class="menu-list__item">
@@ -63,7 +63,7 @@ dropdown take up the full width of its container with the
     </button>
     <div class="dropdown__menu">
       <div class="dropdown__menu-container">
-        <span class="list-heading">chrishasasuperlongname@underdog.io</span>
+        <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
         <div class="dropdown__menu-content">
           <ul class="menu-list">
             <li class="menu-list__item">
@@ -90,7 +90,7 @@ dropdown take up the full width of its container with the
   </button>
 <div class="dropdown__menu">
   <div class="dropdown__menu-container">
-    <span class="list-heading">chrishasasuperlongname@underdog.io</span>
+    <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
     <div class="dropdown__menu-content">
       <ul class="menu-list">
         <li class="menu-list__item">
@@ -119,7 +119,7 @@ the `.dropdown__menu--auto-width` class:
     </button>
     <div class="dropdown__menu dropdown__menu--auto-width">
       <div class="dropdown__menu-container">
-        <span class="list-heading">chrishasasuperlongname@underdog.io</span>
+        <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
         <div class="dropdown__menu-content">
           <ul class="menu-list">
             <li class="menu-list__item">
@@ -146,7 +146,7 @@ the `.dropdown__menu--auto-width` class:
   </button>
   <div class="dropdown__menu dropdown__menu--auto-width">
     <div class="dropdown__menu-container">
-      <span class="list-heading">chrishasasuperlongname@underdog.io</span>
+      <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
       <div class="dropdown__menu-content">
         <ul class="menu-list">
           <li class="menu-list__item">

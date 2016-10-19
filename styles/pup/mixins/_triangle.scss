@@ -1,0 +1,8 @@
+// Helper for creating triangles
+@mixin triangle($color, $size: 1em) {
+  border-bottom: $size solid $color;
+  border-left: $size solid transparent;
+  border-right: $size solid transparent;
+  height: 0;
+  width: 0;
+}

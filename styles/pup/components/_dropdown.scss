@@ -1,0 +1,73 @@
+$dropdown-triangle-size: 1rem;
+
+.dropdown {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: font-weight(normal);
+  position: relative;
+}
+
+.dropdown--block {
+  display: block;
+  width: 100%;
+}
+
+.dropdown__menu {
+  line-height: line-height(base);
+  margin-top: $dropdown-triangle-size;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 50%;
+  width: 16rem;
+  z-index: layer(dropdown-menu);
+
+  // Fake a border-ed triangle by positioning a smaller triangle with a lighter
+  // background on top of a triangle with a dark background
+  &:before {
+    @include triangle($color-border-light, $dropdown-triangle-size);
+    content: '';
+    display: inline-block;
+
+    // Magic numbers
+    margin-bottom: -0.5em;
+    margin-right: 1em;
+    position: relative;
+    z-index: 0;
+  }
+
+  &:after {
+    @include triangle($color-white, 12px);
+    content: '';
+    display: inline-block;
+
+    // Magic numbers
+    position: absolute;
+    right: 16px;
+    top: 11.4px;
+    z-index: 1;
+  }
+}
+
+.dropdown__menu--auto-width {
+  width: auto;
+}
+
+.dropdown__menu-container {
+  background: $color-white;
+  border: 1px solid $color-border-light;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 2px $color-gray-xdc;
+  text-align: left;
+}
+
+.dropdown__menu-header,
+.dropdown__menu-content {
+  padding: spacing(0.5) spacing(1);
+}
+
+.dropdown__menu-header {
+  border-bottom: 1px solid $color-border-light;
+  display: inline-block;
+  font-weight: font-weight(bold);
+}
