@@ -7,6 +7,7 @@ $container-wide-max-width: 1400px;
   max-width: $container-max-width;
   padding-left: $grid-gutter / 2;
   padding-right: $grid-gutter / 2;
+  width: 100%;
 }
 
 .container--wide {
