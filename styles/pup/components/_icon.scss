@@ -55,6 +55,7 @@
 }
 
 .icon--small {
+  &:after,
   &:before {
     font-size: font-size(-1);
   }
