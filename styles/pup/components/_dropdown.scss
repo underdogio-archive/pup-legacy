@@ -30,21 +30,21 @@ $dropdown-triangle-size: 1rem;
     display: inline-block;
 
     // Magic numbers
-    margin-bottom: -0.5em;
+    margin-bottom: -0.4em;
     margin-right: 1em;
     position: relative;
     z-index: 0;
   }
 
   &:after {
-    @include triangle($color-white, 12px);
+    @include triangle($color-white, 15px);
     content: '';
     display: inline-block;
 
     // Magic numbers
     position: absolute;
-    right: 16px;
-    top: 11.4px;
+    right: 13px;
+    top: 10px;
     z-index: 1;
   }
 }
