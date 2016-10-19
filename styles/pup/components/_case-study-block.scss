@@ -1,13 +1,13 @@
 .case-study-block {
   @include media-query('medium-and-down') {
-    padding: spacing(3);
+    padding: spacing(2);
   }
 
   @include media-query('large-and-up') {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: spacing(3) spacing(4);
+    padding: spacing(2) spacing(3);
   }
 
   background: $color-whitish-black;
@@ -17,27 +17,27 @@
 
 .case-study-block__logo {
   filter: grayscale(100%);
-  left: spacing(3);
+  left: spacing(2);
   opacity: 0.5;
   position: absolute;
-  top: spacing(3);
+  top: spacing(2);
 }
 
 .case-study-block__stats {
   @include media-query('medium-and-down') {
-    margin-bottom: spacing(3);
-    margin-top: spacing(3);
+    margin-bottom: spacing(2);
+    margin-top: spacing(2);
   }
 
   @include media-query('large-and-up') {
     flex: 0 1 40%;
-    padding: spacing(3);
+    padding: spacing(2);
   }
 }
 
 .case-study-block__stat {
   display: block;
-  margin-bottom: spacing(2);
+  margin-bottom: spacing(1);
 
   &:last-child {
     margin-bottom: 0;

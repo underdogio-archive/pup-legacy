@@ -1,11 +1,16 @@
+@import 'typography';
+
 // Please update 001-spacing.md when modifying these values.
+$spacing-unit: 1rem * line-height(base);
 $spacing: (
   0: 0,
-  1: 0.5rem,
-  2: 1rem,
-  3: 2rem,
-  4: 4rem,
-  5: 8rem
+  0.25: $spacing-unit / 4,
+  0.5: $spacing-unit / 2,
+  1: $spacing-unit,
+  2: $spacing-unit * 2,
+  3: $spacing-unit * 3,
+  4: $spacing-unit * 4,
+  5: $spacing-unit * 5
 );
 @function spacing($key) {
   @return map-get($spacing, $key);

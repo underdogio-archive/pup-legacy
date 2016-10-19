@@ -1,7 +1,7 @@
 // Creates a sidebar + content layout where the sidebar is always fixed in view,
 // but the content is allowed to scroll independently. Works best when the parent container has a set height.
 
-$aside-layout-padding: spacing(3);
+$aside-layout-padding: spacing(2);
 $aside-layout-sidebar-width: 300px;
 
 .aside-layout {

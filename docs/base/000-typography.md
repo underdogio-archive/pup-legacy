@@ -67,27 +67,18 @@ There is also a Sass function you can use to get a font size:
 
 ## Spacing
 
-All headings and paragraphs have a bottom margin of `1rem`, or `14px`.
+All headings and paragraphs have a bottom margin of `0.75rem`, or `10.5px`.
 
 ## Paragraphs
 
-<p>
-  Maxime hymenaeos est, laoreet! Etiam iusto ab, quas, class aspernatur lacus
-  nihil quidem laboriosam hac velit fugit nibh. Mus, exercitationem, venenatis
-  aperiam. Suspendisse vero, sequi. Maxime hymenaeos est, laoreet! Etiam iusto
-  ab, quas, class aspernatur lacus nihil quidem laboriosam hac velit fugit nibh.
-  Mus, exercitationem, venenatis aperiam. Suspendisse vero, sequi.
-</p>
+<p>Irure. Venenatis ipsum, eius porta voluptatem maxime? Aliquet dolorem occaecati minima enim esse bibendum malesuada, parturient, euismod diam. Commodi? Dapibus aute minus scelerisque deserunt, quae.</p>
+
+<p>Cupidatat odit dolor, leo, doloribus dolore euismod minus ab do quasi repellat malesuada imperdiet malesuada molestiae, class, nobis, fugiat nisl! Natoque aute mollit curabitur quisquam.</p>
 
 ```html
-<p>
-  Maxime hymenaeos est, laoreet! Etiam iusto ab, quas, class aspernatur lacus
-  nihil quidem laboriosam hac velit fugit nibh. Mus, exercitationem, venenatis
-  aperiam. Suspendisse vero, sequi. Maxime hymenaeos est, laoreet! Etiam iusto
-  ab, quas, class aspernatur lacus nihil quidem laboriosam hac velit fugit nibh.
-  Mus, exercitationem, venenatis aperiam. Suspendisse vero, sequi.
-</p>
+<p>Irure. Venenatis ipsum, eius porta voluptatem maxime? Aliquet dolorem occaecati minima enim esse bibendum malesuada, parturient, euismod diam. Commodi? Dapibus aute minus scelerisque deserunt, quae.</p>
 
+<p>Cupidatat odit dolor, leo, doloribus dolore euismod minus ab do quasi repellat malesuada imperdiet malesuada molestiae, class, nobis, fugiat nisl! Natoque aute mollit curabitur quisquam.</p>
 // Font size: 14px
 // Line height: 21px
 ```

@@ -5,30 +5,38 @@ category: Base
 
 Having consistent spacing helps to create a more harmonious relationship between our components.
 
-Our spacing units our based on our base font size of `14px`. Our spacing units
+Our spacing units our based on our base line-height of `1.5rem / 21px`. Our spacing units
 are defined in [variables/_spacing.scss](https://github.com/underdogio/pup/blob/master/styles/pup/variables/_spacing.scss).
 
 We use the following values for spacing:
 
 ```scss
+// 21px
+$spacing-unit: 1.5rem;
+
 $spacing: (
-  // 0px
   0: 0,
 
-  // 7px
-  1: 0.5rem,
+  // 5.25px
+  0.25: 0.375rem
 
-  // 14px
-  2: 1rem,
+  // 10.5px
+  0.5: 0.75rem,
 
-  // 28px
-  3: 2rem,
+  // 21px
+  1: 1.5rem
 
-  // 56px
-  4: 4rem,
+  // 42px
+  2: 3rem
 
-  // 98px
-  5: 7rem
+  // 63px
+  3: 4.5rem
+
+  // 84px
+  4: 6rem
+
+  // 105px
+  5: 7.5rem
 );
 ```
 
@@ -54,13 +62,13 @@ These classes have units that correspond to the spacing units defined above.
 
 Examples:
 
-`.margin1`: Apply margin of 1 spacing unit (0.5rem / 7px) to all sides of the element.
+`.margin1`: Apply margin of 1 spacing unit to all sides of the element.
 
-`.margin4--top`: Apply margin of 4 spacing units (4rem / 56px) to just the top side of the element.
+`.margin4--top`: Apply margin of 4 spacing units to just the top side of the element.
 
-`.margin4--sides`: Apply margin of 4 spacing units (4rem / 56px) to left and right sides of the element.
+`.margin4--sides`: Apply margin of 4 spacing units to left and right sides of the element.
 
-`.margin4--ends`: Apply margin of 4 spacing units (4rem / 56px) to top and bottom sides of the element.
+`.margin4--ends`: Apply margin of 4 spacing units to top and bottom sides of the element.
 
 ### Padding
 
@@ -68,10 +76,10 @@ Examples:
 
 Examples:
 
-`.padding1`: Apply padding of 1 spacing unit (0.5rem / 7px) to all sides of the element.
+`.padding1`: Apply padding of 1 spacing unit to all sides of the element.
 
-`.padding4--top`: Apply padding of 4 spacing units (4rem / 56px) to just the top side of the element.
+`.padding4--top`: Apply padding of 4 spacing units to just the top side of the element.
 
-`.padding4--sides`: Apply padding of 4 spacing units (4rem / 56px) to left and right sides of the element.
+`.padding4--sides`: Apply padding of 4 spacing units to left and right sides of the element.
 
-`.padding4--ends`: Apply padding of 4 spacing units (4rem / 56px) to top and bottom sides of the element.
+`.padding4--ends`: Apply padding of 4 spacing units to top and bottom sides of the element.

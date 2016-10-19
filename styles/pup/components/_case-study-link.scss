@@ -31,11 +31,11 @@
 
 .case-study-link__desc {
   @include media-query('medium-and-down') {
-    padding: spacing(3);
+    padding: spacing(2);
   }
 
   @include media-query('large-and-up') {
-    padding: spacing(4);
+    padding: spacing(3);
   }
 
   flex: 0 0 300px;
@@ -46,7 +46,7 @@
   @include transition(opacity);
   @include media-query('medium-and-down') {
     // Add spacing between title and image
-    margin-bottom: spacing(2);
+    margin-bottom: spacing(1);
   }
   color: inherit;
   font-size: font-size(3);
@@ -55,7 +55,7 @@
 
   // Remove default heading margin
   margin-bottom: 0;
-  margin-top: spacing(2);
+  margin-top: spacing(1);
 }
 
 .case-study-link__arrow {
