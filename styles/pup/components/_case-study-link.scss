@@ -31,11 +31,11 @@
 
 .case-study-link__desc {
   @include media-query('medium-and-down') {
-    padding: spacing(2);
+    padding: spacing(1);
   }
 
   @include media-query('large-and-up') {
-    padding: spacing(3);
+    padding: spacing(2);
   }
 
   flex: 0 0 300px;
