@@ -27,6 +27,13 @@ $slab-padding: spacing(1);
   padding: $slab-padding;
 }
 
+.slab--collapsed {
+  .slab__section {
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
+
 .slab--featured {
   background: $color-semi-transparent-blue;
 }
