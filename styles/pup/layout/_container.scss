@@ -1,3 +1,4 @@
+$container-narrow-max-width: 540px;
 $container-max-width: 960px;
 $container-wide-max-width: 1400px;
 
@@ -8,6 +9,10 @@ $container-wide-max-width: 1400px;
   padding-left: $grid-gutter / 2;
   padding-right: $grid-gutter / 2;
   width: 100%;
+}
+
+.container--narrow {
+  max-width: $container-narrow-max-width;
 }
 
 .container--wide {
