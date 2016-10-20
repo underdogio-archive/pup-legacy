@@ -1,3 +1,4 @@
 @mixin preserve-whitespace {
   white-space: pre-line;
+  word-break: break-all;
 }
