@@ -63,6 +63,10 @@ textarea {
   }
 }
 
+.block-input--large {
+  min-height: $spacing-unit * 4;
+}
+
 .checkbox__input,
 .checkbox__label,
 .radio__input,
