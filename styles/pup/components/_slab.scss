@@ -28,6 +28,9 @@ $slab-padding: spacing(1);
 }
 
 .slab--collapsed {
+  padding-left: spacing(0.5);
+  padding-right: spacing(0.5);
+
   .slab__section {
     flex-basis: 100%;
     margin-bottom: spacing(1);
