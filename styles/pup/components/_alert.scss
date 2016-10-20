@@ -1,5 +1,7 @@
 .alert {
   align-items: center;
+  background: $color-gray-xdc;
+  color: $color-text-dark;
   display: flex;
   font-weight: font-weight(bold);
   justify-content: space-between;
