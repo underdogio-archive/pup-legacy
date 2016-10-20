@@ -11,16 +11,17 @@ $slab-padding: spacing(1);
   display: block;
   // Match line-height of headings so they can line up nicely.
   line-height: line-height(base);
-  margin-bottom: spacing(0.25);
 }
 
 .slab__title {
   @extend .h2;
   color: $color-text;
+  margin-bottom: 0;
 }
 
 .slab__heading {
   @extend .h4;
+  margin-bottom: spacing(0.25);
 }
 
 .slab__section {
