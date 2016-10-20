@@ -1,0 +1,5 @@
+@each $font-weight,$value in $font-weight {
+  .font-weight--#{$font-weight} {
+    font-weight: font-weight($font-weight);
+  }
+}
