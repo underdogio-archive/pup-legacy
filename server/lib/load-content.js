@@ -6,7 +6,7 @@ var markdown = require('meta-marked');
 
 // Loads sections for the styleguide from
 // the local filesystem.
-module.exports = function(path, cb) {
+module.exports = function (path, cb) {
   glob(path, function (er, filePaths) {
     if (er) {
       return cb(er);
@@ -19,13 +19,13 @@ module.exports = function(path, cb) {
       }
 
       // Parse sections from each file
-      var sections = files.map(function(buffer) {
+      var sections = files.map(function (buffer) {
           // Convert file content into markdown
           return markdown(buffer.toString());
-        }).filter(function(doc) {
+        }).filter(function (doc) {
           // Filter out docs that don't have valid metadata
           return doc.meta && doc.meta.title;
-        }).map(function(doc) {
+        }).map(function (doc) {
           return {
             // Slug is used in TOC
             slug: slug(doc.meta.title).toLowerCase(),

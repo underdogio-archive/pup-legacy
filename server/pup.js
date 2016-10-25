@@ -39,7 +39,7 @@ module.exports = function (cb) {
   );
 
   // Load the sections for the styleguide
-  loadContent(path.join(__dirname, '..', 'docs/**/*.md'), function(error, categories) {
+  loadContent(path.join(__dirname, '..', 'docs/**/*.md'), function (error, categories) {
     if (error) {
       // If there was an error, pass it along to the callback function
       return cb(error);
@@ -50,7 +50,7 @@ module.exports = function (cb) {
     }));
 
     // Hook up our routes
-    app.get('/', function(req, res) {
+    app.get('/', function (req, res) {
       setActiveSection(sections);
 
       // Pass along the sections to our template
@@ -79,7 +79,7 @@ module.exports = function (cb) {
     });
 
     // Render not-found template for non-existent routes
-    app.use(function(req, res, next) {
+     app.use(function (req, res, next) {
       res.status(404).render('not-found', {
         categories: categories
       });
