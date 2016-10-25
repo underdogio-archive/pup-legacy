@@ -1,0 +1,77 @@
+// Pure CSS spinner, from loading.io
+@keyframes spinner-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+$spinner-color: $color-whitish-black;
+
+$spinner-size: 25px;
+$spinner-speed: 0.75s;
+$spinner-width: 3px;
+
+$spinner-small-size: 15px;
+$spinner-small-speed: 0.5s;
+$spinner-small-width: 2px;
+
+.spinner {
+  height: $spinner-size;
+  width: $spinner-size;
+
+  > div {
+    animation: spinner-animation $spinner-speed linear infinite;
+    height: $spinner-size;
+    position: relative;
+    width: $spinner-size;
+
+    div {
+      border-bottom-width: 0;
+      border-color: $spinner-color;
+      border-left-width: $spinner-width;
+      border-radius: 9999px 9999px 0 0;
+      border-right-width: $spinner-width;
+      border-style: solid;
+      border-top-width: $spinner-width;
+      height: $spinner-size / 2;
+      position: absolute;
+      width: $spinner-size;
+
+      &:nth-of-type(2) {
+        transform: translate(0, $spinner-size / 4) rotate(60deg) translate(0, $spinner-size / -4);
+      }
+    }
+  }
+}
+
+.spinner--small {
+  height: $spinner-small-size;
+  width: $spinner-small-size;
+
+  > div {
+    animation-duration: $spinner-small-speed;
+    height: $spinner-small-size;
+    width: $spinner-small-size;
+
+    div {
+      border-bottom-width: 0;
+      border-left-width: $spinner-small-width;
+      border-right-width: $spinner-small-width;
+      border-top-width: $spinner-small-width;
+      height: $spinner-small-size / 2;
+      width: $spinner-small-size;
+
+      &:nth-of-type(2) {
+        transform: translate(0, $spinner-small-size / 4) rotate(60deg) translate(0, $spinner-small-size / -4);
+      }
+    }
+  }
+}
