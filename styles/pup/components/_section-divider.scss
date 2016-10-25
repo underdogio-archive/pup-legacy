@@ -1,0 +1,13 @@
+.section-divider {
+  align-items: center;
+  background: $color-gray-xf3;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 spacing(1);
+  padding: spacing(0.5);
+}
+
+.section-divider__heading {
+  font-size: font-size(0);
+  margin-bottom: 0;
+}
