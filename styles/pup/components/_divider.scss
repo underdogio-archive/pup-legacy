@@ -1,0 +1,22 @@
+.divider {
+  position: relative;
+  text-align: center;
+
+  &:before {
+    border-top: solid 1px $color-gray-xdc;
+    bottom: 0;
+    content: '';
+    left: 1em;
+    margin: 0;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    z-index: -1;
+  }
+}
+
+.divider__text {
+  background: $color-white;
+  padding-left: 1em;
+  padding-right: 1em;
+}
