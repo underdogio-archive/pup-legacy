@@ -1,0 +1,72 @@
+$tooltip-bg: $color-whitish-black;
+$tooltip-color: $color-white;
+$tooltip-font-size: font-size(-1);
+$tooltip-padding: spacing(0.25);
+$tooltip-triangle-size: 10px;
+
+.tooltip {
+  position: relative;
+
+  &:before,
+  &:after {
+    // Reset font styling when placed within a button
+    font-size: $tooltip-font-size;
+    letter-spacing: 0;
+    text-transform: none;
+    z-index: layer(tooltips);
+  }
+
+  &:before {
+    @include triangle($tooltip-bg, $tooltip-triangle-size);
+    content: '';
+    display: inline-block;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+  }
+
+  &:after {
+    background: $tooltip-bg;
+    border-radius: $border-radius;
+    color: $tooltip-color;
+    content: attr(aria-label);
+    display: inline-block;
+    left: 50%;
+    // Make room for the triangle
+    margin-top: $tooltip-triangle-size / 2;
+    opacity: 0;
+    padding: $tooltip-padding;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+  }
+
+  &:hover {
+    &:before,
+    &:after {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  }
+}
+
+.tooltip--right {
+  &:before,
+  &:after {
+    left: auto;
+    right: 0;
+    transform: none;
+  }
+}
+
+.tooltip--left {
+  &:before,
+  &:after {
+    left: 0;
+    right: auto;
+    transform: none;
+  }
+}
