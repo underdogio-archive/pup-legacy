@@ -34,6 +34,7 @@
     "icons:watch": "nodemon --exec 'npm run icons' --watch icons --ext svg",
     "images": "cp -r images dist",
     "images:watch": "nodemon --exec 'npm run images' --watch images --ext gif,jpg,svg,png",
+    "lint": "npm run lint:scripts && npm run lint:styles",
     "lint:scripts": "eslint scripts server",
     "lint:styles": "sass-lint-underdog",
     "scripts": "mkdir -p dist/js && globify 'scripts/*.js' --outfile dist/js --debug",
