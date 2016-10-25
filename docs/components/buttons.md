@@ -183,7 +183,7 @@ Button groups can be grouped within a `.btn-group`. Button groups can contain an
 type of button.
 
 <div class="btn-group">
-  <div class="btn-group__content">
+  <div class="btn-group__container">
     <a class="btn btn--primary" href="mailto:bark@underdog.io">
       Email
     </a>
@@ -195,7 +195,7 @@ type of button.
 </div>
 
 <div class="btn-group">
-  <div class="btn-group__content">
+  <div class="btn-group__container">
     <button class="btn btn--secondary">
       A button
     </button>
@@ -208,7 +208,7 @@ type of button.
 
 ```html
 <div class="btn-group">
-  <div class="btn-group__content">
+  <div class="btn-group__container">
     <a class="btn btn--primary" href="mailto:bark@underdog.io">
       Email
     </a>
@@ -220,7 +220,7 @@ type of button.
 </div>
 
 <div class="btn-group">
-  <div class="btn-group__content">
+  <div class="btn-group__container">
     <button class="btn btn--secondary">
       A button
     </button>
@@ -236,7 +236,7 @@ You can also use the `.btn--block` class on a `.btn--group`:
 
 <div style="max-width: 100%; width: 200px;">
   <div class="btn-group btn--block">
-    <div class="btn-group__content">
+    <div class="btn-group__container">
       <a class="btn btn--primary" href="mailto:bark@underdog.io">
         Email
       </a>
@@ -250,7 +250,7 @@ You can also use the `.btn--block` class on a `.btn--group`:
 
 ```html
 <div class="btn-group btn--block">
-  <div class="btn-group__content">
+  <div class="btn-group__container">
     <a class="btn btn--primary" href="mailto:bark@underdog.io">
       Email
     </a>
