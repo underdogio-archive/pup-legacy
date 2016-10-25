@@ -1,0 +1,22 @@
+$well-border: 1px solid $color-border-light;
+$well-padding: spacing(1);
+
+.well {
+  border: $well-border;
+  border-radius: $border-radius;
+  display: block;
+  padding: $well-padding;
+}
+
+.well--no-padding {
+  padding: 0;
+}
+
+.well__cell {
+  border-bottom: $well-border;
+  padding: $well-padding;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
