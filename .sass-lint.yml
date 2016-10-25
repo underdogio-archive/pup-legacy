@@ -1,0 +1,23 @@
+files:
+  include: 'styles/**/*.scss'
+rules:
+  nesting-depth:
+    - 2
+    -
+      max-depth: 4
+
+  # Whitelist selectors which have to show up multiple times
+  # DEV: `sass-lint` doesn't count wrapping styles in `@include media-query-custom(small) { ... }`
+  #   as a non-mergeable selector
+  no-mergeable-selectors:
+    - 2
+    -
+      whitelist:
+        - '.section-divider'
+
+  # Add allowed "misspelled" properties
+  no-misspelled-properties:
+    - 2
+    -
+      extra-properties:
+        - 'osx-font-smoothing'
