@@ -61,9 +61,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: $border-radius;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: $border-radius 0 0 $border-radius;
     content: '';
     display: block;
     height: calc(100% - 2px);

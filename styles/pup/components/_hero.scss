@@ -2,8 +2,8 @@
   @include transition(min-height);
   display: flex;
   flex-direction: column;
-  min-height: 80vh;
   justify-content: center;
+  min-height: 80vh;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .hero__section {
-  margin: 0 auto spacing(1) auto;
+  margin: 0 auto spacing(1);
   max-width: $measure * 0.75;
 
   &:last-child {
@@ -37,10 +37,10 @@
 }
 
 .hero__subtitle {
-  color: $color-text-light;
-  font-size: font-size(2);
-
   @include media-query(small) {
     font-size: font-size(1);
   }
+
+  color: $color-text-light;
+  font-size: font-size(2);
 }

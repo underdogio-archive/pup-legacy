@@ -13,8 +13,8 @@ $desk-coffee-steam-animation-duration: 3s;
   }
 
   100% {
-    stroke-dashoffset: 0;
     opacity: 0;
+    stroke-dashoffset: 0;
   }
 }
 
@@ -26,11 +26,11 @@ $desk-coffee-steam-animation-duration: 3s;
 }
 
 .desk-illo__coffee-steam {
-  stroke-dasharray: $desk-coffee-steam-stroke-length;
-  stroke-dashoffset: $desk-coffee-steam-stroke-length;
   animation: coffee-steam $desk-coffee-steam-animation-duration linear infinite;
   animation-delay: $desk-coffee-steam-animation-delay;
   animation-fill-mode: both;
+  stroke-dasharray: $desk-coffee-steam-stroke-length;
+  stroke-dashoffset: $desk-coffee-steam-stroke-length;
 }
 
 .desk-illo__coffee-steam + .desk-illo__coffee-steam {

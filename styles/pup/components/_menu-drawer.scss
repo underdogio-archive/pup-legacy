@@ -6,8 +6,8 @@
   pointer-events: none;
   position: fixed;
   top: 0;
-  width: 100%;
   visibility: hidden;
+  width: 100%;
   z-index: layer(menu-drawer);
 }
 
@@ -53,7 +53,7 @@
   visibility: visible;
 
   .menu-drawer__overlay {
-    background: rgba($color-black, 0.25);
+    background: $color-semi-transparent-black;
   }
 
   .menu-drawer__container {
