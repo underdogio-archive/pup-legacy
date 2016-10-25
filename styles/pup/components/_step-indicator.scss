@@ -1,0 +1,75 @@
+$step-indicator-color-non-active: $color-gray-xdc;
+$step-indicator-color-active: $color-blue;
+$step-indicator-font-size: font-size(-1);
+$step-indicator-border-width: 1px;
+$step-indicator-orb-size: 2rem;
+
+.step-indicator {
+  display: block;
+  font-size: $step-indicator-font-size;
+  font-weight: font-weight(bold);
+  text-align: center;
+}
+
+.step-indicator__step {
+  @include all-caps;
+  @include transition(color);
+  color: $step-indicator-color-non-active;
+  display: inline-block;
+  padding-left: spacing(1);
+  padding-right: spacing(1);
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  z-index: layer(base);
+
+  &:after {
+    background-color: $step-indicator-color-non-active;
+    content: '';
+    display: block;
+    height: $step-indicator-border-width;
+    left: 0;
+    position: absolute;
+    top: calc((#{$step-indicator-orb-size} / 2) - #{$step-indicator-border-width});
+    width: 100%;
+    z-index: -1;
+  }
+
+  &:first-of-type {
+    padding-left: 0;
+
+    &:after {
+      left: 50%;
+    }
+  }
+
+  &:last-of-type {
+    padding-right: 0;
+
+    &:after {
+      left: initial;
+      right: 50%;
+    }
+  }
+}
+
+.step-indicator__step--active {
+  color: inherit;
+  outline: 0;
+
+  .step-indicator__orb {
+    background-color: $step-indicator-color-active;
+  }
+}
+
+.step-indicator__orb {
+  @include transition(background);
+  background-color: $step-indicator-color-non-active;
+  border-radius: 100%;
+  display: block;
+  height: $step-indicator-orb-size;
+  margin-bottom: spacing(0.5);
+  margin-left: auto;
+  margin-right: auto;
+  width: $step-indicator-orb-size;
+}
