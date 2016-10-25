@@ -90,8 +90,52 @@
 
 .btn--small {
   font-size: font-size(-1);
+  padding: 0.75em 1em;
 }
 
 .btn--disabled {
   opacity: 0.5;
+}
+
+.btn-group {
+  @include clearfix;
+  display: inline-block;
+
+  .btn {
+    border-radius: 0;
+    border: 1px solid $color-border-light;
+    float: left;
+    // Normalize line-height between <button /> and <a /> elements
+    line-height: inherit;
+
+    &:nth-child(n+2) {
+      // Remove left border after first button to avoid conflict with right border
+      border-left: 0;
+    }
+
+    &:first-child {
+      border-bottom-left-radius: $border-radius;
+      border-top-left-radius: $border-radius;
+    }
+
+    &:last-child {
+      border-bottom-right-radius: $border-radius;
+      border-top-right-radius: $border-radius
+    }
+  }
+}
+
+// Have buttons take up full width of .btn-group container
+.btn-group__content {
+  display: flex;
+
+  // Allow each button to change width as needed
+  .btn {
+    flex: 1 1 auto;
+  }
+
+  // Helper to prevent a button from stretching
+  .btn-group__small {
+    flex: 0 0 auto;
+  }
 }
