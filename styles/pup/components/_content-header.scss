@@ -1,0 +1,12 @@
+.content-header {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-header__title,
+.content-header__subtitle {
+  // Normalize line height so headings and subtitles can align vertically
+  line-height: 1;
+  margin-bottom: 0;
+}
