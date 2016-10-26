@@ -42,7 +42,7 @@
 }
 
 .btn--secondary {
-  @include btn($color-white, $color-border-light, $color-text);
+  @include btn($color-white, $color-border-dark, $color-text);
   font-weight: font-weight(normal);
 }
 
