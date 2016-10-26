@@ -31,10 +31,10 @@ The styleguide contains things like:
 You can use Pup in your project by installing it with npm:
 
 ```bash
-npm install underdogio/pup#GIT_TAG
+npm install underdog-pup@<VERSION>
 
 # Example
-npm install underdogio/pup#1.0.0
+npm install underdog-pup@1.0.0
 ```
 
 After installing Pup, you can then include individual components in your project.
@@ -62,12 +62,12 @@ Before importing components, you must import shared Sass functions, variables, a
 
 ```scss
 // Import shared SCSS
-@import 'underdogio-pup/styles/pup/shared';
+@import 'underdog-pup/styles/pup/shared';
 
 // Import individual components
-@import 'underdogio-pup/styles/pup/base/btn';
-@import 'underdogio-pup/styles/pup/components/btn';
-@import 'underdogio-pup/styles/pup/helpers/list';
+@import 'underdog-pup/styles/pup/base/btn';
+@import 'underdog-pup/styles/pup/components/btn';
+@import 'underdog-pup/styles/pup/helpers/list';
 ```
 
 #### JavaScript
@@ -80,10 +80,10 @@ All components export a function that initializes the component.
 
 ```javascript
 // Import polyfills
-require('underdogio-pup/scripts/vendor/polyfills');
+require('underdog-pup/scripts/vendor/polyfills');
 
 // Import and initialze individual components
-require('underdogio-pup/scripts/components/carousel')();
+require('underdog-pup/scripts/components/carousel')();
 ```
 
 ### Favicons
