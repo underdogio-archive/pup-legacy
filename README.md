@@ -31,10 +31,10 @@ The styleguide contains things like:
 You can use Pup in your project by installing it with npm:
 
 ```bash
-npm install underdogio/pup#GIT_TAG
+npm install underdogio/pup@<VERSION>
 
 # Example
-npm install underdogio/pup#1.0.0
+npm install underdogio/pup@1.0.0
 ```
 
 After installing Pup, you can then include individual components in your project.
