@@ -25,7 +25,7 @@ $dropdown-triangle-size: 1rem;
   // Fake a border-ed triangle by positioning a smaller triangle with a lighter
   // background on top of a triangle with a dark background
   &:before {
-    @include triangle($color-border-light, $dropdown-triangle-size);
+    @include triangle($color-border-dark, $dropdown-triangle-size);
     content: '';
     display: inline-block;
 
@@ -55,7 +55,7 @@ $dropdown-triangle-size: 1rem;
 
 .dropdown__menu-container {
   background: $color-white;
-  border: $border-width-thin solid $color-border-light;
+  border: $border-width-thin solid $color-border-dark;
   border-radius: $border-radius;
   box-shadow: 0 2px 2px $color-gray-xdc;
   text-align: left;
@@ -68,7 +68,7 @@ $dropdown-triangle-size: 1rem;
 
 .dropdown__menu-header {
   @include clip-text;
-  border-bottom: $border-width-thin solid $color-border-light;
+  border-bottom: $border-width-thin solid $color-border-dark;
   display: block;
   font-weight: font-weight(bold);
 }
