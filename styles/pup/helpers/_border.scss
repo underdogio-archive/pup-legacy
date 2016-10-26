@@ -1,9 +1,9 @@
 .border {
-  border: 1px solid $color-border-light;
+  border: $border-width-thin solid $color-border-light;
 }
 
 @each $side in $sides {
   .border--#{$side} {
-    border-#{$side}: 1px solid $color-border-light;
+    border-#{$side}: $border-width-thin solid $color-border-light;
   }
 }
