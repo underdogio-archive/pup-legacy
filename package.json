@@ -36,7 +36,6 @@
     "images:watch": "nodemon --exec 'npm run images' --watch images --ext gif,jpg,svg,png",
     "lint": "npm run lint:scripts",
     "lint:scripts": "eslint scripts server",
-    "release:patch": "npm version patch",
     "prepublish": "npm test && git push && git push --tags",
     "scripts": "mkdir -p dist/js && globify 'scripts/*.js' --outfile dist/js --debug",
     "scripts:watch": "npm run scripts && npm run scripts -- --watch --verbose",
