@@ -30,7 +30,7 @@ th {
 
 tr {
   @include media-query('medium-and-down') {
-    border: $border-width-thin solid $color-border-light;
+    border-bottom: 1px solid $color-border-light;
     overflow-x: hidden;
   }
 }

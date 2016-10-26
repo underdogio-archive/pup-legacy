@@ -27,7 +27,7 @@
 .btn {
   @include all-caps;
   @include transition(background, border, color);
-  border: $border-width-thin solid;
+  border: 1px solid;
   border-radius: $border-radius;
   cursor: pointer;
   display: inline-block;
@@ -103,7 +103,7 @@
 
   .btn {
     border-radius: 0;
-    border: $border-width-thin solid $color-border-light;
+    border: 1px solid $color-border-light;
     float: left;
     // Normalize line-height between <button /> and <a /> elements
     line-height: inherit;
