@@ -18,8 +18,6 @@
 @import 'base/typography';
 
 @import 'components/alert';
-@import 'components/app-container';
-@import 'components/aside-layout';
 @import 'components/block-label';
 @import 'components/btn';
 @import 'components/carousel';
@@ -45,6 +43,8 @@
 @import 'components/tooltip';
 @import 'components/well';
 
+@import 'layout/app-container';
+@import 'layout/aside-layout';
 @import 'layout/container';
 @import 'layout/grid';
 @import 'layout/longform';
