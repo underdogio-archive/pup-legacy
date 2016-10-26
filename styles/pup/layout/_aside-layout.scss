@@ -3,6 +3,7 @@
 
 $aside-layout-padding: spacing(2);
 $aside-layout-sidebar-width: 20%;
+$aside-layout-sidebar-fixed-width: 26rem;
 
 .aside-layout {
   display: flex;
@@ -18,6 +19,11 @@ $aside-layout-sidebar-width: 20%;
 .aside-layout__sidebar {
   flex: 0 0 $aside-layout-sidebar-width;
   overflow-y: auto;
+}
+
+.aside-layout__sidebar--fixed {
+  flex-basis: $aside-layout-sidebar-fixed-width;
+  width: $aside-layout-sidebar-fixed-width;
 }
 
 .aside-layout__content {
