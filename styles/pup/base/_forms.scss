@@ -13,7 +13,7 @@ button {
 select,
 .block-input {
   @include transition(border);
-  border: $border-width-thin solid $color-border-light;
+  border: $border-width-thin solid $color-border-dark;
 
   &:hover {
     border-color: $color-green;
