@@ -18,7 +18,7 @@
 .case-study-block__logo {
   filter: grayscale(100%);
   left: spacing(2);
-  opacity: 0.5;
+  opacity: opacity(mid);
   position: absolute;
   top: spacing(2);
 }
@@ -52,7 +52,7 @@
 
 .case-study-block__stat-label {
   @include all-caps;
-  opacity: 0.75;
+  opacity: opacity(low);
 }
 
 .case-study-block__quote {
