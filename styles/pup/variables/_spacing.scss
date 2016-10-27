@@ -4,8 +4,8 @@
 $spacing-unit: 1rem * line-height(base);
 $spacing: (
   0: 0,
-  0.25: $spacing-unit / 4,
-  0.5: $spacing-unit / 2,
+  quarter: $spacing-unit / 4,
+  half: $spacing-unit / 2,
   1: $spacing-unit,
   2: $spacing-unit * 2,
   3: $spacing-unit * 3,

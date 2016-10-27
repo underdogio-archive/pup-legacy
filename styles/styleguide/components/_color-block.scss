@@ -4,8 +4,8 @@ $color-block-width: 200px;
 
 .color-block {
   display: inline-block;
-  margin-bottom: spacing(0.5);
-  margin-right: spacing(0.5);
+  margin-bottom: spacing(half);
+  margin-right: spacing(half);
   width: $color-block-width;
 }
 
@@ -21,5 +21,5 @@ $color-block-width: 200px;
   display: block;
   font-family: $color-block-label-font;
   line-height: 2;
-  padding: spacing(0.5);
+  padding: spacing(half);
 }
