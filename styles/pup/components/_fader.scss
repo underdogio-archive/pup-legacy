@@ -1,0 +1,10 @@
+// Helper class for transitioning opacity
+.fader {
+  @include transition('opacity');
+}
+
+@each $opacity, $value in $opacity {
+  .fader--#{$opacity} {
+    opacity: opacity($opacity);
+  }
+}
