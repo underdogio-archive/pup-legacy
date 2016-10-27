@@ -2,7 +2,7 @@
   @include transition(opacity);
 
   &:hover {
-    opacity: 0.75;
+    opacity: opacity(low);
   }
 
   img,

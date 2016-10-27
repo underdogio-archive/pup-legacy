@@ -1,0 +1,8 @@
+$opacity: (
+  low: 0.75,
+  mid: 0.5,
+  high: 0.25
+);
+@function opacity($key) {
+  @return map-get($opacity, $key);
+}

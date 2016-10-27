@@ -46,7 +46,7 @@ $slab-padding: spacing(1);
 
 .slab--disabled {
   color: $color-text-light;
-  opacity: 0.5;
+  opacity: opacity(mid);
 
   .slab__heading,
   .slab__title {
