@@ -67,6 +67,14 @@ textarea {
   min-height: $spacing-unit * 4;
 }
 
+.checkbox {
+  display: block;
+}
+
+.checkbox--inline {
+  display: inline-block;
+}
+
 .checkbox__input,
 .checkbox__label,
 .radio__input,
