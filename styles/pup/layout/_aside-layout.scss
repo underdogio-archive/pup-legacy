@@ -2,7 +2,8 @@
 // but the content is allowed to scroll independently. Works best when the parent container has a set height.
 
 $aside-layout-padding: spacing(2);
-$aside-layout-sidebar-width: 20%;
+$aside-layout-padding-medium-and-down: spacing(1);
+$aside-layout-sidebar-width: percentage(2 / $grid-num-columns);
 $aside-layout-sidebar-fixed-width: 26rem;
 
 .aside-layout {
@@ -14,6 +15,10 @@ $aside-layout-sidebar-fixed-width: 26rem;
 .aside-layout__sidebar,
 .aside-layout__content {
   padding: $aside-layout-padding;
+
+  @include media-query('medium-and-down') {
+    padding: $aside-layout-padding-medium-and-down;
+  }
 }
 
 .aside-layout__sidebar {
