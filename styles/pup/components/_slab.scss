@@ -21,7 +21,7 @@ $slab-padding: spacing(1);
 
 .slab__heading {
   @extend .h4;
-  margin-bottom: spacing(0.25);
+  margin-bottom: spacing(quarter);
 }
 
 .slab__section {
@@ -29,8 +29,8 @@ $slab-padding: spacing(1);
 }
 
 .slab--collapsed {
-  padding-left: spacing(0.5);
-  padding-right: spacing(0.5);
+  padding-left: spacing(half);
+  padding-right: spacing(half);
 
   .slab__section {
     flex-basis: 100%;

@@ -18,10 +18,10 @@ $spacing: (
   0: 0,
 
   // 5.25px
-  0.25: 0.375rem
+  quarter: 0.375rem
 
   // 10.5px
-  0.5: 0.75rem,
+  half: 0.75rem,
 
   // 21px
   1: 1.5rem

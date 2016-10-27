@@ -6,7 +6,7 @@ $page-header-spacing: spacing(1);
 }
 
 .page-header__title {
-  margin-bottom: spacing(0.5);
+  margin-bottom: spacing(half);
 
   &:last-child {
     margin-bottom: 0;
@@ -19,5 +19,5 @@ $page-header-spacing: spacing(1);
 
 .page-header--border {
   border-bottom: $border-width-thick solid $color-border-light;
-  padding-bottom: spacing(0.5);
+  padding-bottom: spacing(half);
 }

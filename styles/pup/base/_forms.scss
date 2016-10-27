@@ -78,7 +78,7 @@ textarea {
 
 .checkbox__label,
 .radio__label {
-  margin-left: spacing(0.5);
+  margin-left: spacing(half);
 }
 
 .checkbox--nested {
@@ -96,5 +96,5 @@ textarea {
 .form-field__info {
   display: block;
   font-size: font-size(-1);
-  margin-top: spacing(0.5);
+  margin-top: spacing(half);
 }
