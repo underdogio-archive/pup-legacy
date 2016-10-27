@@ -99,15 +99,39 @@ To disabled a text input you can set the property `disabled="true"`.
 
 ## Checkbox
 
-To use a normal inline checkbox use the class name of `.checkbox`.
+To use a normal checkbox use the class name of `.checkbox`.
 
-<label class="form-field checkbox">
+<label class="checkbox">
+  <input class="checkbox__input" type="checkbox" />
+  <span class="checkbox__label">A checkbox</span>
+</label>
+
+<label class="checkbox">
   <input class="checkbox__input" type="checkbox" />
   <span class="checkbox__label">A checkbox</span>
 </label>
 
 ```html
-<label class="form-field checkbox">
+<label class="checkbox">
+  <input class="checkbox__input" type="checkbox" />
+  <span class="checkbox__label">A checkbox</span>
+</label>
+```
+
+You can make checkboxes inline with `.checkbox--inline`.
+
+<label class="checkbox checkbox--inline">
+  <input class="checkbox__input" type="checkbox" />
+  <span class="checkbox__label">A checkbox</span>
+</label>
+
+<label class="checkbox checkbox--inline margin1--left">
+  <input class="checkbox__input" type="checkbox" />
+  <span class="checkbox__label">A checkbox</span>
+</label>
+
+```html
+<label class="checkbox checkbox--inline">
   <input class="checkbox__input" type="checkbox" />
   <span class="checkbox__label">A checkbox</span>
 </label>
