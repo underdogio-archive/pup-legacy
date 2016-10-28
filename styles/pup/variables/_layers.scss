@@ -2,8 +2,9 @@ $layer: (
   base: 0,
   header: 1,
   dropdowns: 2,
-  menu-drawer: 3,
-  modals: 4
+  tooltips: 3,
+  menu-drawer: 4,
+  modals: 5
 );
 @function layer($key) {
   @return map-get($layer, $key);
