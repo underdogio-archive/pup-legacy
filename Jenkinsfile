@@ -9,7 +9,7 @@ node {
     stage 'Setup'
       deleteDir()
       checkout scm
-      nodejs.setup('v6.4.0')
+      nodejs.setup('v6.9.0')
 
     stage 'Install'
       nodejs.install()
@@ -27,20 +27,5 @@ node {
         helpers.generateArtifact(repoName, deployTag)
         currentBuild.description = "Artifact tag: ${deployTag}"
     }
-  }
-}
-
-node {
-  helpers.attemptBuild {
-    stage 'Setup'
-      deleteDir()
-      checkout scm
-      nodejs.setup('v6.9.0')
-
-    stage 'Install'
-      nodejs.install()
-
-    stage 'Test'
-      nodejs.test()
   }
 }
