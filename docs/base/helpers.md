@@ -159,6 +159,16 @@ Capture elements that have a `position` set to `absolute` by applying the class
 </div>
 ```
 
+## `.preserve-whitespace`
+
+Use to preserve line breaks within a block of text.
+
+<p class="preserve-whitespace" style="width: 200px;">
+  Explicabo sunt quis cupiditate autem fusce feugiat interdum sit duis.
+
+  Mi quisque ullamco, iusto consequuntur accumsan maiores turpis atque! Consequatsuscipitpellentesque. Vivamus lacus laborum.
+</p>
+
 ## Strikethrough
 
 Allows you to display a strikethrough on top of an element.
