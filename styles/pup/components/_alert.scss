@@ -6,6 +6,11 @@
   font-weight: font-weight(bold);
   justify-content: space-between;
   padding: spacing(half) spacing(1);
+
+  a,
+  .text-link {
+    color: inherit;
+  }
 }
 
 .alert--success {
