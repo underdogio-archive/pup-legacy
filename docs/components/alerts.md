@@ -22,28 +22,46 @@ Alerts are full width blocks that can be used to show status messages.
 Alerts can have a state of `.alert--error` or `.alert--success`.
 
 <div class="alert alert--error">
-  This is an error message
+  <div>
+    This is an error message
+    <a href="#">with a link</a>
+  </div>
 </div>
 
 <div class="alert alert--success">
-  This is a success message
+  <div>
+    This is a success message
+    <a href="#">with a link</a>
+  </div>
 </div>
 
 <div class="alert alert--info">
-  This is an info message
+  <div>
+    This is an info message
+    <a href="#">with a link</a>
+  </div>
 </div>
 
 ```html
 <div class="alert alert--error">
-  This is an error message
+  <div>
+    This is an error message
+    <a href="#">with a link</a>
+  </div>
 </div>
 
 <div class="alert alert--success">
-  This is a success message
+  <div>
+    This is a success message
+    <a href="#">with a link</a>
+  </div>
 </div>
 
 <div class="alert alert--info">
-  This is an info message
+  <div>
+    This is an info message
+    <a href="#">with a link</a>
+  </div>
 </div>
 ```
 
