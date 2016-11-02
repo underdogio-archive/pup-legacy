@@ -130,3 +130,23 @@ You can apply a heading style to a non-header element with a class.
 ```html
 <span class="h3">A span with h3 styling</span>
 ```
+
+## Superscript
+
+<p>
+  Some text with a superscript <sup>TM</sup>
+</p>
+
+<h1>
+  Heading with a superscript <sup class="h4 color--green font-weight--bold">Beta</sup>
+</h1>
+
+```html
+<p>
+  Some text with a superscript <sup>TM</sup>
+</p>
+
+<h1>
+  Heading with a superscript <sup class="h4 color--green font-weight--bold">Beta</sup>
+</h1>
+```
