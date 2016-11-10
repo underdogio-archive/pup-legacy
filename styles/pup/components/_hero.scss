@@ -1,3 +1,5 @@
+$hero-max-width: $measure-wide;
+
 .hero {
   @include transition(min-height);
   display: flex;
@@ -10,14 +12,14 @@
 .hero__container {
   margin-left: auto;
   margin-right: auto;
-  max-width: $measure;
+  max-width: $hero-max-width;
   padding-bottom: spacing(2);
   padding-top: spacing(2);
 }
 
 .hero__section {
   margin: 0 auto spacing(1);
-  max-width: $measure * 0.75;
+  max-width: $hero-max-width * 0.75;
 
   &:last-child {
     margin-bottom: 0;

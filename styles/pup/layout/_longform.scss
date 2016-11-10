@@ -2,7 +2,7 @@ $longform-col-padding: spacing(3);
 
 .longform {
   @include clearfix;
-  max-width: $measure;
+  max-width: $measure-wide;
 }
 
 .longform__col {
