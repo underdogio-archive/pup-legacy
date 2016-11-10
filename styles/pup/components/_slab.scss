@@ -2,7 +2,7 @@ $slab-padding: spacing(1);
 
 // SEE: slab.md
 .slab {
-  border-bottom: $border-width-thin solid $color-border-light;
+  border-bottom: $border-width-thick solid $color-border-light;
   padding: $slab-padding;
 }
 
