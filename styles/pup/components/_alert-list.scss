@@ -1,0 +1,18 @@
+.alert-list {
+  width: 100%;
+}
+
+.alert-list--fixed {
+  left: 50%;
+  max-width: $measure;
+  padding-left: spacing(half);
+  padding-right: spacing(half);
+  position: fixed;
+  top: spacing(2);
+  transform: translateX(-50%);
+}
+
+.alert-list__item {
+  display: block;
+  margin-bottom: spacing(half);
+}
