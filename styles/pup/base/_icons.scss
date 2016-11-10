@@ -96,6 +96,7 @@
 }
 @include icon('settings', '\EA15')
 @include icon('support', '\EA16')
-@include icon('visa', '\EA17') {
+@include icon('upload', '\EA17')
+@include icon('visa', '\EA18') {
   color: $color-orange;
 }
