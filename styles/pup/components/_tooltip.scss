@@ -42,6 +42,7 @@ $tooltip-triangle-size: 10px;
     position: absolute;
     top: 100%;
     transform: translateX(-50%);
+    white-space: pre;
   }
 
   &:hover {
