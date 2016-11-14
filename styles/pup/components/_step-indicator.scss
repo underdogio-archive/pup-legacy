@@ -21,7 +21,6 @@ $step-indicator-orb-size: 2rem;
   position: relative;
   text-align: center;
   vertical-align: middle;
-  z-index: layer(base);
 
   &:after {
     background-color: $step-indicator-color-non-active;
