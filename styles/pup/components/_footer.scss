@@ -1,6 +1,6 @@
 .footer {
   align-items: center;
-  border-top: 1px solid $color-border-light;
+  border-top: $border-width-thick solid $color-border-light;
   color: $color-text-light;
   display: flex;
   flex-wrap: wrap;
