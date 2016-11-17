@@ -6,7 +6,7 @@
 
   &:focus,
   &:hover {
-    color: $color-text-light;
+    color: $color-black;
   }
 
   &[disabled] {
@@ -15,6 +15,6 @@
 }
 
 .nav-link--active {
-  color: $color-text-dark;
+  color: $color-black;
   font-weight: font-weight(bold);
 }
