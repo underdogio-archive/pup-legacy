@@ -10,6 +10,7 @@
   position: fixed;
   top: spacing(2);
   transform: translateX(-50%);
+  z-index: layer(alerts);
 }
 
 .alert-list__item {
