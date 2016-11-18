@@ -1,3 +1,6 @@
+$block-input-border: $border-width-thin;
+$block-input-padding: 0.75rem;
+
 button,
 input,
 textarea {
@@ -13,7 +16,7 @@ button {
 select,
 .block-input {
   @include transition(border);
-  border: $border-width-thin solid $color-border-dark;
+  border: $block-input-border solid $color-border-dark;
 
   &:hover {
     border-color: $color-green;
@@ -29,8 +32,8 @@ select {
   background: none;
   display: block;
   font: inherit;
-  // Match approximate height of text inputs
-  height: 2.5rem;
+  // Match height of text inputs
+  height: calc(#{line-height(base) + ($block-input-padding * 2)} + #{$block-input-border * 2});
   line-height: inherit;
   width: 100%;
 }
