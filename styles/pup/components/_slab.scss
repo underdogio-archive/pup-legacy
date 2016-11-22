@@ -29,6 +29,7 @@ $slab-padding: spacing(1);
 }
 
 .slab--collapsed {
+  border-bottom: 0;
   padding-left: spacing(half);
   padding-right: spacing(half);
 
