@@ -12,6 +12,10 @@ $aside-layout-sidebar-fixed-width: 26rem;
   overflow-y: hidden;
 }
 
+.aside-layout--nested {
+  height: 100%;
+}
+
 .aside-layout__sidebar,
 .aside-layout__content {
   padding: $aside-layout-padding;

@@ -121,3 +121,31 @@ You can make the sidebar a fixed with by applying the `.aside-layout__sidebar--f
     </div>
   </div>
 </div>
+
+You can also nest aside layouts.
+
+<div class="aside-layout" style="height:20em; width: 100%;">
+  <aside class="aside-layout__sidebar border--right">
+    Aside-Layout 1 Sidebar
+  </aside>
+  <div class="aside-layout__content padding0">
+    <div class="aside-layout aside-layout--nested">
+      <div class="aside-layout__content">
+        <p>
+          Quibusdam ante volutpat curae, iure ad maxime cumque morbi! Dicta aptent alias dapibus morbi gravida sit, donec aliquam optio consectetuer delectus sodales ornare sodales, vitae! Sagittis consectetur sociosqu, feugiat impedit dignissim recusandae, ipsa nemo numquam, duis? Molestie eu aute ridiculus! Facere velit maecenas! Voluptate? Sollicitudin imperdiet, impedit vero. Animi, ut morbi, nisi voluptates aperiam! Minim quas potenti placerat varius sint, curae reiciendis reiciendis cillum morbi pharetra, mollitia fames, aperiam perspiciatis tincidunt mauris pretium similique torquent, tincidunt habitasse! Aut, ex, habitant? Accumsan. Saepe taciti dictumst, cras placerat. Sapien porttitor! Suspendisse aliqua aliquid interdum fugit culpa dictum commodi, aperiam temporibus iste hac.
+        </p>
+
+        <p>
+          Scelerisque feugiat. Nulla fusce voluptatum, per molestie scelerisque. Congue ornare nostra est? Vehicula molestias, natoque quos massa mattis, natoque repellendus urna, quibusdam, autem imperdiet? Lacinia aperiam ipsum netus. Qui incidunt leo adipiscing excepturi iste nesciunt aliquid? Class conubia, ullamco. Cubilia quidem dolore sociis consectetur dolorum minus? Ligula gravida placerat, quis? Quasi lobortis, aliquet mauris erat venenatis exercitationem fringilla? Magni consequuntur. Ullamcorper! Eleifend, minima curabitur labore, optio pellentesque porta, hymenaeos porttitor, nunc taciti! Mollitia risus consequatur senectus deleniti, cillum, venenatis dignissim, scelerisque. Laborum mollis accumsan! Leo consectetur, occaecat ab! Dolore numquam, eveniet mattis posuere, sodales consectetur, ipsa, eget mi cupidatat rhoncus.
+        </p>
+
+        <p>
+          Harum quas congue accusamus per? Diamlorem ligula rem cupidatat aliquet. Ab condimentum ullamcorper temporibus eius perferendis elementum wisi magnis incididunt? Dolorem exercitationem placeat eveniet ipsam pretium ullamco? Iaculis! Ipsa veniam nonummy cillum? Magnam lorem, praesent aspernatur. Quia nonummy quibusdam! Habitasse dapibus nascetur laboris class, nullam, tempus totam autem? Aute dignissim malesuada ornare a qui suspendisse hac, tempor, consequuntur diam veritatis, nullam eleifend tempore quis augue porro interdum habitasse condimentum cupidatat! Montes rhoncus. Corporis quos ut magna nulla leo maiores voluptates rerum eros inventore modi! Sapiente explicabo excepturi? Varius! Fermentum elementum, arcu euismod curae distinctio blandit sollicitudin malesuada praesent inceptos fugiat.
+        </p>
+      </div>
+      <aside class="aside-layout__sidebar border--left">
+        Aside-Layout 2 Sidebar
+      </aside>
+    </div>
+  </div>
+</div>
