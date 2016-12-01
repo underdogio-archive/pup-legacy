@@ -7,3 +7,11 @@
     border-#{$side}: $border-width-thick solid $color-border-light;
   }
 }
+
+.border--thin {
+  border-width: $border-width-thin;
+}
+
+.border--dark {
+  border-color: $color-border-dark;
+}
