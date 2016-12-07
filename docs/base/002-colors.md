@@ -57,6 +57,14 @@ These colors are defined in [variables/_colors.scss](https://github.com/underdog
   </div>
 
   <div class="color-block">
+    <div class="color-block__color" style="background: #FAFAFA"></div>
+    <div class="color-block__label">
+      $color-gray-xfa<br />
+      #FAFAFA
+    </div>
+  </div>
+
+  <div class="color-block">
     <div class="color-block__color" style="background: #777777"></div>
     <div class="color-block__label">
       $color-gray-777<br />

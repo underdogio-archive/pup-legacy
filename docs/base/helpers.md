@@ -40,6 +40,13 @@ category: Base
   </div>
 </div>
 
+<div class="color-block">
+  <div class="color-block__color bg--gray-xfa"></div>
+  <div class="color-block__label">
+    .bg--gray-xfa<br />
+  </div>
+</div>
+
 ## Center block
 
 Centers an element that has a display mode set to `block`.
