@@ -1,0 +1,23 @@
+.dot {
+  background: $color-border-dark;
+  border-color: $color-border-dark;
+  border-radius: 100%;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+.dot--small {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.dot--light {
+  background: $color-border-light;
+  border-color: $color-border-light;
+}
+
+.dot--blue {
+  background: $color-blue;
+  border-color: $color-blue;
+}
