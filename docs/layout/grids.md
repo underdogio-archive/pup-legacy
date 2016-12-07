@@ -159,6 +159,36 @@ You can instead center columns by applying the `.row--center` modifier to the ro
 </div>
 ```
 
+## Align columns to bottom of row
+
+You can align columns to the bottom of their row with the `.row--bottom` helper.
+
+<div class="row row--bottom text-align--center">
+  <div class="col-3 border">
+    .col-3
+  </div>
+  <div class="col-6 border">
+    <img alt="Underdog.io logo" src="/images/underdogio-logo-with-text.svg" />
+  </div>
+  <div class="col-3 border">
+    .col-3
+  </div>
+</div>
+
+```html
+<div class="row row--bottom text-align--center">
+  <div class="col-3 border">
+    .col-3
+  </div>
+  <div class="col-6">
+    <img alt="Underdog.io logo" src="/images/underdogio-logo-with-text.svg" />
+  </div>
+  <div class="col-3 border">
+    .col-3
+  </div>
+</div>
+```
+
 ## Column offsets
 
 Just like our normal columns we can offset using the <code>.offset-{column}</code> or <code>.offset-{column}-{media-query}</code> class names.
