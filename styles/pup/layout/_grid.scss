@@ -13,6 +13,10 @@
   margin-right: $grid-gutter / - 2;
 }
 
+.row--bottom {
+  align-items: flex-end;
+}
+
 .row--center {
   align-items: center;
 }
