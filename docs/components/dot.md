@@ -11,7 +11,7 @@ category: Components
 
 ## Small dot
 
-<div class="dot dot--small"></div>
+<span class="dot dot--small"></span>
 
 ```html
 <div class="dot dot--small"></div>
@@ -19,26 +19,26 @@ category: Components
 
 ## Colored dots
 
-<div>
-  <span class="inline-center">Blue: </span>
-  <span class="dot dot--blue inline-center"></span>
+<div class="inline-center">
+  <span>Blue: </span>
+  <span class="dot dot--blue"></span>
 </div>
 
 ```html
-<div>
-  <span class="inline-center">Blue: </span>
-  <span class="dot dot--blue inline-center"></span>
+<div class="inline-center">
+  <span>Blue: </span>
+  <span class="dot dot--blue"></span>
 </div>
 ```
 
-<div>
-  <span class="inline-center">Light: </span>
-  <span class="dot dot--light inline-center"></span>
+<div class="inline-center">
+  <span>Light: </span>
+  <span class="dot dot--light"></span>
 </div>
 
 ```html
-<div>
-  <span class="inline-center">Light: </span>
-  <span class="dot dot--light inline-center"></span>
+<div class="inline-center">
+  <span>Light: </span>
+  <span class="dot dot--light"></span>
 </div>
 ```

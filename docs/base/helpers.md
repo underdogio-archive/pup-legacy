@@ -94,23 +94,23 @@ Helpers for setting an element's text color.
 
 ## Inline Center
 
-Center inline text vertically. `.inline-center` Must be applied to each piece of inline text that you want to center.
+Center inline elements vertically. `.inline-center` must be applied to the container of the elements you want centered.
 
-<div>
-  <span class="inline-center">
+<div class="inline-center">
+  <span>
     Centered
   </span>
-  <span class="inline-center" style="font-size: 0.5em">
+  <span style="font-size: 0.5em; margin-left: 0.5em">
     Vertically
   </span>
 </div>
 
 ```html
-<div>
-  <span class="inline-center">
+<div class="inline-center">
+  <span>
     Centered
   </span>
-  <span class="inline-center">
+  <span>
     Vertically
   </span>
 </div>
