@@ -99,25 +99,49 @@ Helpers for setting an element's text color.
 
 <strong class="color--red">.color--red</strong>
 
-## Inline Center
+## Inline Baseline
 
-Center inline elements vertically. `.inline-center` must be applied to the container of the elements you want centered.
+Line up inline elements vertically via the baseline. `.inline-baseline` must be applied to each child element for them to line up.
 
-<div class="inline-center">
-  <span>
+<div>
+  <span class="inline-baseline">
     Centered
   </span>
-  <span style="font-size: 0.5em; margin-left: 0.5em">
+  <span class="inline-baseline" style="font-size: 0.5em; margin-left: 0.5em">
+    Baseline
+  </span>
+</div>
+
+```html
+<div>
+  <span class="inline-baseline">
+    Centered
+  </span>
+  <span class="inline-baseline" style="font-size: 0.5em; margin-left: 0.5em">
+    Baseline
+  </span>
+</div>
+```
+
+## Inline Center
+
+Center inline elements vertically. `.inline-center` must be applied to each child element for them to line up.
+
+<div>
+  <span class="inline-center">
+    Centered
+  </span>
+  <span class="inline-center" style="font-size: 0.5em; margin-left: 0.5em">
     Vertically
   </span>
 </div>
 
 ```html
-<div class="inline-center">
-  <span>
+<div>
+  <span class="inline-center">
     Centered
   </span>
-  <span>
+  <span class="inline-center" style="font-size: 0.5em; margin-left: 0.5em">
     Vertically
   </span>
 </div>
