@@ -9,36 +9,46 @@ category: Components
 <div class="dot"></div>
 ```
 
-## Small dot
+## Dot with label
 
-<span class="dot dot--small"></span>
+<div>
+  <span class="inline-baseline">Label:&nbsp;</span>
+  <span class="dot inline-baseline"></span>
+</div>
 
 ```html
-<div class="dot dot--small"></div>
+<div>
+  <span class="inline-baseline">Label:&nbsp;</span>
+  <span class="dot inline-baseline"></span>
+</div>
 ```
 
 ## Colored dots
 
-<div class="inline-center">
-  <span>Blue: </span>
-  <span class="dot dot--blue"></span>
+<div>
+  <span class="inline-baseline">Default:&nbsp;</span>
+  <span class="dot inline-baseline"></span>
+</div>
+<div>
+  <span class="inline-baseline">Light:&nbsp;</span>
+  <span class="dot dot--light inline-baseline"></span>
+</div>
+<div>
+  <span class="inline-baseline">Blue:&nbsp;</span>
+  <span class="dot dot--blue inline-baseline"></span>
 </div>
 
 ```html
-<div class="inline-center">
-  <span>Blue: </span>
-  <span class="dot dot--blue"></span>
+<div>
+  <span class="inline-baseline">Default:&nbsp;</span>
+  <span class="dot inline-baseline"></span>
 </div>
-```
-
-<div class="inline-center">
-  <span>Light: </span>
-  <span class="dot dot--light"></span>
+<div>
+  <span class="inline-baseline">Light:&nbsp;</span>
+  <span class="dot dot--light inline-baseline"></span>
 </div>
-
-```html
-<div class="inline-center">
-  <span>Light: </span>
-  <span class="dot dot--light"></span>
+<div>
+  <span class="inline-baseline">Blue:&nbsp;</span>
+  <span class="dot dot--blue inline-baseline"></span>
 </div>
 ```
