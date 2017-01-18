@@ -4,7 +4,8 @@ $bg-colors: (
   'gray-xf3': $color-gray-xf3,
   'gray-xfa': $color-gray-xfa,
   'green': $color-light-green,
-  'light-blue': $color-light-blue
+  'light-blue': $color-light-blue,
+  'pink': $color-pink
 );
 
 @each $name, $value in $bg-colors {

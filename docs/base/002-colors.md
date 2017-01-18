@@ -179,6 +179,14 @@ These colors are defined in [variables/_colors.scss](https://github.com/underdog
       #DD6B4E
     </div>
   </div>
+
+  <div class="color-block">
+    <div class="color-block__color" style="background: #FFF5F5"></div>
+    <div class="color-block__label">
+      $color-pink<br />
+      #FFF5F5
+    </div>
+  </div>
 </section>
 
 <section class="section">
