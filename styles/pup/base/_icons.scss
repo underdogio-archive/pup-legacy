@@ -75,28 +75,31 @@
 @include icon('dropdown', '\EA09')
 @include icon('filter', '\EA0A')
 @include icon('github', '\EA0B')
-@include icon('linkedin', '\EA0C') {
-  color: $color-linkedin-blue;
-}
-@include icon('location', '\EA0D')
-@include icon('locked', '\EA0E')
-@include icon('menu', '\EA0F')
-@include icon('next', '\EA10')
-@include icon('not-allowed', '\EA11') {
-  color: $color-red;
-}
-@include icon('other-link', '\EA12') {
-  color: $color-purple;
-}
-@include icon('referral', '\EA13') {
+@include icon('info', '\EA0C') {
   color: $color-blue;
 }
-@include icon('resume', '\EA14') {
+@include icon('linkedin', '\EA0D') {
+  color: $color-linkedin-blue;
+}
+@include icon('location', '\EA0E')
+@include icon('locked', '\EA0F')
+@include icon('menu', '\EA10')
+@include icon('next', '\EA11')
+@include icon('not-allowed', '\EA12') {
+  color: $color-red;
+}
+@include icon('other-link', '\EA13') {
+  color: $color-purple;
+}
+@include icon('referral', '\EA14') {
+  color: $color-blue;
+}
+@include icon('resume', '\EA15') {
   color: $color-light-red;
 }
-@include icon('settings', '\EA15')
-@include icon('support', '\EA16')
-@include icon('upload', '\EA17')
-@include icon('visa', '\EA18') {
+@include icon('settings', '\EA16')
+@include icon('support', '\EA17')
+@include icon('upload', '\EA18')
+@include icon('visa', '\EA19') {
   color: $color-orange;
 }
