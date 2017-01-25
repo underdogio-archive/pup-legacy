@@ -104,6 +104,8 @@ Helpers for setting an element's text color.
 
 <strong class="color--orange">.color--orange</strong>
 
+<strong class="color--purple">.color--purple</strong>
+
 <strong class="color--red">.color--red</strong>
 
 ## Inline Baseline
