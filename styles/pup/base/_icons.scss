@@ -84,22 +84,25 @@
 @include icon('location', '\EA0E')
 @include icon('locked', '\EA0F')
 @include icon('menu', '\EA10')
-@include icon('next', '\EA11')
-@include icon('not-allowed', '\EA12') {
+@include icon('money', '\EA11') {
+  color: $color-dark-green;
+}
+@include icon('next', '\EA12')
+@include icon('not-allowed', '\EA13') {
   color: $color-red;
 }
-@include icon('other-link', '\EA13') {
+@include icon('other-link', '\EA14') {
   color: $color-purple;
 }
-@include icon('referral', '\EA14') {
+@include icon('referral', '\EA15') {
   color: $color-blue;
 }
-@include icon('resume', '\EA15') {
+@include icon('resume', '\EA16') {
   color: $color-light-red;
 }
-@include icon('settings', '\EA16')
-@include icon('support', '\EA17')
-@include icon('upload', '\EA18')
-@include icon('visa', '\EA19') {
+@include icon('settings', '\EA17')
+@include icon('support', '\EA18')
+@include icon('upload', '\EA19')
+@include icon('visa', '\EA1A') {
   color: $color-orange;
 }

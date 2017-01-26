@@ -54,6 +54,9 @@ category: Base
       <span class="icon icon-menu"><code class="icon__label">.icon-menu</code><span>
     </li>
     <li>
+      <span class="icon icon-money"><code class="icon__label">.icon-money</code><span>
+    </li>
+    <li>
       <span class="icon icon-next"><code class="icon__label">.icon-next</code><span>
     </li>
     <li>
