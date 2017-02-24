@@ -42,6 +42,9 @@ category: Base
       <span class="icon icon-globe"><code class="icon__label">.icon-globe</code><span>
     </li>
     <li>
+      <span class="icon icon-graph"><code class="icon__label">.icon-graph</code><span>
+    </li>
+    <li>
       <span class="icon icon-info"><code class="icon__label">.icon-info</code><span>
     </li>
     <li>
