@@ -46,8 +46,7 @@ $slab-padding: spacing(1);
 }
 
 .slab--disabled {
-  color: $color-text-light;
-  opacity: opacity(mid);
+  color: $color-gray-xdc;
 
   .slab__heading,
   .slab__title {
