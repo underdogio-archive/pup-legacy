@@ -66,50 +66,51 @@
 @include icon('arrow', '\EA02')
 @include icon('back', '\EA03')
 @include icon('calendar', '\EA04')
-@include icon('check', '\EA05')
-@include icon('close', '\EA06')
-@include icon('copy-link', '\EA07')
-@include icon('download', '\EA08')
-@include icon('dribbble', '\EA09') {
+@include icon('chart', '\EA05')
+@include icon('check', '\EA06')
+@include icon('close', '\EA07')
+@include icon('copy-link', '\EA08')
+@include icon('download', '\EA09')
+@include icon('dribbble', '\EA0A') {
   color: $color-dribbble-pink;
 }
-@include icon('dropdown', '\EA0A')
-@include icon('filter', '\EA0B')
-@include icon('github', '\EA0C')
-@include icon('globe', '\EA0D') {
+@include icon('dropdown', '\EA0B')
+@include icon('filter', '\EA0C')
+@include icon('github', '\EA0D')
+@include icon('globe', '\EA0E') {
   color: $color-purple;
 }
-@include icon('graph', '\EA0E') {
+@include icon('graph', '\EA0F') {
   color: $color-green;
 }
-@include icon('info', '\EA0F') {
+@include icon('info', '\EA10') {
   color: $color-blue;
 }
-@include icon('linkedin', '\EA10') {
+@include icon('linkedin', '\EA11') {
   color: $color-linkedin-blue;
 }
-@include icon('location', '\EA11')
-@include icon('locked', '\EA12')
-@include icon('menu', '\EA13')
-@include icon('money', '\EA14') {
+@include icon('location', '\EA12')
+@include icon('locked', '\EA13')
+@include icon('menu', '\EA14')
+@include icon('money', '\EA15') {
   color: $color-dark-green;
 }
-@include icon('next', '\EA15')
-@include icon('not-allowed', '\EA16') {
+@include icon('next', '\EA16')
+@include icon('not-allowed', '\EA17') {
   color: $color-red;
 }
-@include icon('other-link', '\EA17') {
+@include icon('other-link', '\EA18') {
   color: $color-purple;
 }
-@include icon('referral', '\EA18') {
+@include icon('referral', '\EA19') {
   color: $color-blue;
 }
-@include icon('resume', '\EA19') {
+@include icon('resume', '\EA1A') {
   color: $color-light-red;
 }
-@include icon('settings', '\EA1A')
-@include icon('support', '\EA1B')
-@include icon('upload', '\EA1C')
-@include icon('visa', '\EA1D') {
+@include icon('settings', '\EA1B')
+@include icon('support', '\EA1C')
+@include icon('upload', '\EA1D')
+@include icon('visa', '\EA1E') {
   color: $color-orange;
 }

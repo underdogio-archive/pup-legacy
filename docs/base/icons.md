@@ -18,6 +18,9 @@ category: Base
       <span class="icon icon-calendar"><code class="icon__label">.icon-calendar</code></span>
     </li>
     <li>
+      <span class="icon icon-chart"><code class="icon__label">.icon-chart</code></span>
+    </li>
+    <li>
       <span class="icon icon-check"><code class="icon__label">.icon-check</code></span>
     </li>
     <li>
