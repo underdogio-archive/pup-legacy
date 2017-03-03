@@ -92,6 +92,9 @@ category: Base
     <li>
       <span class="icon icon-visa"><code class="icon__label">.icon-visa</code><span>
     </li>
+    <li>
+      <span class="icon icon-work"><code class="icon__label">.icon-work</code><span>
+    </li>
   </ul>
 </section>
 
