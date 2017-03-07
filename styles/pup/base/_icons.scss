@@ -61,6 +61,24 @@
   }
 }
 
+.icon--link {
+  &:before,
+  &:after {
+    @include transition(color);
+    color: initial;
+    font-weight: font-weight(normal);
+    text-decoration: none;
+  }
+
+  &:focus,
+  &:hover {
+    &:before,
+    &:after {
+      color: $color-text-extra-light;
+    }
+  }
+}
+
 // Define icons
 @include icon('arrow-right', '\EA01')
 @include icon('arrow', '\EA02')
