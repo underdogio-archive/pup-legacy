@@ -123,3 +123,15 @@ If the icon has no accompanying text, then <a href="https://www.w3.org/TR/wai-ar
 ```html
 <span class="icon icon-github" aria-label="github"></span>
 ```
+
+## Helpers
+
+### Using icons as a link
+
+Apply the `.icon--link` helper class for icons that are links.
+
+<a class="icon icon-graph icon--link" aria-label="graph" href="#"></a>
+
+```html
+<a class="icon icon-graph icon--link" aria-label="graph" href="#"></a>
+```
