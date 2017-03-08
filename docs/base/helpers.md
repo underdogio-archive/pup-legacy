@@ -108,6 +108,8 @@ Helpers for setting an element's text color.
 
 <strong class="color--red">.color--red</strong>
 
+<strong class="color--light-red">.color--light-red</strong>
+
 ## Inline Baseline
 
 Line up inline elements vertically via the baseline. `.inline-baseline` must be applied to each child element for them to line up.
