@@ -173,10 +173,10 @@ These colors are defined in [variables/_colors.scss](https://github.com/underdog
   </div>
 
   <div class="color-block">
-    <div class="color-block__color" style="background: #DD6B4E"></div>
+    <div class="color-block__color" style="background: #EC724F"></div>
     <div class="color-block__label">
       $color-light-red<br />
-      #DD6B4E
+      #EC724F
     </div>
   </div>
 
