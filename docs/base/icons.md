@@ -39,6 +39,9 @@ category: Base
       <span class="icon icon-dropdown"><code class="icon__label">.icon-dropdown</code><span>
     </li>
     <li>
+      <span class="icon icon-employees"><code class="icon__label">.icon-employees</code><span>
+    </li>
+    <li>
       <span class="icon icon-filter"><code class="icon__label">.icon-filter</code><span>
     </li>
     <li>
