@@ -6,6 +6,9 @@ category: Base
 <section class="section">
   <ul>
     <li>
+      <span class="icon icon-angellist"><code class="icon__label">.icon-angellist</code></span>
+    </li>
+    <li>
       <span class="icon icon-arrow"><code class="icon__label">.icon-arrow</code></span>
     </li>
     <li>
