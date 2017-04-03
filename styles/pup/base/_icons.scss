@@ -133,8 +133,11 @@
 }
 @include icon('settings', '\EA1E')
 @include icon('support', '\EA1F')
-@include icon('upload', '\EA20')
-@include icon('visa', '\EA21') {
+@include icon('twitter', '\EA20') {
+  color: $color-twitter-blue;
+}
+@include icon('upload', '\EA21')
+@include icon('visa', '\EA22') {
   color: $color-orange;
 }
-@include icon('work', '\EA22')
+@include icon('work', '\EA23')

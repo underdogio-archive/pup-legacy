@@ -99,6 +99,9 @@ category: Base
       <span class="icon icon-support"><code class="icon__label">.icon-support</code><span>
     </li>
     <li>
+      <span class="icon icon-twitter"><code class="icon__label">.icon-twitter</code><span>
+    </li>
+    <li>
       <span class="icon icon-upload"><code class="icon__label">.icon-upload</code><span>
     </li>
     <li>
