@@ -51,6 +51,9 @@ category: Base
       <span class="icon icon-github"><code class="icon__label">.icon-github</code><span>
     </li>
     <li>
+      <span class="icon icon-glassdoor"><code class="icon__label">.icon-glassdoor</code><span>
+    </li>
+    <li>
       <span class="icon icon-globe"><code class="icon__label">.icon-globe</code><span>
     </li>
     <li>
