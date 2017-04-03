@@ -174,6 +174,11 @@ Then run `npm run develop` to start a development server and watch script that w
 
 To see what other scripts are available, run `npm run`.
 
+## Third party files
+
+Our build requires use to download a copy of a Unicode table from http://unicode.org/.
+We include a cached copy of `UnicodeData.txt` in the `third_party/` directory to help speed up build times and ensure that there are no errors when building, especially if http://unicode.org is down (which has happened).
+
 ## Contributing
 
 For guidelines on modifying the styleguide, please see [CONTRIBUTING.md](https://github.com/underdogio/pup/blob/master/CONTRIBUTING.md).
