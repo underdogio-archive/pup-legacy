@@ -109,38 +109,39 @@
 @include icon('growth', '\EA13') {
   color: $color-light-red;
 }
-@include icon('info', '\EA14') {
+@include icon('industry', '\EA14');
+@include icon('info', '\EA15') {
   color: $color-blue;
 }
-@include icon('linkedin', '\EA15') {
+@include icon('linkedin', '\EA16') {
   color: $color-linkedin-blue;
 }
-@include icon('location', '\EA16')
-@include icon('locked', '\EA17')
-@include icon('menu', '\EA18')
-@include icon('money', '\EA19') {
+@include icon('location', '\EA17')
+@include icon('locked', '\EA18')
+@include icon('menu', '\EA19')
+@include icon('money', '\EA1A') {
   color: $color-dark-green;
 }
-@include icon('next', '\EA1A')
-@include icon('not-allowed', '\EA1B') {
+@include icon('next', '\EA1B')
+@include icon('not-allowed', '\EA1C') {
   color: $color-red;
 }
-@include icon('other-link', '\EA1C') {
+@include icon('other-link', '\EA1D') {
   color: $color-purple;
 }
-@include icon('referral', '\EA1D') {
+@include icon('referral', '\EA1E') {
   color: $color-blue;
 }
-@include icon('resume', '\EA1E') {
+@include icon('resume', '\EA1F') {
   color: $color-light-red;
 }
-@include icon('settings', '\EA1F')
-@include icon('support', '\EA20')
-@include icon('twitter', '\EA21') {
+@include icon('settings', '\EA20')
+@include icon('support', '\EA21')
+@include icon('twitter', '\EA22') {
   color: $color-twitter-blue;
 }
-@include icon('upload', '\EA22')
-@include icon('visa', '\EA23') {
+@include icon('upload', '\EA23')
+@include icon('visa', '\EA24') {
   color: $color-orange;
 }
-@include icon('work', '\EA24')
+@include icon('work', '\EA25')
