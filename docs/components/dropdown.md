@@ -6,7 +6,7 @@ category: Components
 Use to display menu items in a hidden menu.
 
 <h1>
-<div class="dropdown" style="margin-bottom: 300px; width: 300px;">
+<div class="dropdown" style="margin-bottom: 200px; width: 300px;">
   <div class="dropdown__menu">
     <div class="dropdown__menu-container">
       <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
@@ -50,6 +50,56 @@ Use to display menu items in a hidden menu.
   </div>
 </div>
 ```
+
+<p>Dropdown with overflow</p>
+
+<div class="dropdown" style="margin-bottom: 500px; width: 300px;">
+  <div class="dropdown__menu">
+    <div class="dropdown__menu-container">
+      <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
+      <div class="dropdown__menu-content">
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link out</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 Dropdowns have `display` set to `inline-block` by default. You can have a
 dropdown take up the full width of its container with the
