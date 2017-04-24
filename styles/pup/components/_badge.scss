@@ -7,3 +7,8 @@
   font-weight: font-weight(bold);
   padding: spacing(quarter) spacing(half);
 }
+
+.badge--light-red {
+  background: $color-light-red;
+  color: $color-white;
+}
