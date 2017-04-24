@@ -1,0 +1,8 @@
+$card-max-width: 35rem;
+$card-padding: spacing(1);
+
+.card {
+  border: $border-width-thin solid $color-border-dark;
+  max-width: $card-max-width;
+  padding: $card-padding;
+}
