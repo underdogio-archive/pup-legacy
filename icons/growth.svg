@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>trending</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Analytics-View-1440" transform="translate(-494.000000, -304.000000)">
-            <g id="trending" transform="translate(494.000000, 304.000000)">
-                <circle id="Oval" fill="#EC724F" cx="10.5" cy="10.5" r="10.5"></circle>
-                <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="13.1429998 6 14.8021048 7.65910497 11.2665449 11.1946649 8.36854492 8.29666496 3 13.6724549 4.02154498 14.6939999 8.36854492 10.3469999 11.2665449 13.2449999 15.8308948 8.68789496 17.4899998 10.3469999 17.4899998 6"></polygon>
-            </g>
-        </g>
-    </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path id="Shape" d="M70,20l11.45,11.45l-24.4,24.4l-20,-20l-37.05,37.1l7.05,7.05l30,-30l20,20l31.5,-31.45l11.45,11.45l0,-30l-30,0Z" style="fill-rule:nonzero;"/></svg>

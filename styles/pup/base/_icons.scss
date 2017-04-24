@@ -106,9 +106,7 @@
 @include icon('graph', '\EA12') {
   color: $color-blue;
 }
-@include icon('growth', '\EA13') {
-  color: $color-light-red;
-}
+@include icon('growth', '\EA13');
 @include icon('industry', '\EA14');
 @include icon('info', '\EA15') {
   color: $color-blue;
