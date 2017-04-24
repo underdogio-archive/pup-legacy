@@ -6,6 +6,7 @@ $media-queries: (
   large-and-down: '(max-width: $breakpoint-large-end)',
   large: '(min-width: $breakpoint-large-start) and (max-width: $breakpoint-large-end)',
   large-and-up: '(min-width: $breakpoint-large-start)',
+  extra-large-and-up: '(min-width: $breakpoint-extra-large-start)',
 );
 @function media-queries($key) {
   @return map-get($media-queries, $key);
