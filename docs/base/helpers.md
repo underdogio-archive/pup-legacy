@@ -3,6 +3,14 @@ title: Helpers
 category: Base
 ---
 
+## All caps
+
+<p class="all-caps">All uppercase text</p>
+
+```html
+<p class="all-caps">All uppercase text</p>
+```
+
 ## Background colors
 
 <div class="color-block">
