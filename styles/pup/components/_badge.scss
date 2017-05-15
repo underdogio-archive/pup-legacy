@@ -8,6 +8,16 @@
   padding: spacing(quarter) spacing(half);
 }
 
+.badge--gray-xdc {
+  background: $color-gray-xdc;
+  color: $color-text;
+}
+
+.badge--green {
+  background: $color-green;
+  color: $color-black;
+}
+
 .badge--light-red {
   background: $color-light-red;
   color: $color-white;
