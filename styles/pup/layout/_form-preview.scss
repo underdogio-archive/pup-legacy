@@ -1,0 +1,35 @@
+.form-preview {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.form-preview__form,
+.form-preview__preview {
+  flex: 1 1 50%;
+}
+
+.form-preview__form {
+  padding-right: spacing(1);
+}
+
+@include media-query(large-and-down) {
+  .form-preview {
+    flex-wrap: wrap;
+  }
+
+  .form-preview__form,
+  .form-preview__preview {
+    flex-basis: 100%;
+  }
+
+  .form-preview__form {
+    padding-right: 0;
+  }
+
+  .form-preview__preview {
+    order: -1;
+    margin-bottom: spacing(1);
+  }
+}
