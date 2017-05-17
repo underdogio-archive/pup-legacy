@@ -1,6 +1,10 @@
 $block-input-border: $border-width-thin;
 $block-input-padding: 0.75rem;
 
+.form {
+  max-width: 360px;
+}
+
 button,
 input,
 textarea {

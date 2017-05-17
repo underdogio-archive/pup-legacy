@@ -3,6 +3,42 @@ title: Forms
 category: Base
 ---
 
+## Example form
+
+<form class="form" action="#">
+  <label class="form-field">
+    <span class="block-label">Input</span>
+    <input class="block-input" type="text" />
+  </label>
+  <label class="form-field">
+    <span class="block-label">Input</span>
+    <input class="block-input" type="text" />
+  </label>
+  <label class="form-field">
+    <span class="block-label">Input</span>
+    <input class="block-input" type="text" />
+  </label>
+  <button class="btn btn--primary">Save</button>
+</form>
+
+```html
+<form class="form" action="#">
+  <label class="form-field">
+    <span class="block-label">Input</span>
+    <input class="block-input" type="text" />
+  </label>
+  <label class="form-field">
+    <span class="block-label">Input</span>
+    <input class="block-input" type="text" />
+  </label>
+  <label class="form-field">
+    <span class="block-label">Input</span>
+    <input class="block-input" type="text" />
+  </label>
+  <button class="btn btn--primary">Save</button>
+</form>
+```
+
 ## Text input
 
 `.block-input` fields will fill the width of their container. Paired with our grid system, we can easily create full and half width input fields.
