@@ -1,0 +1,29 @@
+.banner {
+  background: $color-blue;
+  color: $color-white;
+  padding: spacing(half);
+  position: relative;
+
+  a {
+    color: inherit;
+  }
+}
+
+.banner__content {
+  font-weight: font-weight(bold);
+  // Make room for close button
+  padding-right: spacing(2);
+  text-align: center;
+
+  @include media-query('medium-and-down') {
+    text-align: left;
+  }
+}
+
+.banner__close-btn {
+  line-height: 0;
+  position: absolute;
+  right: spacing(1);
+  top: 50%;
+  transform: translateY(-50%);
+}
