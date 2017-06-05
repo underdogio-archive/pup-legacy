@@ -62,3 +62,15 @@ $slab-padding: spacing(1);
     }
   }
 }
+
+@include media-query('medium-and-down') {
+  .slab {
+    padding-left: spacing(half);
+    padding-right: spacing(half);
+  }
+
+  .slab__section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
