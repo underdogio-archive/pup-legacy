@@ -2,18 +2,13 @@
 // but the content is allowed to scroll independently. Works best when the parent container has a set height.
 
 $aside-layout-padding: spacing(2);
-$aside-layout-padding-medium-and-down: spacing(1);
+$aside-layout-padding-medium-and-down: spacing(2) / 2;
 $aside-layout-sidebar-width: percentage(2 / $grid-num-columns);
 $aside-layout-sidebar-fixed-width: 26rem;
 
 .aside-layout {
-  display: flex;
-  // Prevent the entire element from being scrolled.
-  overflow-y: hidden;
-}
-
-.aside-layout--nested {
-  height: 100%;
+  position: relative;
+  z-index: layer(base);
 }
 
 .aside-layout__sidebar,
@@ -26,18 +21,69 @@ $aside-layout-sidebar-fixed-width: 26rem;
 }
 
 .aside-layout__sidebar {
-  flex: 0 0 $aside-layout-sidebar-width;
+  background: $color-bg;
+  left: 0;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
   overflow-y: auto;
-}
-
-.aside-layout__sidebar--fixed {
-  flex-basis: $aside-layout-sidebar-fixed-width;
-  width: $aside-layout-sidebar-fixed-width;
+  width: $aside-layout-sidebar-width;
+  z-index: 1;
 }
 
 .aside-layout__content {
-  // Allow the content to the right of the sidebar to stretch to fill the remaining space.
-  flex: 1 1 100%;
-  // Allow the content to be scrollable.
-  overflow-y: auto;
+  left: $aside-layout-sidebar-width;
+  position: relative;
+  width: calc(100% - #{$aside-layout-sidebar-width});
+  z-index: 0;
+}
+
+.aside-layout--fixed-sidebar {
+  > .aside-layout__sidebar {
+    height: 100%;
+    overflow-y: auto;
+    position: fixed;
+  }
+}
+
+.app-container {
+  .aside-layout--fixed-sidebar {
+    > .aside-layout__sidebar {
+      height: calc(100% - #{$app-container-header-height});
+      min-height: 0;
+      top: $app-container-header-height;
+    }
+  }
+}
+
+.aside-layout--fixed-sidebar-width {
+  .aside-layout__sidebar {
+    width: $aside-layout-sidebar-fixed-width
+  }
+
+  .aside-layout__content {
+    // Make room for sidebar
+    left: $aside-layout-sidebar-fixed-width;
+    width: calc(100% - #{$aside-layout-sidebar-fixed-width});
+  }
+}
+
+.aside-layout--sidebar-right {
+  .aside-layout__sidebar {
+    left: auto;
+    right: 0;
+  }
+
+  .aside-layout__content {
+    // Make room for sidebar
+    left: 0;
+    right: $aside-layout-sidebar-width;
+  }
+
+  &.aside-layout--fixed-sidebar-width {
+    .aside-layout__content {
+      // Make room for sidebar
+      right: $aside-layout-sidebar-fixed-width;
+    }
+  }
 }
