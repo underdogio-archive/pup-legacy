@@ -1,7 +1,10 @@
 FROM mhart/alpine-node:6.9.1
 
 RUN apk add --no-cache python g++ make
-RUN mkdir -p /usr/src/app
+RUN mkdir -p /usr/src/app && \
+    mkdir -p /usr/share/unicode
+COPY third_party/UnicodeData.txt /usr/share/unicode/
+
 WORKDIR /usr/src/app
 
 ARG NODE_ENV
