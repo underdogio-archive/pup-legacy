@@ -1,31 +1,24 @@
-// Use to create a full screen layout that only allows the main
-// content to be scrolled.
 .app-container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow-y: hidden;
-  width: 100vw;
+  display: block;
+  padding-top: $app-container-header-height;
 }
 
 .app-container__header {
-  // Don't allow the size of the header to change.
-  flex: 0 0 auto;
+  background: $color-bg;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: layer(header)
 }
 
-.app-container__content {
-  // Stretch children.
-  align-items: stretch;
-  display: flex;
-  // Stretch the height of the main content to match the height
-  // of the viewport.
-  flex: 1 1 auto;
-  // Allow main content to be scrolled.
-  overflow-y: auto;
+// Make header position;relative for smaller screens
+@include media-query('medium-and-down') {
+  .app-container {
+    padding-top: 0;
+  }
 
-  & > * {
-    // Since .app-container__content has its display mode to flex, the first child
-    // will only take up the space that it needs. We want it to take up the full width of the screen.
-    width: 100%;
+  .app-container__header {
+    position: relative;
   }
 }
