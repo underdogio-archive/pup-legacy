@@ -8,9 +8,6 @@ $block-input-padding: 0.75rem;
 button,
 input,
 textarea {
-  // Reset input appearance for mobile Safari
-  -moz-appearance: none;
-  -webkit-appearance: none;
   font: inherit;
   line-height: inherit;
 }
@@ -24,6 +21,9 @@ select,
 .block-input {
   @include transition(border);
   border: $block-input-border solid $color-border-dark;
+  // Reset input appearance for mobile Safari
+  -moz-appearance: none;
+  -webkit-appearance: none;
 
   &:hover {
     border-color: $color-green;
