@@ -8,6 +8,9 @@ $block-input-padding: 0.75rem;
 button,
 input,
 textarea {
+  // Reset input appearance for mobile Safari
+  -moz-appearance: none;
+  -webkit-appearance: none;
   font: inherit;
   line-height: inherit;
 }
