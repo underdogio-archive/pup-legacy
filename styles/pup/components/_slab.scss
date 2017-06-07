@@ -1,9 +1,20 @@
-$slab-padding: spacing(1);
+// Styles for slab sections when collapsed
+@mixin slab-section-collapsed {
+  flex-basis: 100%;
+  padding: spacing(1) spacing(half);
+  padding-top: spacing(0);
+  width: 100%;
+
+  &:first-child {
+    padding-top: spacing(1);
+  }
+}
 
 // SEE: slab.md
 .slab {
   border-bottom: $border-width-thick solid $color-border-light;
-  padding: $slab-padding;
+  padding-left: spacing(1);
+  padding-right: spacing(1);
 }
 
 .slab__title,
@@ -25,7 +36,7 @@ $slab-padding: spacing(1);
 }
 
 .slab__section {
-  padding: $slab-padding;
+  padding: spacing(2);
 }
 
 .slab--collapsed {
@@ -34,10 +45,7 @@ $slab-padding: spacing(1);
   padding-right: spacing(half);
 
   .slab__section {
-    flex-basis: 100%;
-    margin-bottom: spacing(1);
-    padding: 0 spacing(1);
-    width: 100%;
+    @include slab-section-collapsed;
   }
 }
 
@@ -70,7 +78,6 @@ $slab-padding: spacing(1);
   }
 
   .slab__section {
-    padding-left: 0;
-    padding-right: 0;
+    @include slab-section-collapsed;
   }
 }
