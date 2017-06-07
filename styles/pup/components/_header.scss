@@ -34,7 +34,7 @@
   text-decoration: none;
 
   &:after {
-    @include transition(opacity, transform);
+    @include transition(background, opacity, transform);
     background: $color-gray-xdc;
     content: '';
     display: block;
@@ -55,6 +55,12 @@
     &:after {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  &.header__link--active {
+    &:after {
+      background: $color-green;
     }
   }
 }

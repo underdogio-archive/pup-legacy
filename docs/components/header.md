@@ -13,7 +13,7 @@ To make a header sticky, apply the `.header--fixed` modifier class to it.
       <img class="hidden--medium-and-up header__logo" src="/images/underdogio-logo.svg" alt="Underdog.io logo" />
     </div>
     <nav class="header__menu">
-      <a class="header__link" href="#">Nav link 1</a>
+      <a class="header__link header__link--active" href="#">Nav link 1</a>
       <a class="header__link" href="#">Nav link 2</a>
       <a class="header__link" href="#">Nav link 3</a>
     </nav>
@@ -32,7 +32,7 @@ To make a header sticky, apply the `.header--fixed` modifier class to it.
       <img class="hidden--medium-and-up header__logo" src="/images/underdogio-logo.svg" alt="Underdog.io logo" />
     </div>
     <nav class="header__menu">
-      <a class="header__link" href="#">Nav link 1</a>
+      <a class="header__link header__link--active" href="#">Nav link 1</a>
       <a class="header__link" href="#">Nav link 2</a>
       <a class="header__link" href="#">Nav link 3</a>
       <a class="header__link" href="#">Nav link 4</a>
