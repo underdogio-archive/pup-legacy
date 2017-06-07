@@ -14,14 +14,13 @@
 }
 
 .app-container__content {
+  @include vertical-scroll;
   // Stretch children.
   align-items: stretch;
   display: flex;
   // Stretch the height of the main content to match the height
   // of the viewport.
   flex: 1 1 auto;
-  // Allow main content to be scrolled.
-  overflow-y: auto;
 
   & > * {
     // Since .app-container__content has its display mode to flex, the first child
