@@ -18,6 +18,7 @@ $aside-layout-sidebar-fixed-width: 26rem;
 
 .aside-layout__sidebar,
 .aside-layout__content {
+  @include vertical-scroll;
   padding: $aside-layout-padding;
 
   @include media-query('medium-and-down') {
@@ -27,7 +28,6 @@ $aside-layout-sidebar-fixed-width: 26rem;
 
 .aside-layout__sidebar {
   flex: 0 0 $aside-layout-sidebar-width;
-  overflow-y: auto;
 }
 
 .aside-layout__sidebar--fixed {
@@ -38,6 +38,4 @@ $aside-layout-sidebar-fixed-width: 26rem;
 .aside-layout__content {
   // Allow the content to the right of the sidebar to stretch to fill the remaining space.
   flex: 1 1 100%;
-  // Allow the content to be scrollable.
-  overflow-y: auto;
 }
