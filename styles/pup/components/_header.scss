@@ -33,10 +33,6 @@
   position: relative;
   text-decoration: none;
 
-  &:last-child {
-    margin-right: 0;
-  }
-
   &:after {
     @include transition(opacity, transform);
     background: $color-gray-xdc;
@@ -79,6 +75,14 @@
   transform: translateX(-50%);
   width: 100%;
   z-index: layer(header);
+}
+
+@include media-query('extra-large-and-up') {
+  .header__link {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
 
 @include media-query('large-and-down') {
