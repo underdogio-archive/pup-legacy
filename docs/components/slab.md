@@ -124,6 +124,9 @@ To highlight a slab add a modifier of `.slab--featured`. To fade out a slab add 
       </div>
     </div>
   </li>
+  <li class="slab">
+    Yet another slab.
+  </li>
   <li class="slab slab--collapsed">
     <div class="row">
       <div class="slab__section col-3-large-and-up">
@@ -185,6 +188,9 @@ To highlight a slab add a modifier of `.slab--featured`. To fade out a slab add 
         <a class="btn btn--block btn--primary btn--disabled" href="mailto:chris@underdog.io" disabled>Email</a>
       </div>
     </div>
+  </li>
+  <li class="slab">
+    Yet another slab.
   </li>
   <li class="slab slab--collapsed">
     <div class="row">
