@@ -28,8 +28,50 @@ Use to display menu items in a hidden menu.
 </div>
 </h1>
 
+<div class="dropdown dropdown--left" style="margin-bottom: 200px">
+  <div class="dropdown__menu">
+    <div class="dropdown__menu-container">
+      <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
+      <div class="dropdown__menu-content">
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a class="nav-link" href="/settings/">Settings</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="/support/">Support</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="/logout/">Log out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 ```html
 <div class="dropdown">
+  <div class="dropdown__menu">
+    <div class="dropdown__menu-container">
+      <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>
+      <div class="dropdown__menu-content">
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a class="nav-link" href="/settings/">Settings</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="/support/">Support</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="nav-link" href="/logout/">Log out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dropdown dropdown--left">
   <div class="dropdown__menu">
     <div class="dropdown__menu-container">
       <span class="dropdown__menu-header">chrishasasuperlongname@underdog.io</span>

@@ -73,3 +73,23 @@ $dropdown-triangle-size: 1rem;
   display: block;
   font-weight: font-weight(bold);
 }
+
+.dropdown--left {
+  .dropdown__menu {
+    left: 0;
+    right: auto;
+
+    &:before {
+      // Magic numbers
+      top: -1px;
+      left: -75%;
+    }
+
+    &:after {
+      // Magic numbers
+      left: 13px;
+      right: auto;
+      top: 9px;
+    }
+  }
+}
