@@ -6,6 +6,13 @@
   height: 100vh;
   overflow-y: hidden;
   width: 100vw;
+
+  // Don't make header fixed for smaller screens
+  @include media-query('medium-and-down') {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
 }
 
 .app-container__header {
