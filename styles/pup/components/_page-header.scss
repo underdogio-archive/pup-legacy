@@ -1,8 +1,13 @@
-$page-header-spacing: spacing(1);
+$page-header-spacing: spacing(2);
+$page-header-spacing-medium-and-down: spacing(1);
 
 .page-header {
   margin-bottom: $page-header-spacing;
   margin-top: $page-header-spacing;
+
+  @include media-query('medium-and-down') {
+    margin-top: $page-header-spacing-medium-and-down;
+  }
 }
 
 .page-header__title {
