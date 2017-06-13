@@ -1,12 +1,13 @@
-$page-header-spacing: spacing(2);
-$page-header-spacing-medium-and-down: spacing(1);
+$page-header-spacing-bottom: spacing(1);
+$page-header-spacing-top: spacing(2);
+$page-header-spacing-top-medium-and-down: spacing(1);
 
 .page-header {
-  margin-bottom: $page-header-spacing;
-  margin-top: $page-header-spacing;
+  margin-bottom: $page-header-spacing-bottom;
+  margin-top: $page-header-spacing-top;
 
   @include media-query('medium-and-down') {
-    margin-top: $page-header-spacing-medium-and-down;
+    margin-top: $page-header-spacing-top-medium-and-down;
   }
 }
 
