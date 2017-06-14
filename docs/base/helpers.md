@@ -114,6 +114,8 @@ Helpers for setting an element's text color.
 
 <strong class="color--purple">.color--purple</strong>
 
+<strong class="color--light-purple">.color--light-purple</strong>
+
 <strong class="color--red">.color--red</strong>
 
 <strong class="color--light-red">.color--light-red</strong>
