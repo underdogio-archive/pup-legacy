@@ -4,46 +4,38 @@ $tooltip-font-size: font-size(-1);
 $tooltip-padding: spacing(half);
 
 .tooltip {
+  display: inline-block;
   position: relative;
+}
 
-  &:after {
-    // Reset font styling when placed within a button
-    font-size: $tooltip-font-size;
-    letter-spacing: 0;
-    text-transform: none;
-    z-index: layer(tooltips);
-  }
+.tooltip__content {
+  background: $tooltip-bg;
+  border: $border-width-thin solid $color-border-dark;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow-light;
+  color: $tooltip-color;
+  display: inline-block;
+  // Reset font styling when placed within a button
+  font-size: $tooltip-font-size;
+  font-weight: font-weight(normal);
+  left: 50%;
+  letter-spacing: 0;
+  margin-top: spacing(quarter);
+  padding: $tooltip-padding;
+  position: absolute;
+  text-transform: none;
+  top: 100%;
+  transform: translateX(-50%);
+  white-space: pre;
+  z-index: layer(tooltips);
+}
 
-  &:after {
-    background: $tooltip-bg;
-    border: $border-width-thin solid $color-border-dark;
-    border-radius: $border-radius;
-    box-shadow: $box-shadow-light;
-    color: $tooltip-color;
-    content: attr(aria-label);
-    display: inline-block;
-    font-weight: font-weight(normal);
-    left: 50%;
-    margin-top: spacing(quarter);
-    opacity: 0;
-    padding: $tooltip-padding;
-    pointer-events: none;
-    position: absolute;
-    top: 100%;
-    transform: translateX(-50%);
-    white-space: pre;
-  }
-
-  &:hover {
-    &:after {
-      opacity: 1;
-      pointer-events: auto;
-    }
-  }
+.tooltip--block {
+  display: block;
 }
 
 .tooltip--right {
-  &:after {
+  .tooltip__content {
     left: auto;
     right: 0;
     transform: none;
@@ -51,7 +43,7 @@ $tooltip-padding: spacing(half);
 }
 
 .tooltip--left {
-  &:after {
+  .tooltip__content {
     left: 0;
     right: auto;
     transform: none;
