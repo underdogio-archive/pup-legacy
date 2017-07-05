@@ -1,0 +1,19 @@
+.input-prefix {
+  position: relative;
+}
+
+.input-prefix__symbol {
+  font-size: 1.1rem;
+  left: 0.75rem;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.input-prefix__input {
+  padding-left: 1.75rem;
+  position: relative;
+  z-index: 0;
+}
