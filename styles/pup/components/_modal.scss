@@ -7,6 +7,10 @@
   top: 0;
   width: 100%;
   z-index: layer(modals);
+
+  @include media-query('medium-and-down') {
+    padding: spacing(half);
+  }
 }
 
 .modal__header {
@@ -28,14 +32,16 @@
 }
 
 .modal__content {
+  @include vertical-scroll;
   background: $color-white;
   border-radius: $border-radius;
   box-shadow: $box-shadow-dark;
   left: 50%;
+  max-height: 100vh;
   max-width: $measure-wide / 2;
   padding: spacing(1);
   position: relative;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
+  width: 100%;
 }
