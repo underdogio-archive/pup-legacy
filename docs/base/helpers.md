@@ -122,6 +122,14 @@ Helpers for setting an element's text color.
 
 <strong class="color--text-normal">.color--text-normal</strong>
 
+## Display helpers
+
+Helpers for setting the `display` property of an element
+
+```
+.display--flex
+```
+
 ## Inline Baseline
 
 Line up inline elements vertically via the baseline. `.inline-baseline` must be applied to each child element for them to line up.
