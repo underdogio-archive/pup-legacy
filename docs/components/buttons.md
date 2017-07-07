@@ -184,63 +184,29 @@ type of button.
 
 <div class="btn-group">
   <div class="btn-group__container">
-    <a class="btn btn--primary" href="mailto:bark@underdog.io">
-      Email
-    </a>
-    <button class="btn btn--primary btn--small">
-      <span class="icon icon-arrow icon--small">
-      </span>
-    </button>
-  </div>
-</div>
-
-<div class="btn-group">
-  <div class="btn-group__container">
-    <button class="btn btn--secondary">
-      A button
-    </button>
-    <button class="btn btn--secondary btn--small">
-      <span class="icon icon-arrow icon--small">
-      </span>
-    </button>
-  </div>
-</div>
-
-```html
-<div class="btn-group">
-  <div class="btn-group__container">
-    <a class="btn btn--primary" href="mailto:bark@underdog.io">
-      Email
-    </a>
-    <button class="btn btn--primary btn--small">
-      <span class="icon icon-arrow icon--small">
-      </span>
-    </button>
-  </div>
-</div>
-
-<div class="btn-group">
-  <div class="btn-group__container">
-    <button class="btn btn--secondary">
-      A button
-    </button>
-    <button class="btn btn--secondary btn--small">
-      <span class="icon icon-arrow icon--small">
-      </span>
-    </button>
-  </div>
-</div>
-```
-
-You can also use the `.btn--block` class on a `.btn--group`:
-
-<div style="max-width: 100%; width: 200px;">
-  <div class="btn-group btn--block">
-    <div class="btn-group__container">
+    <div class="btn-group__btn">
       <a class="btn btn--primary" href="mailto:bark@underdog.io">
         Email
       </a>
-      <button class="btn btn--primary btn--small btn-group__small">
+    </div>
+    <div class="btn-group__btn">
+      <button class="btn btn--primary btn--small">
+        <span class="icon icon-arrow icon--small">
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="btn-group">
+  <div class="btn-group__container">
+    <div class="btn-group__btn">
+      <button class="btn btn--secondary">
+        A button
+      </button>
+    </div>
+    <div class="btn-group__btn">
+      <button class="btn btn--secondary btn--small">
         <span class="icon icon-arrow icon--small">
         </span>
       </button>
@@ -249,15 +215,73 @@ You can also use the `.btn--block` class on a `.btn--group`:
 </div>
 
 ```html
+<div class="btn-group">
+  <div class="btn-group__container">
+    <div class="btn-group__btn">
+      <a class="btn btn--primary" href="mailto:bark@underdog.io">
+        Email
+      </a>
+    </div>
+    <div class="btn-group__btn">
+      <button class="btn btn--primary btn--small">
+        <span class="icon icon-arrow icon--small">
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="btn-group">
+  <div class="btn-group__container">
+    <div class="btn-group__btn">
+      <button class="btn btn--secondary">
+        A button
+      </button>
+    </div>
+    <div class="btn-group__btn">
+      <button class="btn btn--secondary btn--small">
+        <span class="icon icon-arrow icon--small">
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+```
+
+You can also use the `.btn--block` class on a `.btn--group`:
+
+<div style="max-width: 100%; width: 200px;">
+  <div class="btn-group btn--block">
+  <div class="btn-group__container">
+    <div class="btn-group__btn">
+      <a class="btn btn--primary" href="mailto:bark@underdog.io">
+        Email
+      </a>
+    </div>
+    <div class="btn-group__btn btn-group__btn-small">
+      <button class="btn btn--primary btn--small">
+        <span class="icon icon-arrow icon--small">
+        </span>
+      </button>
+    </div>
+  </div>
+  </div>
+</div>
+
+```html
 <div class="btn-group btn--block">
   <div class="btn-group__container">
-    <a class="btn btn--primary" href="mailto:bark@underdog.io">
-      Email
-    </a>
-    <button class="btn btn--primary btn--small btn-group__small">
-      <span class="icon icon-arrow icon--small">
-      </span>
-    </button>
+    <div class="btn-group__btn">
+      <a class="btn btn--primary" href="mailto:bark@underdog.io">
+        Email
+      </a>
+    </div>
+    <div class="btn-group__btn btn-group__btn-small">
+      <button class="btn btn--primary btn--small">
+        <span class="icon icon-arrow icon--small">
+        </span>
+      </button>
+    </div>
   </div>
 </div>
 ```
