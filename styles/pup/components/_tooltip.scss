@@ -1,5 +1,6 @@
 $tooltip-bg: $color-bg;
 $tooltip-color: $color-text;
+$tooltip-content-margin: spacing(quarter);
 $tooltip-font-size: font-size(-1);
 $tooltip-padding: spacing(half);
 
@@ -28,6 +29,18 @@ $tooltip-padding: spacing(half);
   transform: translateX(-50%);
   white-space: pre;
   z-index: layer(tooltips);
+
+  // Add pseudo element above tooltip content to prevent tooltip from
+  // disappearing when user hovers in between tooltip parent and tooltip content
+  &:after {
+    content: '';
+    display: block;
+    height: calc(#{$tooltip-content-margin} + 4px);
+    left: 0;
+    position: absolute;
+    top: calc(-#{$tooltip-content-margin} - 3px);
+    width: 100%;
+  }
 }
 
 .tooltip--block {
