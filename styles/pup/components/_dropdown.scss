@@ -14,11 +14,11 @@ $dropdown-triangle-size: 1rem;
 
 .dropdown__menu {
   line-height: line-height(base);
-  margin-top: $dropdown-triangle-size * 2;
+  margin-top: calc(#{$dropdown-triangle-size} + 2px);
   position: absolute;
   right: 0;
   text-align: right;
-  top: 50%;
+  top: 100%;
   white-space: nowrap;
   width: 16rem;
   z-index: layer(dropdowns);
