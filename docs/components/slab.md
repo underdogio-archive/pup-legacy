@@ -5,7 +5,7 @@ category: Components
 
 Use to display pieces of information within a table or list.
 
-To highlight a slab add a modifier of `.slab--featured`. To fade out a slab add a modifier of `.slab--disabled`.
+To highlight a slab add a modifier of `.slab--highlight`. To fade out a slab add a modifier of `.slab--disabled`.
 
 <ul>
   <li class="slab">
@@ -66,7 +66,7 @@ To highlight a slab add a modifier of `.slab--featured`. To fade out a slab add 
       </div>
     </div>
   </li>
-  <li class="slab slab--featured">
+  <li class="slab slab--highlight">
     <div class="row">
       <div class="slab__section col-3-large-and-up">
         <span class="slab__title">Matthew Marrone</span>

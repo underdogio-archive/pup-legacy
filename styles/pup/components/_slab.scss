@@ -1,3 +1,6 @@
+// Duration of slab background color transition
+$slab-transition-duration: 3000ms;
+
 // Styles for slabs when collapsed
 @mixin slab-collapsed {
   padding: spacing(1) spacing(half);
@@ -26,6 +29,7 @@
 .slab {
   border-bottom: $border-width-thick solid $color-border-light;
   padding: spacing(2) spacing(1);
+  transition: background ease-out $slab-transition-duration;
 
   @include media-query('medium-and-down') {
     @include slab-collapsed;
@@ -60,8 +64,8 @@
   border-bottom: 0;
 }
 
-.slab--featured {
-  background: $color-semi-transparent-blue;
+.slab--highlight {
+  background: $color-semi-transparent-dark-blue;
 }
 
 .slab--disabled {
