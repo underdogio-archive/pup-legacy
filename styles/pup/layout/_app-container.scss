@@ -3,14 +3,19 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
+  left: 0;
   overflow-y: hidden;
-  width: 100vw;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: layer(base);
 
   // Don't make header fixed for smaller screens
   @include media-query('medium-and-down') {
     display: block;
     height: auto;
+    position: relative;
     width: 100%;
   }
 }
