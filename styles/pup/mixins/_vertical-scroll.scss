@@ -1,6 +1,6 @@
 // Enables vertical overflow and smooth scrolling for iOS devices.
 // Thanks CSS Tricks! https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
 @mixin vertical-scroll {
-  overflow-y: scroll; /* has to be scroll, not auto */
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
