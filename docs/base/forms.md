@@ -147,6 +147,13 @@ To use a normal checkbox use the class name of `.checkbox`.
   <span class="checkbox__label">A checkbox</span>
 </label>
 
+<label class="checkbox">
+  <input class="checkbox__input" type="checkbox" />
+  <span class="checkbox__label">
+    Dolore adipisicing hic voluptas, sed! Porta? Consectetur quia, in euismod eleifend tellus, commodo laborum per! Suscipit ullamcorper animi quos ullamco quos! Possimus ut semper? Felis.
+  </span>
+</label>
+
 ```html
 <label class="checkbox">
   <input class="checkbox__input" type="checkbox" />
