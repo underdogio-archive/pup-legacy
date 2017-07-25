@@ -84,7 +84,9 @@ textarea {
   min-height: $spacing-unit * 4;
 }
 
-.checkbox {
+.checkbox,
+.radio {
+  @include clearfix;
   display: block;
 }
 
@@ -92,13 +94,21 @@ textarea {
   display: inline-block;
 }
 
-.checkbox__input,
-.checkbox__label,
 .radio__input,
-.radio__label {
-  display: inline;
-  line-height: 1;
-  vertical-align: middle;
+.checkbox__input {
+  float: left;
+
+  // Align checkbox with text
+  margin-top: 6px;
+}
+
+.radio__label,
+.checkbox__label {
+  float: left;
+  margin-left: 0.75rem;
+
+  // Prevent label from being rendered underneath checkbox.
+  max-width: calc(90% - 0.75rem);
 }
 
 .checkbox__label,
