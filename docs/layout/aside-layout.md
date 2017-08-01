@@ -9,16 +9,18 @@ but the content is allowed to scroll independently.
 In order for this layout to work, `.aside-layout` must be wrapped in an element that has a set
 height, like `.app-container`.
 
-<div class="app-container" style="height: 20em; width: 100%;">
+<div class="app-container" style="height: 20em; position: relative; width: 100%;">
   <div class="app-container__header border--bottom">
     <div class="header">
-      <div class="header__left">
-        <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
-        <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
-      </div>
-      <div class="header__right">
-        <span>Lionel Itchy</span>
-        <span class="icon icon-arrow icon--small" />
+      <div class="header__container">
+        <div class="header__left">
+          <img class="hidden--small" src="/images/underdogio-logo-with-text.svg" alt="Underdog.io logo" width="173" height="50">
+          <img class="hidden--medium-and-up" src="/images/underdogio-logo.svg" alt="Underdog.io logo" width="48" height="50">
+        </div>
+        <div class="header__right">
+          <span>Lionel Itchy</span>
+          <span class="icon icon-arrow icon--small" />
+        </div>
       </div>
     </div>
   </div>
@@ -85,7 +87,7 @@ height, like `.app-container`.
 
 You can make the sidebar a fixed with by applying the `.aside-layout__sidebar--fixed` modifier class to the sidebar.
 
-<div class="app-container" style="height:20em; width: 100%;">
+<div class="app-container" style="height:20em; position: relative; width: 100%;">
   <div class="app-container__header border--bottom">
     <div class="header">
       <div class="header__container">
