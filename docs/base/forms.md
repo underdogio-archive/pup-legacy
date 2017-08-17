@@ -8,15 +8,15 @@ category: Base
 <form class="form" action="#">
   <label class="form-field">
     <span class="block-label">Input</span>
-    <input class="block-input" type="text" />
+    <input class="block-input" type="text" placeholder="A placeholder" />
   </label>
   <label class="form-field">
     <span class="block-label">Input</span>
-    <input class="block-input" type="text" />
+    <input class="block-input" type="text" placeholder="A placeholder" />
   </label>
   <label class="form-field">
     <span class="block-label">Input</span>
-    <input class="block-input" type="text" />
+    <input class="block-input" type="text" placeholder="A placeholder" />
   </label>
   <button class="btn btn--primary">Save</button>
 </form>
@@ -25,15 +25,15 @@ category: Base
 <form class="form" action="#">
   <label class="form-field">
     <span class="block-label">Input</span>
-    <input class="block-input" type="text" />
+    <input class="block-input" type="text" placeholder="A placeholder" />
   </label>
   <label class="form-field">
     <span class="block-label">Input</span>
-    <input class="block-input" type="text" />
+    <input class="block-input" type="text" placeholder="A placeholder" />
   </label>
   <label class="form-field">
     <span class="block-label">Input</span>
-    <input class="block-input" type="text" />
+    <input class="block-input" type="text" placeholder="A placeholder" />
   </label>
   <button class="btn btn--primary">Save</button>
 </form>
@@ -218,7 +218,8 @@ Select dropdowns will take up the full width of their container.
 
 <label class="form-field">
   <span class="block-label">Dropdown label</span>
-  <select>
+  <select required>
+    <option value="" hidden disabled selected>Select an option</option>
     <option value="1">Option 1</option>
     <option value="2">Option 2</option>
     <option value="3">Option 3</option>
@@ -227,8 +228,9 @@ Select dropdowns will take up the full width of their container.
 
 ```html
 <label class="form-field">
-  <span class="block-label">A dropdown</span>
-  <select>
+  <span class="block-label">Dropdown label</span>
+  <select required>
+    <option value="" hidden disabled selected>Select an option</option>
     <option value="1">Option 1</option>
     <option value="2">Option 2</option>
     <option value="3">Option 3</option>
