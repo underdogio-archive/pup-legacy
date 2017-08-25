@@ -9,7 +9,7 @@ node {
     stage 'Setup'
       deleteDir()
       checkout scm
-      nodejs.setup('v6.9.0')
+      nodejs.setup('v8.3.0')
 
     stage 'Install'
       nodejs.install()
