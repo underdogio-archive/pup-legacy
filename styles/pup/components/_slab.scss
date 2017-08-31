@@ -24,9 +24,10 @@ $slab-transition-duration: 3000ms;
     margin-top: 0;
   }
 }
+
 // SEE: slab.md
 .slab {
-  border-bottom: $border-width-super-thick solid $color-border-light;
+  border-bottom: $border-width-thick solid $color-border-light;
   padding: spacing(2) spacing(1);
   transition: background ease-out $slab-transition-duration;
 
