@@ -118,6 +118,10 @@
     line-height: inherit;
   }
 
+  .btn--primary {
+    border-color: inherit;
+  }
+
   &:first-child {
     .btn {
       border-bottom-left-radius: $border-radius;
