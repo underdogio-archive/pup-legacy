@@ -108,7 +108,7 @@ Helpers for setting an element's text color.
 
 <strong class="color--blue">.color--blue</strong>
 
-<strong class="color--gray">.color--gray</strong>
+<strong class="color--gray-777">.color--gray-777</strong>
 
 <strong class="color--orange">.color--orange</strong>
 
