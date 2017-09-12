@@ -119,7 +119,14 @@
   }
 
   .btn--primary {
-    border-color: inherit;
+    border: 1px solid transparent;
+  }
+
+  // Fake a transparent border with a margin
+  &:first-child {
+    .btn--primary {
+      margin-right: 1px;
+    }
   }
 
   &:first-child {
