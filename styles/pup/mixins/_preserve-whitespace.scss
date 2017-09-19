@@ -1,7 +1,4 @@
 @mixin preserve-whitespace {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
   white-space: pre-line;
   word-break: break-word;
   word-wrap: break-word;
