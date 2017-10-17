@@ -36,7 +36,7 @@
     "lint": "npm run lint:scripts",
     "lint:scripts": "eslint scripts server",
     "prepublish": "npm test",
-    "postpublish": "git push && git push --tags",
+    "postpublish": "git push origin master --tags",
     "scripts": "mkdir -p dist/js && globify 'scripts/*.js' --outfile dist/js --debug",
     "scripts:watch": "npm run scripts && npm run scripts -- --watch --verbose",
     "start": "node bin/pup",
