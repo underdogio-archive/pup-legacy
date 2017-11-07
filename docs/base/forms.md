@@ -138,17 +138,20 @@ To disabled a text input you can set the property `disabled="true"`.
 To use a normal checkbox use the class name of `.checkbox`.
 
 <label class="checkbox">
-  <input class="checkbox__input" type="checkbox" />
+  <input type="checkbox" />
+  <div class="checkbox__input"></div>
   <span class="checkbox__label">A checkbox</span>
 </label>
 
 <label class="checkbox">
-  <input class="checkbox__input" type="checkbox" />
-  <span class="checkbox__label">A checkbox</span>
+  <input type="checkbox" disabled />
+  <div class="checkbox__input"></div>
+  <span class="checkbox__label">A disabled checkbox</span>
 </label>
 
 <label class="checkbox">
-  <input class="checkbox__input" type="checkbox" />
+  <input type="checkbox" />
+  <div class="checkbox__input"></div>
   <span class="checkbox__label">
     Dolore adipisicing hic voluptas, sed! Porta? Consectetur quia, in euismod eleifend tellus, commodo laborum per! Suscipit ullamcorper animi quos ullamco quos! Possimus ut semper? Felis.
   </span>
@@ -156,26 +159,44 @@ To use a normal checkbox use the class name of `.checkbox`.
 
 ```html
 <label class="checkbox">
-  <input class="checkbox__input" type="checkbox" />
+  <input type="checkbox" />
+  <div class="checkbox__input"></div>
   <span class="checkbox__label">A checkbox</span>
+</label>
+
+<label class="checkbox">
+  <input type="checkbox" disabled />
+  <div class="checkbox__input"></div>
+  <span class="checkbox__label">A disabled checkbox</span>
+</label>
+
+<label class="checkbox">
+  <input type="checkbox" />
+  <div class="checkbox__input"></div>
+  <span class="checkbox__label">
+    Dolore adipisicing hic voluptas, sed! Porta? Consectetur quia, in euismod eleifend tellus, commodo laborum per! Suscipit ullamcorper animi quos ullamco quos! Possimus ut semper? Felis.
+  </span>
 </label>
 ```
 
 You can make checkboxes inline with `.checkbox--inline`.
 
 <label class="checkbox checkbox--inline">
-  <input class="checkbox__input" type="checkbox" />
+  <input type="checkbox" />
+  <div class="checkbox__input"></div>
   <span class="checkbox__label">A checkbox</span>
 </label>
 
 <label class="checkbox checkbox--inline margin1--left">
-  <input class="checkbox__input" type="checkbox" />
+  <input type="checkbox" />
+  <div class="checkbox__input"></div>
   <span class="checkbox__label">A checkbox</span>
 </label>
 
 ```html
 <label class="checkbox checkbox--inline">
-  <input class="checkbox__input" type="checkbox" />
+  <input type="checkbox" />
+  <div class="checkbox__input"></div>
   <span class="checkbox__label">A checkbox</span>
 </label>
 ```
@@ -185,13 +206,15 @@ You can make checkboxes inline with `.checkbox--inline`.
 To add a checkbox nested under a parent input use the additional class name of `.checkbox--nested`.
 
 <label class="form-field checkbox checkbox--nested">
-  <input class="checkbox__input" type="checkbox" />
+  <input type="checkbox" />
+  <div class="checkbox__input"></div>
   <span class="checkbox__label">A nested checkbox</span>
 </label>
 
 ```html
 <label class="form-field checkbox checkbox--nested">
-  <input class="checkbox__input" type="checkbox" />
+  <input type="checkbox" />
+  <div class="checkbox__input"></div>
   <span class="checkbox__label">A nested checkbox</span>
 </label>
 ```
