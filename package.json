@@ -19,7 +19,7 @@
   "scripts": {
     "build": "npm run clean && mkdir -p dist && npm run favicons && npm run fonts && npm run images && npm run styles && npm run scripts",
     "clean": "rm -rf dist",
-    "develop": "npm run build && npm run favicons:watch & npm run fonts:watch & npm run images:watch & npm run styles:watch & npm run scripts:watch & npm run start:watch",
+    "develop": "npm run build && concurrently 'npm run favicons:watch' 'npm run fonts:watch' 'npm run images:watch' 'npm run styles:watch' 'npm run scripts:watch' 'npm run start:watch'",
     "favicons": "cp -r favicons/* dist",
     "favicons:watch": "nodemon --exec 'npm run favicons' --watch favicons --ext gif,jpg,svg,png,ico,json",
     "fonts": "cp -r fonts dist",
@@ -42,7 +42,7 @@
     "start": "node bin/pup",
     "start:watch": "nodemon bin/pup --watch server --watch docs --ext html,js,md",
     "styles": "mkdir -p dist/css && node-sass styles --output dist/css --include-path node_modules --source-map-contents --source-map-embed",
-    "styles:watch": "npm run styles && npm run styles -- --watch styles --recursive & npm run poststyles -- --watch dist",
+    "styles:watch": "npm run styles && npm run styles -- --watch styles --recursive",
     "poststyles": "postcss dist/css/**/*.css --replace --use autoprefixer",
     "test": "./test.sh"
   },
