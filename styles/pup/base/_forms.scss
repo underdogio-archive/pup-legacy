@@ -153,7 +153,6 @@ textarea {
   }
 
   .checkbox__input {
-    @include transition(background-color);
     background: $color-white;
     border: 1px solid $color-gray-xdc;
     border-radius: 2px;
@@ -163,7 +162,6 @@ textarea {
     width: $checkbox-size;
 
     &:after {
-      @include transition(opacity);
       background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path d="M34.357,91.176l-34.357,-34.573l16.687,-16.793l18.157,18.264l48.955,-49.25l16.201,16.301l-65.643,66.051Z" style="fill:#fff;"/></svg>');
       background-position: center;
       background-repeat: none;
