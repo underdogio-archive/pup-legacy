@@ -187,6 +187,12 @@ textarea {
     }
   }
 
+  input[type=checkbox]:focus + .checkbox__input {
+    // Replicate native browser focus outline.
+    outline: 1px dotted #212121;
+    outline: 5px auto -webkit-focus-ring-color;
+  }
+
   input[type=checkbox]:active:not(:disabled) {
     & + .checkbox__input {
       background: $color-gray-xf3;
