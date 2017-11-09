@@ -104,9 +104,14 @@ textarea {
 .radio__input,
 .checkbox__input {
   float: left;
+}
 
-  // Align checkbox with text
-  margin-top: 2px;
+.radio__input {
+  margin-top: 5px;
+}
+
+.checkbox__input {
+  margin-top: 3px;
 }
 
 .radio__label,
