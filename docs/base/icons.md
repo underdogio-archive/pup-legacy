@@ -15,6 +15,9 @@ category: Base
       <span class="icon icon-arrow"><code class="icon__label">.icon-arrow</code></span>
     </li>
     <li>
+      <span class="icon icon-arrow-left"><code class="icon__label">.icon-arrow-left</code></span>
+    </li>
+    <li>
       <span class="icon icon-arrow-right"><code class="icon__label">.icon-arrow-right</code></span>
     </li>
     <li>
