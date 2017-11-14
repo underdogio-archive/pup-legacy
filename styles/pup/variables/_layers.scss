@@ -5,7 +5,8 @@ $layer: (
   tooltips: 3,
   menu-drawer: 4,
   modals: 5,
-  alerts: 6
+  alerts: 6,
+  overlay: 7
 );
 @function layer($key) {
   @return map-get($layer, $key);
