@@ -1,10 +1,15 @@
+$block-label-spacing: spacing(quarter);
+
 .block-label {
   color: $color-light-purple;
   display: block;
   font-weight: font-weight(bold);
-  margin-bottom: spacing(quarter);
+  margin-bottom: $block-label-spacing;
 }
 
 .block-label--error {
   color: $color-red;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: $block-label-spacing;
 }
