@@ -110,14 +110,16 @@ To disabled a text input you can set the property `disabled="true"`.
 ## Text input with error
 
 <label class="form-field">
-  <span class="block-label block-label--error">Error</span>
+  <span class="block-label">First name</span>
   <input class="block-input block-input--error" type="text" />
+  <span class="block-label block-label--error">You can't leave this empty.</span>
 </label>
 
 ```html
 <label class="form-field">
-  <span class="block-label block-label--error">Error</span>
+  <span class="block-label">First name</span>
   <input class="block-input block-input--error" type="text" />
+  <span class="block-label block-label--error">You can't leave this empty.</span>
 </label>
 ```
 
