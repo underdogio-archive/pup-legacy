@@ -49,6 +49,10 @@
   @include btn($color-red, $color-red, $color-white);
 }
 
+.btn--transparent {
+  @include btn(rgba(0, 0, 0, 0), $color-white, $color-white);
+}
+
 .btn--google {
   @include btn($color-google-blue, $color-google-blue, $color-white);
   padding-left: 5.25em;

@@ -1,0 +1,23 @@
+.overlay {
+  background: rgba($color-semi-transparent-black, 0.8);
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: layer(overlay);
+}
+
+.overlay__content {
+  color: $color-white;
+  left: 50%;
+  max-height: 100%;
+  // (width - 1/3 width) = 2/3th width
+  max-width: $measure-wide - ($measure-wide / 3);
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
