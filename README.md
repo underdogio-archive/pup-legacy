@@ -174,6 +174,28 @@ Then run `npm run develop` to start a development server and watch script that w
 
 To see what other scripts are available, run `npm run`.
 
+## Publishing a new version to npm
+
+Run the following to publish a new version of `underdog-pup` to npm:
+
+1. Bump the version in `package.json` and create a new tag, following [semantic versioning](http://semver.org/):
+
+```
+npm version <major|minor|patch>
+```
+
+2. Push the updated package.json and new tag to master:
+
+```
+git push origin master --tags
+```
+
+3. Publish to npm:
+
+```
+npm publish
+```
+
 ## Contributing
 
 For guidelines on modifying the styleguide, please see [CONTRIBUTING.md](https://github.com/underdogio/pup/blob/master/CONTRIBUTING.md).
