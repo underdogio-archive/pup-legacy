@@ -62,8 +62,8 @@
     "nodemon": "1.11.0",
     "postcss-cli": "2.6.0",
     "slug": "0.9.1",
-    "svg2ttf": "4.0.2",
-    "svgicons2svgfont": "5.0.0",
+    "svg2ttf": "4.1.0",
+    "svgicons2svgfont": "7.0.2",
     "ttf2eot": "2.0.0",
     "ttf2woff": "2.0.1",
     "underscore": "1.8.3"
