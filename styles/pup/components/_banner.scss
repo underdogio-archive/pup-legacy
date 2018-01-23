@@ -3,6 +3,7 @@
   color: $color-white;
   padding: spacing(half);
   position: relative;
+  z-index: layer(header);
 
   a {
     color: inherit;
