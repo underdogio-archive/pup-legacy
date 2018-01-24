@@ -58,7 +58,7 @@ $dropdown-triangle-size: 1rem;
   background: $color-white;
   border: $border-width-thin solid $color-border-dark;
   border-radius: $border-radius;
-  box-shadow: 0 1px 4px rgba($color-black, 0.15);
+  box-shadow: $box-shadow-light;
   text-align: left;
 }
 
