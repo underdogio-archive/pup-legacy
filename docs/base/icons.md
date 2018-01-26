@@ -105,6 +105,9 @@ category: Base
       <span class="icon icon-resume"><code class="icon__label">.icon-resume</code><span>
     </li>
     <li>
+      <span class="icon icon-search"><code class="icon__label">.icon-search</code><span>
+    </li>
+    <li>
       <span class="icon icon-settings"><code class="icon__label">.icon-settings</code><span>
     </li>
     <li>
