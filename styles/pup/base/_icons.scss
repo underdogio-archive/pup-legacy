@@ -136,13 +136,14 @@
 @include icon('resume', '\EA21') {
   color: $color-light-red;
 }
-@include icon('settings', '\EA22')
-@include icon('support', '\EA23')
-@include icon('twitter', '\EA24') {
+@include icon('search', '\EA22')
+@include icon('settings', '\EA23')
+@include icon('support', '\EA24')
+@include icon('twitter', '\EA25') {
   color: $color-twitter-blue;
 }
-@include icon('upload', '\EA25')
-@include icon('visa', '\EA26') {
+@include icon('upload', '\EA26')
+@include icon('visa', '\EA27') {
   color: $color-orange;
 }
-@include icon('work', '\EA27')
+@include icon('work', '\EA28')
