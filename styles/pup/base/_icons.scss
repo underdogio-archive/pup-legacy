@@ -127,23 +127,26 @@
 @include icon('not-allowed', '\EA1E') {
   color: $color-red;
 }
-@include icon('other-link', '\EA1F') {
-  color: $color-purple;
-}
-@include icon('referral', '\EA20') {
+@include icon('notification', '\EA1F') {
   color: $color-blue;
 }
-@include icon('resume', '\EA21') {
+@include icon('other-link', '\EA20') {
+  color: $color-purple;
+}
+@include icon('referral', '\EA21') {
+  color: $color-blue;
+}
+@include icon('resume', '\EA22') {
   color: $color-light-red;
 }
-@include icon('search', '\EA22')
-@include icon('settings', '\EA23')
-@include icon('support', '\EA24')
-@include icon('twitter', '\EA25') {
+@include icon('search', '\EA23')
+@include icon('settings', '\EA24')
+@include icon('support', '\EA25')
+@include icon('twitter', '\EA26') {
   color: $color-twitter-blue;
 }
-@include icon('upload', '\EA26')
-@include icon('visa', '\EA27') {
+@include icon('upload', '\EA27')
+@include icon('visa', '\EA28') {
   color: $color-orange;
 }
-@include icon('work', '\EA28')
+@include icon('work', '\EA29')

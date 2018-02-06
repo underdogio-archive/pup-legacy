@@ -96,6 +96,9 @@ category: Base
       <span class="icon icon-not-allowed"><code class="icon__label">.icon-not-allowed</code><span>
     </li>
     <li>
+      <span class="icon icon-notification"><code class="icon__label">.icon-notification</code><span>
+    </li>
+    <li>
       <span class="icon icon-other-link"><code class="icon__label">.icon-other-link</code><span>
     </li>
     <li>
