@@ -1,0 +1,53 @@
+.highlight-tooltip {
+  position: relative;
+
+  .highlight-tooltip__content {
+    $background-color: $color-light-orange;
+    $border-color: $color-orange;
+    $bottom-margin: 3px;
+    $triangle-size: 8px;
+
+    background: $background-color;
+    border-radius: 6px;
+    border: solid 1px $border-color;
+    box-shadow: $box-shadow-light;
+    display: inline-block;
+    font-size: font-size(-1);
+    font-weight: font-weight(bold);
+    line-height: inherit;
+    padding: 0.5em 0.75em;
+    position: absolute;
+    transform: translateY(calc(-100% - #{$triangle-size} - #{$bottom-margin}));
+
+    &:before,
+    &:after {
+      transform: rotate(180deg);
+    }
+
+    // Fake a border-ed triangle by positioning a smaller triangle with a lighter
+    // background on top of a triangle with a dark background
+    &:before {
+      @include triangle($border-color, $triangle-size);
+      content: '';
+      display: inline-block;
+
+      // Magic numbers
+      left: calc(50% - #{$triangle-size});
+      position: absolute;
+      top: 100%;
+      z-index: 0;
+    }
+
+    &:after {
+      @include triangle($background-color, $triangle-size);
+      content: '';
+      display: inline-block;
+
+      // Magic numbers
+      left: calc(50% - #{$triangle-size});
+      position: absolute;
+      top: calc(100% - 1px);
+      z-index: 1;
+    }
+  }
+}
