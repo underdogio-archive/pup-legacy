@@ -109,6 +109,14 @@ These colors are defined in [variables/_colors.scss](https://github.com/underdog
   </div>
 
   <div class="color-block">
+    <div class="color-block__color" style="background: #E7E226"></div>
+    <div class="color-block__label">
+      $color-gold<br />
+      #E7E226
+    </div>
+  </div>
+
+  <div class="color-block">
     <div class="color-block__color" style="background: #72CEAA"></div>
     <div class="color-block__label">
       $color-green<br />
