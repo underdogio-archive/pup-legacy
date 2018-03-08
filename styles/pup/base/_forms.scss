@@ -95,6 +95,7 @@ textarea {
 .radio {
   @include clearfix;
   display: block;
+  white-space: normal;
 }
 
 .checkbox--inline {
