@@ -159,6 +159,20 @@ If the icon has no accompanying text, then <a href="https://www.w3.org/TR/wai-ar
 
 ## Helpers
 
+### Using icons as a button
+
+Wrap icons in an element that has a `.icon-btn` class applied to it.
+
+<span class="icon-btn" role="button" aria-label="grap">
+  <a class="icon icon-graph" href="#"></a>
+</span>
+
+```html
+<span class="icon-btn" role="button" aria-label="grap">
+  <a class="icon icon-graph" href="#"></a>
+</span>
+```
+
 ### Using icons as a link
 
 Apply the `.icon--link` helper class for icons that are links.
