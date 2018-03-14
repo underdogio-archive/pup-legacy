@@ -25,7 +25,6 @@
 }
 
 .btn {
-  @include all-caps;
   @include transition(background, border, color);
   border: $border-width-thin solid;
   border-radius: $border-radius;
@@ -33,7 +32,8 @@
   display: inline-block;
   font-size: font-size(-1);
   font-weight: font-weight(bold);
-  padding: 1em 2em;
+  padding: 0.75em 1.25em;
+  padding-bottom: calc(0.75em - 1px);
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@
 
 .btn--google {
   @include btn($color-google-blue, $color-google-blue, $color-white);
-  padding-left: 5.25em;
+  padding-left: 4.5em;
   position: relative;
 
   &:before {
@@ -93,7 +93,8 @@
 
 .btn--small {
   font-size: font-size(-1);
-  padding: 0.75em 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .btn--disabled {
