@@ -108,6 +108,11 @@
   padding-right: 1em;
 }
 
+.btn--left {
+  justify-content: flex-start;
+  text-align: left;
+}
+
 .btn--thin {
   padding-bottom: calc(0.5em - 1px);
   padding-top: 0.5em;
