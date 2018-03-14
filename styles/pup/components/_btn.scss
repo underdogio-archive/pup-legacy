@@ -116,11 +116,15 @@
   flex: 1 1 auto;
 
   .btn {
+    align-items: center;
     border: $border-width-thin solid $color-border-dark;
     border-radius: 0;
+    display: flex;
     flex: 1 1 auto;
+    justify-content: center;
     // Normalize line-height between <button /> and <a /> elements
     line-height: inherit;
+    text-align: center;
   }
 
   .btn--primary {
