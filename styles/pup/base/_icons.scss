@@ -46,19 +46,19 @@
 
 .icon__label {
   display: inline;
-  line-height: 1;
+  line-height: 1.5;
   vertical-align: middle;
 }
 
 .icon__label--left {
   margin-left: auto;
-  margin-right: 0.5rem;
+  margin-right: spacing(half);
 }
 
 .icon--small {
   &:after,
   &:before {
-    font-size: font-size(-1);
+    font-size: font-size(-2);
   }
 }
 

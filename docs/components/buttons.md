@@ -105,7 +105,7 @@ Block buttons.
 Buttons can contain non-text elements like icons.
 
 <button class="btn btn--secondary">
-  <span class="icon__label icon__label--reverse">Download</span>
+  <span class="icon__label icon__label--left">Download</span>
   <span class="icon icon-arrow icon--small" aria-hidden="true" />
 </button>
 
@@ -113,7 +113,7 @@ Button with icon.
 
 ```html
 <button class="btn btn--secondary">
-  <span class="icon__label icon__label--reverse">Download</span>
+  <span class="icon__label icon__label--left">Download</span>
   <span class="icon icon-arrow icon--small" aria-hidden="true" />
 </button>
 ```
@@ -125,7 +125,7 @@ Buttons can contain dropdown menus.
 <div style="height: 300px; padding-left: 100px;">
   <div class="dropdown">
     <button class="btn btn--secondary">
-      <span class="icon__label icon__label--reverse">Download</span>
+      <span class="icon__label icon__label--left">Download</span>
       <span class="icon icon-arrow icon--small" aria-hidden="true" />
     </button>
     <div class="dropdown__menu">
@@ -152,7 +152,7 @@ Buttons can contain dropdown menus.
 ```html
 <span class="dropdown">
   <button class="btn btn--secondary">
-    <span class="icon__label icon__label--reverse">Download</span>
+    <span class="icon__label icon__label--left">Download</span>
     <span class="icon icon-arrow icon--small" aria-hidden="true" />
   </button>
 
