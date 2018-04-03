@@ -4,6 +4,7 @@
   "config": {
     "iconFontName": "underdogio-icons"
   },
+  "license": "MIT",
   "files": [
     "favicons",
     "fonts",
