@@ -54,7 +54,7 @@
     "glob": "7.1.1",
     "globify": "1.2.2",
     "meta-marked": "0.4.2",
-    "node-sass": "3.10.1",
+    "node-sass": "4.8.3",
     "nodemon": "1.11.0",
     "postcss-cli": "2.6.0",
     "slug": "0.9.1",
