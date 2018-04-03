@@ -31,10 +31,10 @@ The styleguide contains things like:
 You can use Pup in your project by installing it with npm:
 
 ```bash
-npm install underdog-pup@<VERSION>
+yarn add underdog-pup@<VERSION>
 
 # Example
-npm install underdog-pup@1.0.0
+yarn add underdog-pup@1.0.0
 ```
 
 After installing Pup, you can then include individual components in your project.
@@ -168,11 +168,11 @@ Your local machine must be running [Node v6.4.0](https://nodejs.org/download/rel
 
 ### Running a local development server
 
-First, install dependencies with `npm install`.
+First, install dependencies with `yarn add`.
 
-Then run `npm run develop` to start a development server and watch script that will rebuild assets whenever you make a change to a file.
+Then run `yarn develop` to start a development server and watch script that will rebuild assets whenever you make a change to a file.
 
-To see what other scripts are available, run `npm run`.
+To see what other scripts are available, run `yarn run`.
 
 ## Publishing a new version to npm
 
