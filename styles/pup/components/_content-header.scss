@@ -8,3 +8,13 @@
 .content-header__subtitle {
   margin-bottom: 0;
 }
+
+@media (max-width: 800px) {
+  .content-header {
+    flex-wrap: wrap;
+  }
+
+  .content-header__subtitle {
+    margin-top: spacing(half);
+  }
+}
